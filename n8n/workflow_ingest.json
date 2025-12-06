@@ -1,0 +1,66 @@
+{
+  "name": "Donna - Ingest FAQs to Supabase",
+  "description": "Processa FAQs e insere no Supabase com embeddings",
+  "nodes_description": [
+    {
+      "step": 1,
+      "node": "Manual Trigger / Schedule Trigger",
+      "description": "Inicia o workflow manualmente ou por agendamento"
+    },
+    {
+      "step": 2,
+      "node": "Read Binary File",
+      "description": "Le o arquivo chunks_faqs.json",
+      "config": {
+        "filePath": "/path/to/chunks_faqs.json"
+      }
+    },
+    {
+      "step": 3,
+      "node": "JSON Parse",
+      "description": "Converte o conteudo para JSON"
+    },
+    {
+      "step": 4,
+      "node": "Split In Batches",
+      "description": "Processa chunks em lotes de 10",
+      "config": {
+        "batchSize": 10
+      }
+    },
+    {
+      "step": 5,
+      "node": "OpenAI - Create Embedding",
+      "description": "Gera embedding para cada chunk",
+      "config": {
+        "model": "text-embedding-3-small",
+        "input": "={{ $json.question ? $json.question + ' ' + $json.answer : $json.answer }}"
+      }
+    },
+    {
+      "step": 6,
+      "node": "Supabase - Insert Row",
+      "description": "Insere no Supabase com embedding",
+      "config": {
+        "table": "donna_knowledge",
+        "columns": {
+          "question": "={{ $json.question }}",
+          "answer": "={{ $json.answer }}",
+          "content": "={{ $json.question ? $json.question + ' ' + $json.answer : $json.answer }}",
+          "category": "={{ $json.category }}",
+          "subcategory": "={{ $json.subcategory }}",
+          "tags": "={{ $json.tags }}",
+          "service_type": "={{ $json.service_type }}",
+          "embedding": "={{ $node['OpenAI'].json.embedding }}"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "1. Configure suas credenciais do OpenAI e Supabase no n8n",
+    "2. Ajuste o caminho do arquivo JSON",
+    "3. Execute o schema.sql no Supabase antes de rodar este workflow",
+    "4. O modelo text-embedding-3-small gera vetores de 1536 dimensoes",
+    "5. Processe em lotes para evitar rate limits"
+  ]
+}

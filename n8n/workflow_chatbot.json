@@ -1,0 +1,136 @@
+{
+  "name": "Donna - WhatsApp RAG Chatbot",
+  "description": "Chatbot WhatsApp com RAG usando Supabase",
+  "architecture": {
+    "flow": [
+      "WhatsApp Webhook -> Embedding -> Supabase Search -> LLM -> WhatsApp Response"
+    ]
+  },
+  "nodes_description": [
+    {
+      "step": 1,
+      "node": "Webhook (WhatsApp)",
+      "description": "Recebe mensagens do WhatsApp via webhook",
+      "config": {
+        "httpMethod": "POST",
+        "path": "donna-whatsapp",
+        "responseMode": "responseNode"
+      }
+    },
+    {
+      "step": 2,
+      "node": "IF - Verificar Mensagem",
+      "description": "Verifica se e uma mensagem de texto valida",
+      "config": {
+        "condition": "={{ $json.body.entry[0].changes[0].value.messages[0].type === 'text' }}"
+      }
+    },
+    {
+      "step": 3,
+      "node": "Set - Extrair Dados",
+      "description": "Extrai dados da mensagem",
+      "config": {
+        "values": {
+          "user_message": "={{ $json.body.entry[0].changes[0].value.messages[0].text.body }}",
+          "user_phone": "={{ $json.body.entry[0].changes[0].value.messages[0].from }}",
+          "message_id": "={{ $json.body.entry[0].changes[0].value.messages[0].id }}"
+        }
+      }
+    },
+    {
+      "step": 4,
+      "node": "OpenAI - Create Embedding",
+      "description": "Gera embedding da pergunta do usuario",
+      "config": {
+        "model": "text-embedding-3-small",
+        "input": "={{ $json.user_message }}"
+      }
+    },
+    {
+      "step": 5,
+      "node": "Supabase - RPC Call",
+      "description": "Busca documentos relevantes via funcao RPC",
+      "config": {
+        "operation": "rpc",
+        "function": "search_donna_knowledge",
+        "params": {
+          "query_embedding": "={{ $node['OpenAI'].json.embedding }}",
+          "match_threshold": 0.7,
+          "match_count": 3
+        }
+      }
+    },
+    {
+      "step": 6,
+      "node": "Code - Formatar Contexto",
+      "description": "Formata os resultados do RAG como contexto",
+      "config": {
+        "code": "const results = $input.all();\nlet context = '';\n\nif (results.length > 0) {\n  context = results.map(r => {\n    if (r.json.question) {\n      return `P: ${r.json.question}\\nR: ${r.json.answer}`;\n    }\n    return r.json.answer;\n  }).join('\\n\\n---\\n\\n');\n} else {\n  context = 'Nenhuma informacao especifica encontrada. Responda de forma generica.';\n}\n\nreturn [{ json: { context, user_message: $('Set - Extrair Dados').first().json.user_message } }];"
+      }
+    },
+    {
+      "step": 7,
+      "node": "OpenAI - Chat Completion",
+      "description": "Gera resposta usando o LLM com contexto RAG",
+      "config": {
+        "model": "gpt-4o-mini",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Voce e a Donna, atendente virtual do Donna Salao de Beleza e Clinica... [SYSTEM PROMPT COMPLETO AQUI - ver prompts/system_prompt.txt]"
+          },
+          {
+            "role": "user",
+            "content": "Contexto relevante:\\n{{ $json.context }}\\n\\n---\\n\\nPergunta da cliente: {{ $json.user_message }}"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 300
+      }
+    },
+    {
+      "step": 8,
+      "node": "HTTP Request - WhatsApp API",
+      "description": "Envia resposta via WhatsApp Business API",
+      "config": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v18.0/{{PHONE_NUMBER_ID}}/messages",
+        "headers": {
+          "Authorization": "Bearer {{WHATSAPP_TOKEN}}",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "messaging_product": "whatsapp",
+          "to": "={{ $('Set - Extrair Dados').first().json.user_phone }}",
+          "type": "text",
+          "text": {
+            "body": "={{ $json.choices[0].message.content }}"
+          }
+        }
+      }
+    },
+    {
+      "step": 9,
+      "node": "Respond to Webhook",
+      "description": "Responde ao webhook com status 200",
+      "config": {
+        "respondWith": "firstIncomingItem",
+        "responseCode": 200
+      }
+    }
+  ],
+  "tips": [
+    "Use Window Buffer Memory para manter contexto da conversa",
+    "Adicione node de log para debug",
+    "Configure retry em caso de falha",
+    "Considere usar Redis/Supabase para armazenar historico de conversa",
+    "Ajuste match_threshold conforme qualidade das respostas"
+  ],
+  "variables_needed": [
+    "OPENAI_API_KEY",
+    "SUPABASE_URL",
+    "SUPABASE_ANON_KEY",
+    "WHATSAPP_TOKEN",
+    "PHONE_NUMBER_ID"
+  ]
+}

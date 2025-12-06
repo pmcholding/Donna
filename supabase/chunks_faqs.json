@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-01-01",
+    "description": "FAQs do Donna Salao de Beleza para RAG",
+    "total_chunks": "exemplo - processar arquivo completo"
+  },
+  "chunks": [
+    {
+      "question": "O Donna faz maquiagem para noivas?",
+      "answer": "Sim, e uma das nossas maiores especialidades. O Donna oferece o servico completo de maquiagem de noiva com teste previo, consultoria de estilo, preparacao de pele e produtos hipoalergenicos de alta definicao. Nosso objetivo e realcar sua beleza com naturalidade e elegancia, garantindo um visual inesquecivel.",
+      "category": "maquiagem",
+      "subcategory": "noiva",
+      "tags": ["noiva", "casamento", "maquiagem", "evento", "teste"],
+      "service_type": "servico"
+    },
+    {
+      "question": "A maquiagem do Donna e indicada para fotos e videos?",
+      "answer": "Absolutamente. Todas as maquiagens Donna sao desenvolvidas com acabamento HD, equilibrando luz, sombra e textura da pele para garantir resultados perfeitos em cameras fotograficas e filmagens 4K. O resultado e uma pele impecavel, sem reflexos e com brilho na medida certa.",
+      "category": "maquiagem",
+      "subcategory": "hd",
+      "tags": ["foto", "video", "hd", "4k", "camera", "filmagem"],
+      "service_type": "servico"
+    },
+    {
+      "question": "Quanto tempo dura a maquiagem feita no Donna?",
+      "answer": "As maquiagens feitas no Donna tem duracao media de 12 a 18 horas, dependendo da tecnica e do tipo de pele. Trabalhamos com primers de fixacao profissional e finalizadores de longa duracao, que mantem o visual impecavel mesmo em eventos longos.",
+      "category": "maquiagem",
+      "subcategory": "durabilidade",
+      "tags": ["duracao", "fixacao", "longa duracao", "primer"],
+      "service_type": "informacao"
+    },
+    {
+      "question": "O Donna trabalha com maquiagem airbrush?",
+      "answer": "Sim, o Donna oferece maquiagem airbrush, uma tecnica de aplicacao a jato que proporciona cobertura uniforme, toque aveludado e alta durabilidade. E ideal para noivas, formandas e eventos longos, pois resiste ao calor e a umidade sem perder o acabamento natural.",
+      "category": "maquiagem",
+      "subcategory": "airbrush",
+      "tags": ["airbrush", "aerografo", "cobertura", "noiva", "formanda"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz maquiagem para madrinhas e formandas?",
+      "answer": "Sim, o Donna e referencia em maquiagem para madrinhas e formandas. Cada producao e desenvolvida de forma personalizada, respeitando a identidade visual da cliente e o estilo do evento. Utilizamos tecnicas de realce da luminosidade natural, contorno estrategico e paletas modernas de longa duracao.",
+      "category": "maquiagem",
+      "subcategory": "eventos",
+      "tags": ["madrinha", "formanda", "formatura", "evento", "festa"],
+      "service_type": "servico"
+    },
+    {
+      "question": "Quais tipos de esmaltacao o Donna oferece?",
+      "answer": "No Donna oferecemos desde esmaltacao tradicional ate a esmaltacao em gel e blindagem, garantindo unhas impecaveis por semanas. Trabalhamos com marcas internacionais de alta durabilidade como OPI, Dior e Chanel.",
+      "category": "unhas",
+      "subcategory": "esmaltacao",
+      "tags": ["esmalte", "gel", "blindagem", "tradicional", "manicure"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna trabalha com esmaltacao em gel?",
+      "answer": "Sim! Nossa esmaltacao em gel e feita com produtos de altissima qualidade e tecnologia que evita descamacao e mantem o brilho por ate 21 dias.",
+      "category": "unhas",
+      "subcategory": "gel",
+      "tags": ["gel", "esmalte", "durabilidade", "brilho"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O que e a blindagem de unhas?",
+      "answer": "A blindagem e um tratamento que protege e fortalece as unhas naturais com uma camada especial de gel protetor. Ideal para quem sofre com unhas quebradicas.",
+      "category": "unhas",
+      "subcategory": "blindagem",
+      "tags": ["blindagem", "fortalecimento", "protecao", "unha fraca"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz alongamento de unhas?",
+      "answer": "Sim, o Donna oferece alongamentos em fibra de vidro, gel e molde. Cada tecnica e executada por especialistas que garantem naturalidade e durabilidade.",
+      "category": "unhas",
+      "subcategory": "alongamento",
+      "tags": ["alongamento", "fibra", "gel", "molde", "nail designer"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz nail art personalizada?",
+      "answer": "Sim! Trabalhamos com desenhos artisticos, pedrarias e tendencias internacionais. Cada unha se torna uma obra de arte. Traga sua inspiracao ou deixe que nossas especialistas criem algo exclusivo para voce.",
+      "category": "unhas",
+      "subcategory": "nail art",
+      "tags": ["nail art", "desenho", "pedraria", "arte", "decoracao"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz mechas loiras?",
+      "answer": "Sim, o Donna e referencia em mechas loiras e tecnicas avancadas como balayage, morena iluminada, ombre hair e loiro platinado. Trabalhamos com produtos Keune e L'Oreal Professionnel, garantindo brilho, nutricao e cor uniforme.",
+      "category": "cabelos",
+      "subcategory": "mechas",
+      "tags": ["mechas", "loiro", "balayage", "morena iluminada", "ombre"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz escova progressiva?",
+      "answer": "Sim, utilizamos produtos livres de formol e com tecnologia de aminoacidos que alinham e tratam ao mesmo tempo. O resultado e um liso natural, leve e com brilho espelhado.",
+      "category": "cabelos",
+      "subcategory": "progressiva",
+      "tags": ["progressiva", "liso", "alisamento", "sem formol", "aminoacidos"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz botox capilar?",
+      "answer": "Sim, nosso botox e um tratamento reconstrutor e disciplinante, ideal para reduzir o frizz e repor massa capilar. O efeito e de fios hidratados e com brilho intenso.",
+      "category": "cabelos",
+      "subcategory": "tratamento",
+      "tags": ["botox", "reconstrucao", "frizz", "hidratacao", "brilho"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz corte feminino com visagismo?",
+      "answer": "Sim, nossas especialistas analisam o formato do rosto, textura dos fios e estilo pessoal para definir o corte ideal. E mais que estetica, e identidade.",
+      "category": "cabelos",
+      "subcategory": "corte",
+      "tags": ["corte", "visagismo", "feminino", "formato rosto"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz hidratacao profunda?",
+      "answer": "Sim, trabalhamos com mascaras de tratamento profissional que repoem lipidios, vitaminas e agua. O cabelo ganha vida, movimento e brilho. Utilizamos produtos Kerastase, Joico e Keune.",
+      "category": "cabelos",
+      "subcategory": "tratamento",
+      "tags": ["hidratacao", "mascara", "tratamento", "kerastase", "joico"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz extensao de cilios?",
+      "answer": "Sim, oferecemos diversas tecnicas de extensao de cilios como Volume Brasileiro, Egipcio, Indiano, Fox Eyes, Capping, Russo e Mega Volume. Cada tecnica e aplicada por profissionais especializados.",
+      "category": "cilios",
+      "subcategory": "extensao",
+      "tags": ["cilios", "extensao", "volume", "fox eyes", "russo"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz design de sobrancelhas?",
+      "answer": "Sim, oferecemos design de sobrancelhas estrategico, com henna ou com refectocil. Nossas profissionais analisam o formato do rosto para criar sobrancelhas que harmonizam com seus tracos.",
+      "category": "sobrancelhas",
+      "subcategory": "design",
+      "tags": ["sobrancelha", "design", "henna", "refectocil"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz micropigmentacao de sobrancelhas?",
+      "answer": "Sim, oferecemos micropigmentacao com diversas tecnicas: Microblading, Nanoblading, Shadow, Hibrida, Ombre Shadow e Micro Henna. E necessario passar por avaliacao antes do procedimento.",
+      "category": "sobrancelhas",
+      "subcategory": "micropigmentacao",
+      "tags": ["micropigmentacao", "microblading", "nanoblading", "shadow", "ombre"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna faz Brow Lamination?",
+      "answer": "Sim, o Brow Lamination e um tratamento que alinha e modela os fios da sobrancelha, criando um efeito natural e volumoso. Pode ser combinado com aplicacao de refectocil.",
+      "category": "sobrancelhas",
+      "subcategory": "brow lamination",
+      "tags": ["brow lamination", "sobrancelha", "alinhamento", "volume"],
+      "service_type": "servico"
+    },
+    {
+      "question": "O Donna oferece cursos e treinamentos?",
+      "answer": "Sim, oferecemos cursos e treinamentos em diversas areas: Corte de Cabelo, Escova, Mechas, Colorimetria, Maquiagem, Micropigmentacao, Manicure, Nail Designer, Design de Sobrancelhas, Brow Lamination, Alongamento de Cilios e Gestao de Salao. Tambem temos programas de imersao e mentoria.",
+      "category": "cursos",
+      "subcategory": "treinamento",
+      "tags": ["curso", "treinamento", "capacitacao", "mentoria", "imersao"],
+      "service_type": "curso"
+    }
+  ],
+  "diferenciais": [
+    {
+      "question": null,
+      "answer": "O Donna Salao de Beleza e Clinica e o salao mais bem avaliado entre todos os saloes de Balneario Camboriu. Nenhum outro salao tem tantas avaliacoes positivas quanto o Donna.",
+      "category": "geral",
+      "subcategory": "diferenciais",
+      "tags": ["avaliacao", "referencia", "melhor", "qualidade"],
+      "service_type": "informacao"
+    },
+    {
+      "question": null,
+      "answer": "O Donna e o unico salao de Balneario Camboriu aberto todos os dias, inclusive domingos e feriados. Beleza sem pausa: sempre pronto para atender voce.",
+      "category": "geral",
+      "subcategory": "diferenciais",
+      "tags": ["horario", "domingo", "feriado", "aberto"],
+      "service_type": "informacao"
+    },
+    {
+      "question": null,
+      "answer": "O Donna trabalha com os melhores e mais renomados produtos de beleza do mundo: Kerastase, Joico, Keune, Wella e L'Oreal. Nenhum outro salao em Balneario Camboriu utiliza marcas tao prestigiadas.",
+      "category": "geral",
+      "subcategory": "produtos",
+      "tags": ["produtos", "kerastase", "joico", "keune", "wella", "loreal"],
+      "service_type": "informacao"
+    },
+    {
+      "question": null,
+      "answer": "O Donna reune os profissionais mais renomados de Balneario Camboriu. Os melhores especialistas em beleza estao no Donna Salao de Beleza e Clinica.",
+      "category": "geral",
+      "subcategory": "equipe",
+      "tags": ["profissionais", "especialistas", "equipe", "qualidade"],
+      "service_type": "informacao"
+    }
+  ]
+}
