@@ -52,14 +52,14 @@ Donna is a WhatsApp AI assistant for a beauty salon in Balneário Camboriú, Bra
 - `$fromAI()` lets LLM determine parameters naturally
 - No custom code needed for API calls
 
-### Decision 3: Unified Naming (Sheet = Calendar)
+### Decision 3: Sheet Name → Calendar Email Mapping
 
-**What**: Professional names are identical in Sheets tabs and Calendar names.
+**What**: Use the sheet tab number to map to the corresponding Google Calendar email/ID.
 
 **Why**:
-- Simplifies agent logic (one variable for both lookups)
-- Reduces chance of mismatches
-- Example: "1 Maikel" is both the sheet tab and calendar name
+- Google Calendar API requires email/ID, not display name
+- Mapping is done in the sub-agent's system prompt
+- Example: "1 Maikel" sheet → maikelcabeleireirodonna@gmail.com calendar
 
 ## Architecture
 
@@ -124,20 +124,24 @@ Donna is a WhatsApp AI assistant for a beauty salon in Balneário Camboriú, Bra
 
 ## Professional Mapping
 
-| Sheet Tab / Calendar | Specialty |
-|---------------------|-----------|
-| 1 Maikel | Hair (highlights, straightening, cuts) |
-| 2 Vanessa | Makeup, Micropigmentation, Brows |
-| 3 Sandy | General |
-| 4 Andréa | General |
-| 5 Manicure | Nails |
-| 6 Auxiliar | Assistant |
-| 7 Auxiliar | Assistant |
-| 8 Auxiliar | Assistant |
-| 9 Penteadista | Hairstyling |
-| 10 Extensionista | Lashes |
-| 11 Maquiadora | Makeup |
-| 12 Maquiadora | Makeup |
+| Num | Aba Planilha | Especialidade | Email Calendario (Google Calendar ID) |
+|-----|--------------|---------------|---------------------------------------|
+| 1 | 1 Maikel | Cabelos | maikelcabeleireirodonna@gmail.com |
+| 2 | 2 Vanessa | Maquiagem/Micropig | vanessamaquiadoradonna@gmail.com |
+| 3 | 3 Sandy | Manicure | donnamanicuresandy@gmail.com |
+| 4 | 4 Andreia | Geral | sophiasophiavalentinaduarte@gmail.com |
+| 5 | 5 Manicure | Unhas | 078webmarketing@gmail.com |
+| 6 | 6 Auxiliar | Auxiliar | arquivoscetelbras1@gmail.com |
+| 7 | 7 Auxiliar | Auxiliar | donnamanicurepamela@gmail.com |
+| 8 | 8 Auxiliar | Auxiliar | festasefestasitajai@gmail.com |
+| 9 | 9 Penteadista | Penteados | cartomantemarketing@gmail.com |
+| 10 | 10 Extensionista | Cilios | dayarquitetabc@gmail.com |
+| 11 | 11 Maquiadora | Maquiagem | isabellaperezve@gmail.com |
+| 12 | 12 Maquiadora | Maquiagem | lojavirtualantidoto@gmail.com |
+| 13 | - | - | medtaynabertolotto@gmail.com |
+| 14 | - | - | vanessableyerkurtzprocesso@gmail.com |
+
+**Importante:** O Google Calendar API requer o email/ID do calendario, nao o nome.
 
 ## Risks / Trade-offs
 
