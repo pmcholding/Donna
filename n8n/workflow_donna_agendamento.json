@@ -65,7 +65,7 @@
         },
         "sheetName": {
           "__rl": true,
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Sheet', `Nome da aba do profissional para consultar servicos e precos.`, 'string') }}",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Sheet', `Nome da aba do profissional para consultar servicos e precos é o e-mail da agenda.`, 'string') }}",
           "mode": "name"
         },
         "options": {}
