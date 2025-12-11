@@ -129,7 +129,7 @@ Donna is a WhatsApp AI assistant for a beauty salon in Balneário Camboriú, Bra
 | 1 Maikel | Hair (highlights, straightening, cuts) |
 | 2 Vanessa | Makeup, Micropigmentation, Brows |
 | 3 Sandy | General |
-| 4 Andréia | General |
+| 4 Andréa | General |
 | 5 Manicure | Nails |
 | 6 Auxiliar | Assistant |
 | 7 Auxiliar | Assistant |
