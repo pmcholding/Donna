@@ -1,0 +1,403 @@
+{
+  "name": "Donna - Atendimento com Agendamento",
+  "nodes": [
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Globals Set').first().json.phone }}",
+        "tableName": "n8n_chat_histories_aurea",
+        "contextWindowLength": 10
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "typeVersion": 1.3,
+      "position": [
+        5808,
+        1200
+      ],
+      "id": "ee123443-7fbd-44b4-a143-554811af67a4",
+      "name": "Postgres Chat Memory3",
+      "credentials": {
+        "postgres": {
+          "id": "IT0NoFEDEFya6oUV",
+          "name": "Cordex.ai - Chatwoot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=mensagem a ser respondida: {{ $json.message }}\n\n## VARIAVEIS DINAMICAS\n**Data atual:** {{ $now.format('FFFF') }}\n",
+        "options": {
+          "systemMessage": "=## VARIAVEIS DINAMICAS\n**Data atual:** {{ $now.format('FFFF') }}\n**Nome do cliente:** {{ $('Contact').first().json.payload.name }}\n**Telefone do cliente:** {{ $('Globals Set').first().json.phone }}\n\n{{ $('HTTP Request2').first().json.data }}"
+        }
+      },
+      "id": "f7cd8f63-2cd3-4693-8b27-fa27bfab5787",
+      "name": "Atendente2",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.6,
+      "position": [
+        5776,
+        960
+      ],
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
+      "typeVersion": 1,
+      "position": [
+        5632,
+        1200
+      ],
+      "id": "e99122ce-86a1-4e13-b32b-00f0bb508771",
+      "name": "DeepSeek Chat Model",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "U88eY2DLNGSI6jYp",
+          "name": "DeepSeek account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        6080,
+        1360
+      ],
+      "id": "a371c5ec-8c3c-44f6-bb7e-0d60a219fd80",
+      "name": "Embeddings OpenAI4",
+      "credentials": {
+        "openAiApi": {
+          "id": "TboY7xE10Q4uZF8C",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolDescription": "FAQs - Use para buscar informacoes tecnicas sobre servicos do salao (maquiagem, cabelos, unhas, cilios, sobrancelhas, cursos). NAO use para agendamento.",
+        "tableName": {
+          "__rl": true,
+          "value": "documents",
+          "mode": "list",
+          "cachedResultName": "documents"
+        },
+        "topK": 6,
+        "options": {
+          "metadata": {
+            "metadataValues": [
+              {
+                "name": "estoque",
+                "value": "donna"
+              }
+            ]
+          }
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+      "typeVersion": 1.3,
+      "position": [
+        5968,
+        1184
+      ],
+      "id": "8a7259d8-3d86-44be-b2fc-25e1b800efe4",
+      "name": "faqs_donna",
+      "credentials": {
+        "supabaseApi": {
+          "id": "8aL8mTud30tTENaa",
+          "name": "BotNew"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "name": "Agendador",
+        "description": "Use esta ferramenta para AGENDAR servicos. Forneca: nome do cliente, telefone, servico desejado, profissional escolhido (pergunte ao cliente qual prefere), e data/hora preferida. Esta ferramenta consulta servicos disponiveis, verifica horarios livres e cria agendamentos no calendario.",
+        "text": "=Solicitacao de agendamento:\n- Cliente: {{ $fromAI('cliente_nome', 'Nome do cliente', 'string') }}\n- Telefone: {{ $fromAI('cliente_telefone', 'Telefone do cliente', 'string') }}\n- Servico: {{ $fromAI('servico', 'Servico desejado pelo cliente', 'string') }}\n- Profissional: {{ $fromAI('profissional', 'Profissional escolhido pelo cliente. Opcoes: 1 Maikel (cabelos), 2 Vanessa (maquiagem/micropigmentacao), 3 Sandy, 4 Andreia, 5 Manicure (unhas), 9 Penteadista, 10 Extensionista (cilios), 11 Maquiadora, 12 Maquiadora', 'string') }}\n- Data/Hora preferida: {{ $fromAI('data_hora', 'Data e hora preferida pelo cliente (formato: YYYY-MM-DD HH:mm ou descricao como amanha as 10h)', 'string') }}\n- Acao: {{ $fromAI('acao', 'consultar_servicos | verificar_disponibilidade | criar_agendamento', 'string') }}",
+        "options": {
+          "systemMessage": "Voce e o Agendador, um assistente especializado em agendamentos do Donna Salao de Beleza.\n\n## PROFISSIONAIS E CALENDARIOS\nOs nomes das abas da planilha e dos calendarios sao IDENTICOS:\n- 1 Maikel: Cabelos (mechas, alisamentos, cortes, tratamentos)\n- 2 Vanessa: Maquiagem, Micropigmentacao, Sobrancelhas\n- 3 Sandy: Geral\n- 4 Andreia: Geral\n- 5 Manicure: Unhas\n- 9 Penteadista: Penteados\n- 10 Extensionista: Cilios\n- 11 Maquiadora: Maquiagem\n- 12 Maquiadora: Maquiagem\n\n## HORARIO DE FUNCIONAMENTO\n- Segunda a Sabado: 08:00 as 20:00\n- Domingos e Feriados: 09:00 as 20:00\n\n## FLUXO DE TRABALHO\n1. Use 'Consultar Servicos' para verificar se o servico existe para o profissional e obter a duracao\n2. Use 'Ver Disponibilidade' para verificar horarios livres no calendario do profissional\n3. Calcule slots disponiveis baseado na duracao do servico e horario de funcionamento\n4. Use 'Criar Agendamento' para confirmar o horario escolhido\n\n## REGRAS CRITICAS\n- NUNCA mencione precos ou valores (coluna 'Valor a partir de' da planilha)\n- Servicos que EXIGEM avaliacao previa: Micropigmentacao, Alisamento, Mechas\n- Sempre confirme o horario com o cliente antes de criar o agendamento\n- Formato do evento: Summary = 'Donna - [Servico] - [Nome Cliente]'\n\n## AO CRIAR AGENDAMENTO\nDescription deve conter:\n- Cliente: [nome]\n- Telefone: [telefone]\n- Servico: [servico]\n- Agendado via WhatsApp\n\nRetorne informacoes claras para a Donna confirmar com o cliente."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        6256,
+        1184
+      ],
+      "id": "f0eca4cb-042d-4abd-b001-e3a6804824cd",
+      "name": "Agendador"
+    },
+    {
+      "parameters": {
+        "options": {
+          "model": "deepseek-chat"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
+      "typeVersion": 1,
+      "position": [
+        6256,
+        1408
+      ],
+      "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "name": "DeepSeek Agendador",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "U88eY2DLNGSI6jYp",
+          "name": "DeepSeek account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8",
+          "mode": "list",
+          "cachedResultName": "Servicos_DONNA-Sparkz",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Profissional', 'Nome da aba do profissional. Opcoes validas: 1 Maikel, 2 Vanessa, 3 Sandy, 4 Andreia, 5 Manicure, 9 Penteadista, 10 Extensionista, 11 Maquiadora, 12 Maquiadora. IGNORAR abas que comecam com Copia de.', 'string') }}"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        6448,
+        1328
+      ],
+      "id": "864779c8-6ca3-4583-9b1f-a94f043d27ab",
+      "name": "Consultar Servicos",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "mcZOQLMPVdUBuTQ9",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "event",
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "mode": "name",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Calendario', 'Nome do calendario do profissional (igual ao nome da aba). Ex: 1 Maikel, 2 Vanessa', 'string') }}"
+        },
+        "returnAll": false,
+        "limit": 50,
+        "options": {
+          "timeMin": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('DataInicio', 'Data de inicio da busca no formato ISO 8601 (YYYY-MM-DDTHH:mm:ssZ). Use a data atual.', 'string') }}",
+          "timeMax": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('DataFim', 'Data de fim da busca no formato ISO 8601 (YYYY-MM-DDTHH:mm:ssZ). Busque ate 7 dias a frente.', 'string') }}"
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        6608,
+        1328
+      ],
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Ver Disponibilidade",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "vqAVLB2d7sUAHjJG",
+          "name": "Google Calendar - Donna"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "mode": "name",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Calendario', 'Nome do calendario do profissional (igual ao nome da aba). Ex: 1 Maikel, 2 Vanessa', 'string') }}"
+        },
+        "start": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Inicio', 'Data e hora de inicio do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00)', 'string') }}",
+        "end": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Fim', 'Data e hora de fim do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00). Calcule baseado na duracao do servico.', 'string') }}",
+        "additionalFields": {
+          "description": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Descricao', 'Descricao do evento com dados do cliente: Cliente: [nome], Telefone: [telefone], Servico: [servico], Agendado via WhatsApp', 'string') }}",
+          "summary": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Titulo', 'Titulo do evento no formato: Donna - [Servico] - [Nome do Cliente]', 'string') }}"
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        6768,
+        1328
+      ],
+      "id": "6a8808eb-30a5-4c57-8404-a6b18a23091c",
+      "name": "Criar Agendamento",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "vqAVLB2d7sUAHjJG",
+          "name": "Google Calendar - Donna"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8",
+          "mode": "list",
+          "cachedResultName": "Servicos_DONNA-Sparkz",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Profissional', 'Nome da aba do profissional para consultar servicos e precos. Opcoes: 1 Maikel (cabelos), 2 Vanessa (maquiagem/micropigmentacao), 3 Sandy, 4 Andreia, 5 Manicure (unhas), 9 Penteadista, 10 Extensionista (cilios), 11 Maquiadora, 12 Maquiadora. IGNORAR abas Copia de.', 'string') }}"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        5808,
+        1408
+      ],
+      "id": "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+      "name": "Consultar Servicos e Precos",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "mcZOQLMPVdUBuTQ9",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Postgres Chat Memory3": {
+      "ai_memory": [
+        [
+          {
+            "node": "Atendente2",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Atendente2": {
+      "main": [
+        []
+      ]
+    },
+    "DeepSeek Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Atendente2",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI4": {
+      "ai_embedding": [
+        [
+          {
+            "node": "faqs_donna",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "faqs_donna": {
+      "ai_tool": [
+        [
+          {
+            "node": "Atendente2",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agendador": {
+      "ai_tool": [
+        [
+          {
+            "node": "Atendente2",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek Agendador": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Agendador",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Consultar Servicos": {
+      "ai_tool": [
+        [
+          {
+            "node": "Agendador",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ver Disponibilidade": {
+      "ai_tool": [
+        [
+          {
+            "node": "Agendador",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Criar Agendamento": {
+      "ai_tool": [
+        [
+          {
+            "node": "Agendador",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Consultar Servicos e Precos": {
+      "ai_tool": [
+        [
+          {
+            "node": "Atendente2",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "0dff2809c326d67264ac89b11c62a81c0e33c81a110b2979fd152608e157400d"
+  }
+}
