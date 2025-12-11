@@ -1,6 +1,90 @@
 {
-  "name": "Donna - Atendimento com Agendamento",
   "nodes": [
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('CalendarioID', 'Email/ID do calendario do profissional. MAPEAMENTO: 1=maikelcabeleireirodonna@gmail.com, 2=vanessamaquiadoradonna@gmail.com, 3=donnamanicuresandy@gmail.com, 4=sophiasophiavalentinaduarte@gmail.com, 5=078webmarketing@gmail.com, 6=arquivoscetelbras1@gmail.com, 7=donnamanicurepamela@gmail.com, 8=festasefestasitajai@gmail.com, 9=cartomantemarketing@gmail.com, 10=dayarquitetabc@gmail.com, 11=isabellaperezve@gmail.com, 12=lojavirtualantidoto@gmail.com, 13=medtaynabertolotto@gmail.com, 14=vanessableyerkurtzprocesso@gmail.com', 'string') }}"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        7760,
+        992
+      ],
+      "id": "28f5a724-5949-43b0-9fd6-0a728436b792",
+      "name": "Ver Disponibilidade",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "vqAVLB2d7sUAHjJG",
+          "name": "Google Calendar - Donna"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('CalendarioID', 'Email/ID do calendario do profissional. MAPEAMENTO: 1=maikelcabeleireirodonna@gmail.com, 2=vanessamaquiadoradonna@gmail.com, 3=donnamanicuresandy@gmail.com, 4=sophiasophiavalentinaduarte@gmail.com, 5=078webmarketing@gmail.com, 6=arquivoscetelbras1@gmail.com, 7=donnamanicurepamela@gmail.com, 8=festasefestasitajai@gmail.com, 9=cartomantemarketing@gmail.com, 10=dayarquitetabc@gmail.com, 11=isabellaperezve@gmail.com, 12=lojavirtualantidoto@gmail.com, 13=medtaynabertolotto@gmail.com, 14=vanessableyerkurtzprocesso@gmail.com', 'string') }}"
+        },
+        "start": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Inicio', 'Data e hora de inicio do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00)', 'string') }}",
+        "end": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Fim', 'Data e hora de fim do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00). Calcule baseado na duracao do servico.', 'string') }}",
+        "additionalFields": {
+          "description": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Descricao', 'Descricao do evento com dados do cliente: Cliente: [nome], Telefone: [telefone], Servico: [servico], Agendado via WhatsApp', 'string') }}",
+          "summary": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Titulo', 'Titulo do evento no formato: Donna - [Servico] - [Nome do Cliente]', 'string') }}"
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        7936,
+        992
+      ],
+      "id": "01d1dccc-d4ce-4451-be32-06eb8c97421d",
+      "name": "Criar Agendamento",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "vqAVLB2d7sUAHjJG",
+          "name": "Google Calendar - Donna"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8",
+          "mode": "list",
+          "cachedResultName": "Servicos_DONNA-Sparkz",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Profissional', 'Nome da aba do profissional para consultar servicos e precos. Opcoes: 1 Maikel (cabelos), 2 Vanessa (maquiagem/micropigmentacao), 3 Sandy, 4 Andreia, 5 Manicure (unhas), 9 Penteadista, 10 Extensionista (cilios), 11 Maquiadora, 12 Maquiadora. IGNORAR abas Copia de.', 'string') }}"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        7264,
+        1024
+      ],
+      "id": "61e29d4b-c6da-4112-b516-98c2d530c727",
+      "name": "Consultar Servicos e Precos",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "mcZOQLMPVdUBuTQ9",
+          "name": "Google Sheets account"
+        }
+      }
+    },
     {
       "parameters": {
         "sessionIdType": "customKey",
@@ -11,11 +95,11 @@
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
       "position": [
-        5808,
-        1200
+        7152,
+        848
       ],
-      "id": "ee123443-7fbd-44b4-a143-554811af67a4",
-      "name": "Postgres Chat Memory3",
+      "id": "0dc9871f-95c2-4395-b00f-2f8db2ddbe50",
+      "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
           "id": "IT0NoFEDEFya6oUV",
@@ -26,18 +110,18 @@
     {
       "parameters": {
         "promptType": "define",
-        "text": "=mensagem a ser respondida: {{ $json.message }}\n\n## VARIAVEIS DINAMICAS\n**Data atual:** {{ $now.format('FFFF') }}\n",
+        "text": "=mensagem a ser respondida: {{ $json.message }}\n\n## 📅 VARIÁVEIS DINÂMICAS\n**Data atual:** {{ $now.format('FFFF') }}\n",
         "options": {
-          "systemMessage": "=## VARIAVEIS DINAMICAS\n**Data atual:** {{ $now.format('FFFF') }}\n**Nome do cliente:** {{ $('Contact').first().json.payload.name }}\n**Telefone do cliente:** {{ $('Globals Set').first().json.phone }}\n\n{{ $('HTTP Request2').first().json.data }}"
+          "systemMessage": "=## 📅 VARIÁVEIS DINÂMICAS\n**Data atual:** {{ $now.format('FFFF') }}\n**Nome do cliente:** {{ $('Contact').first().json.payload.name }}\n**Telefone do cliente:** {{ $json.phone }}\n\n{{ $('HTTP Request2').first().json.data }}"
         }
       },
-      "id": "f7cd8f63-2cd3-4693-8b27-fa27bfab5787",
-      "name": "Atendente2",
+      "id": "a95ca806-e98c-42c5-b63a-f2eae59f64e3",
+      "name": "Atendente5",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 1.6,
       "position": [
-        5776,
-        960
+        7120,
+        608
       ],
       "retryOnFail": true
     },
@@ -48,11 +132,11 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
       "typeVersion": 1,
       "position": [
-        5632,
-        1200
+        6976,
+        848
       ],
-      "id": "e99122ce-86a1-4e13-b32b-00f0bb508771",
-      "name": "DeepSeek Chat Model",
+      "id": "311a38c5-2c23-4169-b5c0-e36ffb664aad",
+      "name": "DeepSeek Chat Model3",
       "credentials": {
         "deepSeekApi": {
           "id": "U88eY2DLNGSI6jYp",
@@ -67,11 +151,11 @@
       "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
       "typeVersion": 1.2,
       "position": [
-        6080,
-        1360
+        7472,
+        1040
       ],
-      "id": "a371c5ec-8c3c-44f6-bb7e-0d60a219fd80",
-      "name": "Embeddings OpenAI4",
+      "id": "d0cbbaaf-a72a-4c62-a09e-df946b765f62",
+      "name": "Embeddings OpenAI",
       "credentials": {
         "openAiApi": {
           "id": "TboY7xE10Q4uZF8C",
@@ -104,268 +188,25 @@
       "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
       "typeVersion": 1.3,
       "position": [
-        5968,
-        1184
+        7344,
+        864
       ],
-      "id": "8a7259d8-3d86-44be-b2fc-25e1b800efe4",
-      "name": "faqs_donna",
+      "id": "33af7341-d252-494c-8f89-5a4bb084c011",
+      "name": "faqs_donna1",
       "credentials": {
         "supabaseApi": {
           "id": "8aL8mTud30tTENaa",
           "name": "BotNew"
         }
       }
-    },
-    {
-      "parameters": {
-        "name": "Agendador",
-        "description": "Use esta ferramenta para AGENDAR servicos. Forneca: nome do cliente, telefone, servico desejado, profissional escolhido (pergunte ao cliente qual prefere), e data/hora preferida. Esta ferramenta consulta servicos disponiveis, verifica horarios livres e cria agendamentos no calendario.",
-        "text": "=Solicitacao de agendamento:\n- Cliente: {{ $fromAI('cliente_nome', 'Nome do cliente', 'string') }}\n- Telefone: {{ $fromAI('cliente_telefone', 'Telefone do cliente', 'string') }}\n- Servico: {{ $fromAI('servico', 'Servico desejado pelo cliente', 'string') }}\n- Profissional: {{ $fromAI('profissional', 'Profissional escolhido pelo cliente. Opcoes: 1 Maikel (cabelos), 2 Vanessa (maquiagem/micropigmentacao), 3 Sandy, 4 Andreia, 5 Manicure (unhas), 9 Penteadista, 10 Extensionista (cilios), 11 Maquiadora, 12 Maquiadora', 'string') }}\n- Data/Hora preferida: {{ $fromAI('data_hora', 'Data e hora preferida pelo cliente (formato: YYYY-MM-DD HH:mm ou descricao como amanha as 10h)', 'string') }}\n- Acao: {{ $fromAI('acao', 'consultar_servicos | verificar_disponibilidade | criar_agendamento', 'string') }}",
-        "options": {
-          "systemMessage": "Voce e o Agendador, um assistente especializado em agendamentos do Donna Salao de Beleza.\n\n## MAPEAMENTO PROFISSIONAIS -> CALENDARIO (EMAIL)\nUse o NUMERO da aba da planilha para encontrar o EMAIL do calendario:\n| Num | Aba Planilha | Especialidade | Email Calendario |\n|-----|--------------|---------------|------------------|\n| 1 | 1 Maikel | Cabelos | maikelcabeleireirodonna@gmail.com |\n| 2 | 2 Vanessa | Maquiagem/Micropig | vanessamaquiadoradonna@gmail.com |\n| 3 | 3 Sandy | Manicure | donnamanicuresandy@gmail.com |\n| 4 | 4 Andreia | Geral | sophiasophiavalentinaduarte@gmail.com |\n| 5 | 5 Manicure | Unhas | 078webmarketing@gmail.com |\n| 6 | 6 Auxiliar | Auxiliar | arquivoscetelbras1@gmail.com |\n| 7 | 7 Auxiliar | Auxiliar | donnamanicurepamela@gmail.com |\n| 8 | 8 Auxiliar | Auxiliar | festasefestasitajai@gmail.com |\n| 9 | 9 Penteadista | Penteados | cartomantemarketing@gmail.com |\n| 10 | 10 Extensionista | Cilios | dayarquitetabc@gmail.com |\n| 11 | 11 Maquiadora | Maquiagem | isabellaperezve@gmail.com |\n| 12 | 12 Maquiadora | Maquiagem | lojavirtualantidoto@gmail.com |\n| 13 | - | - | medtaynabertolotto@gmail.com |\n| 14 | - | - | vanessableyerkurtzprocesso@gmail.com |\n\n## HORARIO DE FUNCIONAMENTO\n- Segunda a Sabado: 08:00 as 20:00\n- Domingos e Feriados: 09:00 as 20:00\n\n## FLUXO DE TRABALHO\n1. Use 'Consultar Servicos' com o nome da aba (ex: '1 Maikel') para verificar servicos e duracao\n2. Use 'Ver Disponibilidade' com o EMAIL do calendario correspondente\n3. Calcule slots disponiveis baseado na duracao do servico\n4. Use 'Criar Agendamento' com o EMAIL do calendario para confirmar\n\n## REGRAS CRITICAS\n- NUNCA mencione precos ou valores\n- Servicos que EXIGEM avaliacao previa: Micropigmentacao, Alisamento, Mechas\n- Sempre confirme o horario com o cliente antes de criar o agendamento\n- Formato do evento: Summary = 'Donna - [Servico] - [Nome Cliente]'\n\n## AO CRIAR AGENDAMENTO\nDescription deve conter:\n- Cliente: [nome]\n- Telefone: [telefone]\n- Servico: [servico]\n- Agendado via WhatsApp\n\nRetorne informacoes claras para a Donna confirmar com o cliente."
-        }
-      },
-      "type": "@n8n/n8n-nodes-langchain.agentTool",
-      "typeVersion": 2.2,
-      "position": [
-        6256,
-        1184
-      ],
-      "id": "f0eca4cb-042d-4abd-b001-e3a6804824cd",
-      "name": "Agendador"
-    },
-    {
-      "parameters": {
-        "options": {
-          "model": "deepseek-chat"
-        }
-      },
-      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
-      "typeVersion": 1,
-      "position": [
-        6256,
-        1408
-      ],
-      "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
-      "name": "DeepSeek Agendador",
-      "credentials": {
-        "deepSeekApi": {
-          "id": "U88eY2DLNGSI6jYp",
-          "name": "DeepSeek account 2"
-        }
-      }
-    },
-    {
-      "parameters": {
-        "documentId": {
-          "__rl": true,
-          "value": "1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8",
-          "mode": "list",
-          "cachedResultName": "Servicos_DONNA-Sparkz",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8/edit?usp=drivesdk"
-        },
-        "sheetName": {
-          "__rl": true,
-          "mode": "name",
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Profissional', 'Nome da aba do profissional. Opcoes validas: 1 Maikel, 2 Vanessa, 3 Sandy, 4 Andreia, 5 Manicure, 9 Penteadista, 10 Extensionista, 11 Maquiadora, 12 Maquiadora. IGNORAR abas que comecam com Copia de.', 'string') }}"
-        },
-        "options": {}
-      },
-      "type": "n8n-nodes-base.googleSheetsTool",
-      "typeVersion": 4.7,
-      "position": [
-        6448,
-        1328
-      ],
-      "id": "864779c8-6ca3-4583-9b1f-a94f043d27ab",
-      "name": "Consultar Servicos",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "mcZOQLMPVdUBuTQ9",
-          "name": "Google Sheets account"
-        }
-      }
-    },
-    {
-      "parameters": {
-        "resource": "event",
-        "operation": "getAll",
-        "calendar": {
-          "__rl": true,
-          "mode": "id",
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('CalendarioID', 'Email/ID do calendario do profissional. MAPEAMENTO: 1=maikelcabeleireirodonna@gmail.com, 2=vanessamaquiadoradonna@gmail.com, 3=donnamanicuresandy@gmail.com, 4=sophiasophiavalentinaduarte@gmail.com, 5=078webmarketing@gmail.com, 6=arquivoscetelbras1@gmail.com, 7=donnamanicurepamela@gmail.com, 8=festasefestasitajai@gmail.com, 9=cartomantemarketing@gmail.com, 10=dayarquitetabc@gmail.com, 11=isabellaperezve@gmail.com, 12=lojavirtualantidoto@gmail.com, 13=medtaynabertolotto@gmail.com, 14=vanessableyerkurtzprocesso@gmail.com', 'string') }}"
-        },
-        "returnAll": false,
-        "limit": 50,
-        "options": {
-          "timeMin": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('DataInicio', 'Data de inicio da busca no formato ISO 8601 (YYYY-MM-DDTHH:mm:ssZ). Use a data atual.', 'string') }}",
-          "timeMax": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('DataFim', 'Data de fim da busca no formato ISO 8601 (YYYY-MM-DDTHH:mm:ssZ). Busque ate 7 dias a frente.', 'string') }}"
-        }
-      },
-      "type": "n8n-nodes-base.googleCalendarTool",
-      "typeVersion": 1.3,
-      "position": [
-        6608,
-        1328
-      ],
-      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "name": "Ver Disponibilidade",
-      "credentials": {
-        "googleCalendarOAuth2Api": {
-          "id": "vqAVLB2d7sUAHjJG",
-          "name": "Google Calendar - Donna"
-        }
-      }
-    },
-    {
-      "parameters": {
-        "calendar": {
-          "__rl": true,
-          "mode": "id",
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('CalendarioID', 'Email/ID do calendario do profissional. MAPEAMENTO: 1=maikelcabeleireirodonna@gmail.com, 2=vanessamaquiadoradonna@gmail.com, 3=donnamanicuresandy@gmail.com, 4=sophiasophiavalentinaduarte@gmail.com, 5=078webmarketing@gmail.com, 6=arquivoscetelbras1@gmail.com, 7=donnamanicurepamela@gmail.com, 8=festasefestasitajai@gmail.com, 9=cartomantemarketing@gmail.com, 10=dayarquitetabc@gmail.com, 11=isabellaperezve@gmail.com, 12=lojavirtualantidoto@gmail.com, 13=medtaynabertolotto@gmail.com, 14=vanessableyerkurtzprocesso@gmail.com', 'string') }}"
-        },
-        "start": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Inicio', 'Data e hora de inicio do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00)', 'string') }}",
-        "end": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Fim', 'Data e hora de fim do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00). Calcule baseado na duracao do servico.', 'string') }}",
-        "additionalFields": {
-          "description": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Descricao', 'Descricao do evento com dados do cliente: Cliente: [nome], Telefone: [telefone], Servico: [servico], Agendado via WhatsApp', 'string') }}",
-          "summary": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Titulo', 'Titulo do evento no formato: Donna - [Servico] - [Nome do Cliente]', 'string') }}"
-        }
-      },
-      "type": "n8n-nodes-base.googleCalendarTool",
-      "typeVersion": 1.3,
-      "position": [
-        6768,
-        1328
-      ],
-      "id": "6a8808eb-30a5-4c57-8404-a6b18a23091c",
-      "name": "Criar Agendamento",
-      "credentials": {
-        "googleCalendarOAuth2Api": {
-          "id": "vqAVLB2d7sUAHjJG",
-          "name": "Google Calendar - Donna"
-        }
-      }
-    },
-    {
-      "parameters": {
-        "documentId": {
-          "__rl": true,
-          "value": "1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8",
-          "mode": "list",
-          "cachedResultName": "Servicos_DONNA-Sparkz",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y6TijGRsulD2TZB-HtYmPawaR9doXvxKxXZ1JesuBL8/edit?usp=drivesdk"
-        },
-        "sheetName": {
-          "__rl": true,
-          "mode": "name",
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Profissional', 'Nome da aba do profissional para consultar servicos e precos. Opcoes: 1 Maikel (cabelos), 2 Vanessa (maquiagem/micropigmentacao), 3 Sandy, 4 Andreia, 5 Manicure (unhas), 9 Penteadista, 10 Extensionista (cilios), 11 Maquiadora, 12 Maquiadora. IGNORAR abas Copia de.', 'string') }}"
-        },
-        "options": {}
-      },
-      "type": "n8n-nodes-base.googleSheetsTool",
-      "typeVersion": 4.7,
-      "position": [
-        5808,
-        1408
-      ],
-      "id": "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
-      "name": "Consultar Servicos e Precos",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "mcZOQLMPVdUBuTQ9",
-          "name": "Google Sheets account"
-        }
-      }
     }
   ],
   "connections": {
-    "Postgres Chat Memory3": {
-      "ai_memory": [
-        [
-          {
-            "node": "Atendente2",
-            "type": "ai_memory",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Atendente2": {
-      "main": [
-        []
-      ]
-    },
-    "DeepSeek Chat Model": {
-      "ai_languageModel": [
-        [
-          {
-            "node": "Atendente2",
-            "type": "ai_languageModel",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Embeddings OpenAI4": {
-      "ai_embedding": [
-        [
-          {
-            "node": "faqs_donna",
-            "type": "ai_embedding",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "faqs_donna": {
-      "ai_tool": [
-        [
-          {
-            "node": "Atendente2",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Agendador": {
-      "ai_tool": [
-        [
-          {
-            "node": "Atendente2",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "DeepSeek Agendador": {
-      "ai_languageModel": [
-        [
-          {
-            "node": "Agendador",
-            "type": "ai_languageModel",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Consultar Servicos": {
-      "ai_tool": [
-        [
-          {
-            "node": "Agendador",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Ver Disponibilidade": {
       "ai_tool": [
         [
           {
-            "node": "Agendador",
+            "node": "Atendente5",
             "type": "ai_tool",
             "index": 0
           }
@@ -376,7 +217,7 @@
       "ai_tool": [
         [
           {
-            "node": "Agendador",
+            "node": "Atendente5",
             "type": "ai_tool",
             "index": 0
           }
@@ -387,7 +228,56 @@
       "ai_tool": [
         [
           {
-            "node": "Atendente2",
+            "node": "Atendente5",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres Chat Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Atendente5",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Atendente5": {
+      "main": [
+        []
+      ]
+    },
+    "DeepSeek Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Atendente5",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "faqs_donna1",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "faqs_donna1": {
+      "ai_tool": [
+        [
+          {
+            "node": "Atendente5",
             "type": "ai_tool",
             "index": 0
           }
