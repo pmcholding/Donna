@@ -13,7 +13,7 @@
       "type": "n8n-nodes-base.googleCalendarTool",
       "typeVersion": 1.3,
       "position": [
-        7760,
+        7696,
         992
       ],
       "id": "28f5a724-5949-43b0-9fd6-0a728436b792",
@@ -29,8 +29,8 @@
       "parameters": {
         "calendar": {
           "__rl": true,
-          "mode": "id",
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('CalendarioID', 'Email/ID do calendario do profissional. MAPEAMENTO: 1=maikelcabeleireirodonna@gmail.com, 2=vanessamaquiadoradonna@gmail.com, 3=donnamanicuresandy@gmail.com, 4=sophiasophiavalentinaduarte@gmail.com, 5=078webmarketing@gmail.com, 6=arquivoscetelbras1@gmail.com, 7=donnamanicurepamela@gmail.com, 8=festasefestasitajai@gmail.com, 9=cartomantemarketing@gmail.com, 10=dayarquitetabc@gmail.com, 11=isabellaperezve@gmail.com, 12=lojavirtualantidoto@gmail.com, 13=medtaynabertolotto@gmail.com, 14=vanessableyerkurtzprocesso@gmail.com', 'string') }}"
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Calendar', `Email/ID do calendario do profissional. `, 'string') }}",
+          "mode": "id"
         },
         "start": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Inicio', 'Data e hora de inicio do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00)', 'string') }}",
         "end": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Fim', 'Data e hora de fim do agendamento no formato ISO 8601 (YYYY-MM-DDTHH:mm:ss-03:00). Calcule baseado na duracao do servico.', 'string') }}",
@@ -42,7 +42,7 @@
       "type": "n8n-nodes-base.googleCalendarTool",
       "typeVersion": 1.3,
       "position": [
-        7936,
+        7840,
         992
       ],
       "id": "01d1dccc-d4ce-4451-be32-06eb8c97421d",
@@ -65,8 +65,8 @@
         },
         "sheetName": {
           "__rl": true,
-          "mode": "name",
-          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Profissional', 'Nome da aba do profissional para consultar servicos e precos. Opcoes: 1 Maikel (cabelos), 2 Vanessa (maquiagem/micropigmentacao), 3 Sandy, 4 Andreia, 5 Manicure (unhas), 9 Penteadista, 10 Extensionista (cilios), 11 Maquiadora, 12 Maquiadora. IGNORAR abas Copia de.', 'string') }}"
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Sheet', `Nome da aba do profissional para consultar servicos e precos.`, 'string') }}",
+          "mode": "name"
         },
         "options": {}
       },
@@ -90,13 +90,13 @@
         "sessionIdType": "customKey",
         "sessionKey": "={{ $('Globals Set').first().json.phone }}",
         "tableName": "n8n_chat_histories_aurea",
-        "contextWindowLength": 10
+        "contextWindowLength": 8
       },
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
       "position": [
-        7152,
-        848
+        6944,
+        1024
       ],
       "id": "0dc9871f-95c2-4395-b00f-2f8db2ddbe50",
       "name": "Postgres Chat Memory",
@@ -127,13 +127,15 @@
     },
     {
       "parameters": {
-        "options": {}
+        "options": {
+          "temperature": 0
+        }
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
       "typeVersion": 1,
       "position": [
-        6976,
-        848
+        6848,
+        816
       ],
       "id": "311a38c5-2c23-4169-b5c0-e36ffb664aad",
       "name": "DeepSeek Chat Model3",
@@ -199,6 +201,31 @@
           "name": "BotNew"
         }
       }
+    },
+    {
+      "parameters": {
+        "description": "Converte expressoes de data em portugues para data ISO 8601. Use SEMPRE esta ferramenta ANTES de verificar disponibilidade ou criar agendamento. Entrada: expressao como 'segunda', 'amanha', 'proxima terca', 'dia 15', 'semana que vem'. Saida: data no formato YYYY-MM-DD.",
+        "jsCode": "// Tool: Calcular Data - Converte expressões de data em português para ISO 8601\n// No toolCode, a variável 'query' contém o input do agente diretamente\nconst expressao = (query || '').toLowerCase().trim();\n\n// Data atual com timezone de Brasília\nconst agora = DateTime.now().setZone('America/Sao_Paulo');\nconst hoje = agora.startOf('day');\n\n// Mapeamento de dias da semana em português\nconst diasSemana = {\n  'domingo': 7,\n  'dom': 7,\n  'segunda': 1,\n  'segunda-feira': 1,\n  'seg': 1,\n  'terca': 2,\n  'terça': 2,\n  'terca-feira': 2,\n  'terça-feira': 2,\n  'ter': 2,\n  'quarta': 3,\n  'quarta-feira': 3,\n  'qua': 3,\n  'quinta': 4,\n  'quinta-feira': 4,\n  'qui': 4,\n  'sexta': 5,\n  'sexta-feira': 5,\n  'sex': 5,\n  'sabado': 6,\n  'sábado': 6,\n  'sab': 6\n};\n\nlet dataCalculada = null;\nlet explicacao = '';\n\n// 1. Hoje\nif (expressao.match(/^hoje$/)) {\n  dataCalculada = hoje;\n  explicacao = 'Hoje';\n}\n\n// 2. Amanhã\nelse if (expressao.match(/^amanh[aã]$/)) {\n  dataCalculada = hoje.plus({ days: 1 });\n  explicacao = 'Amanhã';\n}\n\n// 3. Depois de amanhã\nelse if (expressao.match(/depois\\s*de\\s*amanh[aã]/)) {\n  dataCalculada = hoje.plus({ days: 2 });\n  explicacao = 'Depois de amanhã';\n}\n\n// 4. Dia específico do mês (ex: \"dia 15\", \"15\")\nelse if (expressao.match(/^(?:dia\\s*)?(\\d{1,2})$/)) {\n  const match = expressao.match(/^(?:dia\\s*)?(\\d{1,2})$/);\n  const dia = parseInt(match[1]);\n  let data = hoje.set({ day: dia });\n  \n  // Se o dia já passou neste mês, vai para o próximo mês\n  if (data <= hoje) {\n    data = data.plus({ months: 1 });\n  }\n  dataCalculada = data;\n  explicacao = `Dia ${dia}`;\n}\n\n// 5. Data completa (ex: \"15/12\", \"15/12/2025\")\nelse if (expressao.match(/(\\d{1,2})\\/(\\d{1,2})(?:\\/(\\d{2,4}))?/)) {\n  const match = expressao.match(/(\\d{1,2})\\/(\\d{1,2})(?:\\/(\\d{2,4}))?/);\n  const dia = parseInt(match[1]);\n  const mes = parseInt(match[2]);\n  let ano = match[3] ? parseInt(match[3]) : hoje.year;\n  \n  if (ano < 100) {\n    ano += 2000;\n  }\n  \n  dataCalculada = DateTime.fromObject({ year: ano, month: mes, day: dia }, { zone: 'America/Sao_Paulo' });\n  explicacao = `Data ${dia}/${mes}/${ano}`;\n}\n\n// 6. Dia da semana (ex: \"segunda\", \"próxima terça\")\nelse {\n  const ehProxima = expressao.match(/pr[oó]xim[ao]/i);\n  \n  let diaEncontrado = null;\n  let nomeDia = '';\n  \n  for (const [nome, numero] of Object.entries(diasSemana)) {\n    if (expressao.includes(nome)) {\n      diaEncontrado = numero;\n      nomeDia = nome;\n      break;\n    }\n  }\n  \n  if (diaEncontrado !== null) {\n    const diaAtual = hoje.weekday;\n    let diasParaAdicionar;\n    \n    if (ehProxima) {\n      diasParaAdicionar = (7 - diaAtual) + diaEncontrado;\n    } else {\n      diasParaAdicionar = diaEncontrado - diaAtual;\n      \n      if (diasParaAdicionar <= 0) {\n        diasParaAdicionar += 7;\n      }\n    }\n    \n    dataCalculada = hoje.plus({ days: diasParaAdicionar });\n    explicacao = ehProxima ? `Próxima ${nomeDia}` : `${nomeDia} (próxima ocorrência)`;\n  }\n}\n\n// 7. Semana que vem (mesmo dia da semana)\nif (!dataCalculada && expressao.match(/semana\\s*que\\s*vem/)) {\n  dataCalculada = hoje.plus({ weeks: 1 });\n  explicacao = 'Semana que vem (mesmo dia)';\n}\n\n// 8. Daqui a X dias\nif (!dataCalculada && expressao.match(/daqui\\s*(?:a\\s*)?(\\d+)\\s*dias?/)) {\n  const match = expressao.match(/daqui\\s*(?:a\\s*)?(\\d+)\\s*dias?/);\n  const dias = parseInt(match[1]);\n  dataCalculada = hoje.plus({ days: dias });\n  explicacao = `Daqui a ${dias} dias`;\n}\n\n// Resultado\nconst diasSemanaTexto = ['', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado', 'domingo'];\n\nif (dataCalculada) {\n  return `Data calculada com sucesso:\\n- Data ISO: ${dataCalculada.toFormat('yyyy-MM-dd')}\\n- Data formatada: ${dataCalculada.toFormat('dd/MM/yyyy')}\\n- Dia da semana: ${diasSemanaTexto[dataCalculada.weekday]}\\n- Interpretação: ${explicacao}\\n- Data atual: ${hoje.toFormat('dd/MM/yyyy')} (${diasSemanaTexto[hoje.weekday]})`;\n} else {\n  return `Erro: Não foi possível interpretar \"${expressao}\". Use formatos como: \"segunda\", \"amanhã\", \"dia 15\", \"15/12\", \"próxima terça\". Data atual: ${hoje.toFormat('dd/MM/yyyy')} (${diasSemanaTexto[hoje.weekday]})`;\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolCode",
+      "typeVersion": 1.3,
+      "position": [
+        7072,
+        1024
+      ],
+      "id": "67f45316-2d41-4e95-b63d-36daa90b4990",
+      "name": "Calcular Data"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.toolThink",
+      "typeVersion": 1.1,
+      "position": [
+        7696,
+        720
+      ],
+      "id": "22c50b90-ce3a-4db6-b207-def98465a911",
+      "name": "Think"
     }
   ],
   "connections": {
@@ -274,6 +301,28 @@
       ]
     },
     "faqs_donna1": {
+      "ai_tool": [
+        [
+          {
+            "node": "Atendente5",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calcular Data": {
+      "ai_tool": [
+        [
+          {
+            "node": "Atendente5",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Think": {
       "ai_tool": [
         [
           {
