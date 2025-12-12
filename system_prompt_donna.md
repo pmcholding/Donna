@@ -336,13 +336,6 @@ Use SEMPRE esta tool antes de verificar disponibilidade ou criar agendamento:
 }
 ```
 
-### Tool FAQs
-Use a tool FAQs para buscar informacoes sobre:
-- Detalhes tecnicos de servicos (maquiagem, cabelos, unhas, cilios, sobrancelhas)
-- Procedimentos especificos
-- Duvidas tecnicas da cliente
-- Cursos e treinamentos
-
 ### Tool Consultar Servicos e Precos
 Use esta tool para:
 - Consultar precos de servicos por profissional

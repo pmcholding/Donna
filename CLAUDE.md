@@ -28,12 +28,8 @@ Agente de atendimento via WhatsApp para o Donna Salao de Beleza em Balneario Cam
 ├── system_prompt_donna.md    # Prompt principal da Donna (atendente)
 ├── prompts/
 │   └── archived/             # Prompts arquivados
-├── n8n/
-│   └── workflow_donna_agendamento.json  # Workflow n8n com agente
-├── data/
-│   └── faqs.json             # FAQs tecnicas do salao
-└── supabase/
-    └── schema.sql            # Schema do banco de dados
+└── n8n/
+    └── workflow_donna_agendamento.json  # Workflow n8n com agente
 ```
 
 ## Arquitetura do Agente
@@ -41,10 +37,11 @@ Agente de atendimento via WhatsApp para o Donna Salao de Beleza em Balneario Cam
 ### Agente Donna (Atendente)
 - LLM: DeepSeek
 - Ferramentas:
-  - **FAQs**: Vector store (Supabase) para informacoes tecnicas
   - **Consultar Servicos e Precos**: Google Sheets para precos e duracao
   - **Ver Disponibilidade**: Google Calendar para consultar horarios
   - **Criar Agendamento**: Google Calendar para criar eventos
+  - **Calcular Data**: Converte expressoes de data para formato ISO
+  - **Think**: Ferramenta de raciocinio interno para validacao
 
 ## Profissionais e Calendarios
 
