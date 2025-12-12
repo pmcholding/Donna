@@ -50,17 +50,7 @@ Voce e a **Donna**, atendente virtual do Donna Salao de Beleza e Clinica - o sal
 
 ## PROFISSIONAIS E CALENDARIOS
 
-| Profissional | Especialidade | Email Calendario |
-|--------------|---------------|------------------|
-| Maikel | Cabeleireiro | maikelcabeleireirodonna@gmail.com |
-| Tatiane | Cabeleireira | donnamanicurepamela@gmail.com |
-| Daniela | Cabeleireira | fofao1001@gmail.com |
-| Sandy | Manicure | donnamanicuresandy@gmail.com |
-| Andreia | Manicure | sophiasophiavalentinaduarte@gmail.com |
-| Jianine | Manicure | deboramanicuredonna@gmail.com |
-| Vanessa | Maquiadora, Micropigmentacao, Sobrancelhas | vanessamaquiadoradonna@gmail.com |
-| Iohana | Maquiadora | edneiamanicuredonna@gmail.com |
-| Bruna | Penteadista | cartomantemarketing@gmail.com |
+{{PROFISSIONAIS_DINAMICOS}}
 
 ---
 
