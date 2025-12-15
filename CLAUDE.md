@@ -43,21 +43,40 @@ Agente de atendimento via WhatsApp para o Donna Salao de Beleza em Balneario Cam
   - **Calcular Data**: Converte expressoes de data para formato ISO
   - **Think**: Ferramenta de raciocinio interno para validacao
 
-## Profissionais e Calendarios
+## Estrutura de Dados (Google Sheets)
 
+A planilha `Servicos_DONNA-Sparkz` possui duas abas:
+
+### Aba "Serviços"
+| Coluna | Descricao |
+|--------|-----------|
+| Profissionais | Lista de nomes separados por virgula |
+| Funcao | Especialidade (Cabeleireiro, Manicure, etc) |
+| Servico | Nome do servico |
+| Duracao_Minutos | Tempo em minutos |
+| Preco_Avista | Valor a vista (Pix/Dinheiro/1x cartao) - usar por padrao |
+| Preco_2x | Valor TOTAL em 2x (informar so se cliente perguntar) |
+| Preco_3x | Valor TOTAL em 3x (informar so se cliente perguntar) |
+| Preco_4x | Valor TOTAL em 4x (informar so se cliente perguntar) |
+| Preco_5x | Valor TOTAL em 5x (informar so se cliente perguntar) |
+| Requer_Avaliacao | Sim/Nao |
+
+### Aba "Profissionais" (injetada via `{{PROFISSIONAIS_DINAMICOS}}`)
 | Profissional | Especialidade | Email Calendario |
 |--------------|---------------|------------------|
-| Maikel | Cabeleireiro | maikelcabeleireirodonna@gmail.com |
-| Tatiane | Cabeleireira | donnamanicurepamela@gmail.com |
-| Daniela | Cabeleireira | fofao1001@gmail.com |
-| Sandy | Manicure | donnamanicuresandy@gmail.com |
-| Andreia | Manicure | sophiasophiavalentinaduarte@gmail.com |
-| Jianine | Manicure | deboramanicuredonna@gmail.com |
-| Vanessa | Maquiadora/Micropig | vanessamaquiadoradonna@gmail.com |
+| Maikel | Cabeleireiro(a) | maikelcabeleireirodonna@gmail.com |
+| Tatiane | Cabeleireiro(a) | donnamanicurepamela@gmail.com |
+| Daniela | Cabeleireiro(a) | fofao1001@gmail.com |
+| Emy | Cabeleireiro(a) | dayarquitetabc@gmail.com |
+| Cintia | Cabeleireiro(a) | maikelkurtzbackup103@gmail.com |
+| Vanessa | Maquiadora/Micropig/Designer Sobrancelhas | vanessamaquiadoradonna@gmail.com |
 | Iohana | Maquiadora | edneiamanicuredonna@gmail.com |
+| Cristiane | Maquiadora | marcelapersonalbc@gmail.com |
+| Sandy | Manicure e Nail Designer | donnamanicuresandy@gmail.com |
+| Carol | Manicure e Nail Designer | sophiasophiavalentinaduarte@gmail.com |
+| Jianine | Manicure e Nail Designer | deboramanicuredonna@gmail.com |
+| Gabi | Lash Designer | maikelkurtzbackup102@gmail.com |
 | Bruna | Penteadista | cartomantemarketing@gmail.com |
-| Make | Maquiagem | marcelapersonalbc@gmail.com |
-| Auxiliar | Auxiliar | dayarquitetabc@gmail.com |
 
 ## Regras de Negocio Importantes
 
