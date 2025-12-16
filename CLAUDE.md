@@ -88,3 +88,4 @@ A planilha `Servicos_DONNA-Sparkz` possui duas abas:
 4. **Horario indisponivel**: Oferecer horario proximo, depois outro profissional
 5. **Servicos com avaliacao**: Micropigmentacao, Alisamento e Mechas exigem avaliacao previa
 6. **Verificacao de agendamento**: SEMPRE verificar se a resposta do Calendar contem ID do evento antes de confirmar ao cliente
+7. **Emails de calendario**: NUNCA expor emails ao cliente - sao dados internos para uso das ferramentas
