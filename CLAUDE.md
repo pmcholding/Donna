@@ -54,12 +54,12 @@ A planilha `Servicos_DONNA-Sparkz` possui duas abas:
 | Funcao | Especialidade (Cabeleireiro, Manicure, etc) |
 | Servico | Nome do servico |
 | Duracao_Minutos | Tempo em minutos |
-| Preco_Avista_em_dinheiro_ganha_desconto | Valor para pagamento em DINHEIRO (menor - incentivo) |
-| Preco_pix_cartao_credito_debito | Valor para Pix/Debito/Credito 1x |
-| Preco_2x_no_cartao_credito | Valor TOTAL em 2x (dividir por 2 para obter parcela) |
-| Preco_3x_no_cartao_credito | Valor TOTAL em 3x (dividir por 3 para obter parcela) |
-| Preco_4x_no_cartao_credito | Valor TOTAL em 4x (dividir por 4 para obter parcela) |
-| Preco_5x_no_cartao_credito | Valor TOTAL em 5x (dividir por 5 para obter parcela) |
+| Preco_Dinheiro | Valor para pagamento em DINHEIRO (menor - incentivo) |
+| Preco_Pix_Debito_Credito | Valor para Pix/Debito/Credito 1x |
+| Parcela_2x | Valor da PARCELA em 2x (ja calculado) |
+| Parcela_3x | Valor da PARCELA em 3x (ja calculado) |
+| Parcela_4x | Valor da PARCELA em 4x (ja calculado) |
+| Parcela_5x | Valor da PARCELA em 5x (ja calculado) |
 | Requer_Avaliacao | Sim/Nao |
 | Preco_valido_ate | Data de validade dos precos |
 
