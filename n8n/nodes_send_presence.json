@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evo.cordex.ai/chat/sendPresence/11_61_uUo7WZJLJDGeF7dTM4b5FRbd",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "62AF8524-33AD-4F53-88EC-1352FFE0B9B8"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"number\": \"{{ $('Webhook').first().json.body.sender.phone_number }}\",\n  \"delay\": 5000,\n  \"presence\": \"composing\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        400,
+        300
+      ],
+      "id": "send-presence-on",
+      "name": "Digitando ON",
+      "notes": "Ativa o indicador 'digitando...' no WhatsApp. Coloque este node NO INÍCIO do fluxo, antes do agente processar."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evo.cordex.ai/chat/sendPresence/11_61_uUo7WZJLJDGeF7dTM4b5FRbd",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "62AF8524-33AD-4F53-88EC-1352FFE0B9B8"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"number\": \"{{ $('Webhook').first().json.body.sender.phone_number }}\",\n  \"delay\": 0,\n  \"presence\": \"paused\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        400,
+        500
+      ],
+      "id": "send-presence-off",
+      "name": "Digitando OFF",
+      "notes": "Desativa o indicador 'digitando...' no WhatsApp. Coloque este node ANTES de enviar a mensagem final."
+    }
+  ],
+  "connections": {},
+  "meta": {
+    "notes": "Nodes para controlar o indicador 'digitando...' no WhatsApp via Evolution API.\n\nUSO:\n1. 'Digitando ON' - Coloque no início do fluxo (após receber mensagem)\n2. 'Digitando OFF' - Coloque antes de enviar a resposta"
+  }
+}

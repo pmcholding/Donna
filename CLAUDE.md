@@ -54,14 +54,19 @@ A planilha `Servicos_DONNA-Sparkz` possui duas abas:
 | Funcao | Especialidade (Cabeleireiro, Manicure, etc) |
 | Servico | Nome do servico |
 | Duracao_Minutos | Tempo em minutos |
-| Preco_Dinheiro | Valor para pagamento em DINHEIRO (menor - incentivo) |
-| Preco_Pix_Debito_Credito | Valor para Pix/Debito/Credito 1x |
-| Parcela_2x | Valor da PARCELA em 2x (ja calculado) |
-| Parcela_3x | Valor da PARCELA em 3x (ja calculado) |
-| Parcela_4x | Valor da PARCELA em 4x (ja calculado) |
-| Parcela_5x | Valor da PARCELA em 5x (ja calculado) |
+| Pagamento_em_dinheiro_preço_fixo | Valor FIXO para pagamento em DINHEIRO (se preenchido, nao usar "a partir de") |
+| Pagamento_em_dinheiro_a_partir_de | Valor VARIAVEL em DINHEIRO (usar "a partir de R$X") |
+| Pagamento_em_Pix_Débito_ou_Crédito_1X | Valor para Pix/Debito/Credito 1x |
+| Pagamento_em_Pix_Débito_ou_Crédito_2X | Valor da PARCELA em 2x (ja calculado) |
+| Pagamento_em_Pix_Débito_ou_Crédito_3X | Valor da PARCELA em 3x (ja calculado) |
+| Pagamento_em_Pix_Débito_ou_Crédito_4X | Valor da PARCELA em 4x (ja calculado) |
+| Pagamento_em_Pix_Débito_ou_Crédito_5X | Valor da PARCELA em 5x (ja calculado) |
 | Requer_Avaliacao | Sim/Nao |
 | Preco_valido_ate | Data de validade dos precos |
+
+**Logica de precos:**
+- Se `Pagamento_em_dinheiro_preço_fixo` tem valor → preco fixo (ex: "R$89")
+- Se `Pagamento_em_dinheiro_a_partir_de` tem valor → preco variavel (ex: "a partir de R$399")
 
 ### Aba "Profissionais" (injetada via `{{PROFISSIONAIS_DINAMICOS}}`)
 | Profissional | Especialidade | Email Calendario |
@@ -82,7 +87,7 @@ A planilha `Servicos_DONNA-Sparkz` possui duas abas:
 
 ## Regras de Negocio Importantes
 
-1. **Precos**: Sempre usar "a partir de R$" - nunca valor exato
+1. **Precos**: Verificar coluna da planilha - usar "R$X" para preco fixo ou "a partir de R$X" para preco variavel
 2. **Lista de servicos**: Nunca fornecer lista completa - pedir para cliente especificar
 3. **Preferencia de profissional**: Sempre perguntar antes de verificar disponibilidade
 4. **Horario indisponivel**: Oferecer horario proximo, depois outro profissional
