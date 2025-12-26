@@ -1,0 +1,175 @@
+Profissionais,Funcao,Servico,Tempo Minutos ,Pagamento_em_dinheiro_preço_fixo:,Pagamento_em_dinheiro_a_partir_de:,Pagamento_em_Pix_Débito_ou_Crédito_1X_de:,Pagamento_em_Pix_Débito_ou_Crédito_2X_de:,Pagamento_em_Pix_Débito_ou_Crédito_3X_de:,Pagamento_em_Pix_Débito_ou_Crédito_4X_de:,Pagamento_em_Pix_Débito_ou_Crédito_5X_de:,Requer_Avaliacao,Preco_valido_ate_agendamento_após_serão_desconsiderados:
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Alisamento capilar botox,60,,"499,00","523,95","288,17","200,85","157,19","130,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Alisamento capilar progressiva de ácido,60,,"599,00","628,95","345,92","241,10","188,69","157,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Alisamento capilar progressiva de formol,60,,"599,00","628,95","345,92","241,10","188,69","157,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Alisamento capilar realinhamento,60,,"499,00","523,95","288,17","200,85","157,19","130,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Alisamento capilar selagem,60,,"499,00","523,95","288,17","200,85","157,19","130,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Alisamento capilar semi definitiva,60,,"699,00","733,95","403,67","281,35","220,19","183,49",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Babyliss sem mega hair ,30,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Babyliss mega hair,30,"109,00",,"114,45","62,95","43,87","34,34","28,61",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Correção de cor cabelo com tonalizante ou coloração,60,,"399,00","418,95","230,42","160,60","125,69","104,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Correção de mechas,60,,"599,00","628,95","345,92","241,10","188,69","157,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Corte de cabelo feminino,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Corte de cabelo infantil feminino,60,"149,00",,"156,45","86,05","59,97","46,94","39,11",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Corte de cabelo infantil masculino,30,"69,00",,"72,45","39,85","27,77","21,74","18,11",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Corte de cabelo masculino,30,"69,00",,"72,45","39,85","27,77","21,74","18,11",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Escova sem mega hair ,30,,"149,00","156,45","86,05","59,97","46,94","39,11",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Escova mega hair,60,,"249,00","261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Lavar cabelo sem meha hair ,30,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Lavar mega hair,30,"119,00",,"124,95","68,72","47,90","37,49","31,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas babylights,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas californianas,60,,"999,00","1048,95","576,92","402,10","314,69","262,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas free hands,60,,"1099,00","1153,95","634,67","442,35","346,19","288,49",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas highlights,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas ice blond,60,,"999,00","1048,95","576,92","402,10","314,69","262,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas iluminação,60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas low lights,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas luzes,60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas micro lights,60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas morena iluminada,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas nude blond,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas ombré hair,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas retoque de raíz,60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas retoque de raiz comprimento e pontas,60,,"1099,00","1153,95","634,67","442,35","346,19","288,49",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas retoque de raíz e comprimento,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas reverse balayage,60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas slice,60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas slice and weave,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas tradicionais,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas ultra babylights,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas vanilla blond,60,,"899,00","943,95","519,17","361,85","283,19","235,99",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Mechas weaving (tricotagem),60,,"799,00","838,95","461,42","321,60","251,69","209,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Retoque de raiz coloração ou tonalizante sem escova ,60,"149,00",,"0,00","0,00","0,00","0,00","0,00",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Secar cabelo sem mega hair ,30,"99,00",,"0,00","0,00","0,00","0,00","0,00",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Secar cabelo mega hair,30,"139,00",,"0,00","0,00","0,00","0,00","0,00",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tonalização de cabelo coloração ou tonalizante,60,,"299,00","313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tonalização de loiros coloração ou tonalizante,60,,"399,00","418,95","230,42","160,60","125,69","104,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tonalização de mechas coloração ou tonalizante,60,,"399,00","418,95","230,42","160,60","125,69","104,74",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tratamento capilar máscara Joico + escova,60,,"249,00","261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tratamento capilar máscara Kerastase + escova,60,,"299,00","313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tratamento capilar máscara Keune + escova,60,,"299,00","313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tratamento capilar máscara LOreal + escova,60,,"249,00","261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tratamento capilar máscara Wella + escova,60,,"249,00","261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Tratamento capilar máscara genérica + escova,60,,"199,00","208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+"Alex, Tatiane, Mariana, Meg, Carol",Cabeleireiro(a),Curso e treinamento colorimetria,600,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento corte de cabelo,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento de gestão de salão de beleza,1.200,"4999,00",,"5248,95","2886,92","2012,10","1574,69","1312,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento de mechas,1.200,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento de mechas morena iluminada,1.200,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento escova,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento neutralização,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento penteados,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Alex,Cabeleireiro(a),Curso e treinamento tratamento capilar,240,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Vanessa,Micropigmentadora,BB glow,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+Vanessa,Micropigmentadora,BB lips,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+Vanessa,Designer de Sobrancelhas,Brow lamination,90,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+Vanessa,Designer de Sobrancelhas,Brow lamination com aplicação de refectocil,90,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+Vanessa,Designer de Sobrancelhas,Design de sobrancelhas,60,"69,00",,"72,45","39,85","27,77","21,74","18,11",Não,23/12/2025
+Vanessa,Designer de Sobrancelhas,Design de sobrancelhas com aplicação de henna,60,"89,00",,"93,45","51,40","35,82","28,04","23,36",Não,23/12/2025
+Vanessa,Designer de Sobrancelhas,Design de sobrancelhas com aplicação de refectocil,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+Vanessa,Designer de Sobrancelhas,Design de sobrancelhas estratégico,60,"79,00",,"82,95","45,62","31,80","24,89","20,74",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem corporativa,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem debutante,120,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem dia a dia,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem fotos e redes sociais,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem natural glow,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem noturna,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem para eventos,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem para vídeos profissionais,120,"319,00",,"334,95","184,22","128,40","100,49","83,74",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem técnica cinematográfica,120,"329,00",,"345,45","190,00","132,42","103,64","86,36",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem técnica make express,120,"289,00",,"303,45","166,90","116,32","91,04","75,86",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem técnica noiva,120,"699,00",,"733,95","403,67","281,35","220,19","183,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem técnica madrinha,120,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem técnica smokey eyes,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Vanessa, Iohana, Cristiane",Maquiadora,Maquiagem técnica social,120,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de lábios efeito batom,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de lábios henna lips magic,180,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de lábios hidralips color,180,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de sobrancelhas técnica híbrida,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de sobrancelhas técnica micro henna,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de sobrancelhas técnica microblading,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de sobrancelhas técnica nanoblading,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de sobrancelhas técnica ombré shadow,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação de sobrancelhas técnica shadow,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Micropigmentação técnica de delineado de olhos,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Neutralização de lábios,180,"1199,00",,"1258,95","692,42","482,60","377,69","314,74",Não,23/12/2025
+Vanessa,Micropigmentadora,Neutralização de micropigmentação de sobrancelhas,180,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,23/12/2025
+Vanessa,Micropigmentadora,Neutralização labial,180,"1199,00",,"1258,95","692,42","482,60","377,69","314,74",Não,23/12/2025
+Vanessa,Micropigmentadora,Reconstrução de sobrancelhas com microagulhamento,60,"499,00",,"523,95","288,17","200,85","157,19","130,99",Não,23/12/2025
+Vanessa,Micropigmentadora,Revitalização de lábios,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Revitalização labial,180,"1499,00",,"1573,95","865,67","603,35","472,19","393,49",Não,23/12/2025
+Vanessa,Micropigmentadora,Curso e treinamento de Lash Lifthing,240,"699,00",,"733,95","403,67","281,35","220,19","183,49",Não,Esgotado
+Vanessa,Micropigmentadora,Curso e treinamento de Maquiagem,240,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Vanessa,Micropigmentadora,Curso e treinamento de Alongamento de Cílios,240,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Vanessa,Micropigmentadora,Curso e treinamento de Brow Lamination,240,"699,00",,"733,95","403,67","281,35","220,19","183,49",Não,Esgotado
+Vanessa,Micropigmentadora,Curso e treinamento de Design de Sobrancelhas,240,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Vanessa,Micropigmentadora,Curso e treinamento de Micropigmentação,1200,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+"Sandy, Carol, Jianine",Manicure Nail Designer,Curso e treinamento de Nail Designer,240,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+"Sandy, Carol, Jianine",Manicure Nail Designer,Alongamento reconstrução de unha (por unidade),30,"39,00",,"40,95","22,52","15,70","12,29","10,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Alongamento remoção de unhas,30,"69,00",,"72,45","39,85","27,77","21,74","18,11",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Aplicação de alongamento de unhas com esmaltação em gel,150,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Aplicação de alongamento de unhas com esmaltação tradicional,150,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Arte de unha com pedras ou desenhos (por unidade),30,"19,00",,"19,95","10,97","7,65","5,99","4,99",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Blindagem aplicação com esmaltação tradicional,60,"179,00",,"187,95","103,37","72,05","56,39","46,99",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Blindagem com esmaltação em gel,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Blindagem manutenção com esmaltação em gel,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Blindagem manutenção com esmaltação tradicional,60,"179,00",,"187,95","103,37","72,05","56,39","46,99",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Cortar unha da mão,30,"29,00",,"30,45","16,75","11,67","9,14","7,61",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Cortar unha do pé,30,"29,00",,"30,45","16,75","11,67","9,14","7,61",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Esmaltação de unha tradicional,30,"39,00",,"40,95","22,52","15,70","12,29","10,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Lixar unha da mão,30,"29,00",,"30,45","16,75","11,67","9,14","7,61",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Lixar unha do pé,30,"29,00",,"30,45","16,75","11,67","9,14","7,61",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Manicure esmaltação em gel,60,"129,00",,"135,45","74,50","51,92","40,64","33,86",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Manicure esmaltação tradicional,60,"59,00",,"61,95","34,07","23,75","18,59","15,49",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Manicure esmaltação tradicional e francesinha,60,"69,00",,"72,45","39,85","27,77","21,74","18,11",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Manutenção de alongamento de unhas com esmaltação em gel,120,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Manutenção de alongamento de unhas com esmaltação tradicional,120,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Pedicure esmaltação em gel,60,"149,00",,"156,45","86,05","59,97","46,94","39,11",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Pedicure esmaltação tradicional,60,"69,00",,"72,45","39,85","27,77","21,74","18,11",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Pedicure esmaltação tradicional com francesinha,60,"79,00",,"82,95","45,62","31,80","24,89","20,74",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Pedicure remoção de esmaltação em gel,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Reconstrução de unha do pé (por unidade),30,"39,00",,"40,95","22,52","15,70","12,29","10,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Remoção da esmaltação,40,"39,00",,"40,95","22,52","15,70","12,29","10,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Remoção da esmaltação em gel,40,"39,00",,"40,95","22,52","15,70","12,29","10,24",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Alteração do formato da unha,30,"60,00",,"63,00","34,65","24,15","18,90","15,75",Não,23/12/2025
+"Sandy, Carol, Jianine",Manicure Nail Designer,Curso e treinamento de Manicure,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+"Sandy, Carol, Jianine",Manicure Nail Designer,Curso e treinamento de Nail Designer,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Gabi,Lash Designer,Cílios técnica volume brasileiro aplicação,120,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume brasileiro express aplicação,120,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume brasileiro express manutenção,120,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume brasileiro express remoção,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume brasileiro manutenção,120,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume brasileiro remoção,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume capping aplicação,180,"449,00",,"471,45","259,30","180,72","141,44","117,86",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume capping manutenção,180,"399,00",,"418,95","230,42","160,60","125,69","104,74",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume capping remoção,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume egípcio aplicação,120,"349,00",,"366,45","201,55","140,47","109,94","91,61",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume egípcio express aplicação,120,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume egípcio express manutenção,120,"219,00",,"229,95","126,47","88,15","68,99","57,49",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume egípcio express remoção,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume egípcio manutenção,120,"249,00",,"261,45","143,80","100,22","78,44","65,36",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume egípcio remoção,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume fox eyes aplicação,120,"449,00",,"471,45","259,30","180,72","141,44","117,86",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume fox eyes manutenção,120,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume fox eyes remoção,60,"99,00",,"103,95","57,17","39,85","31,19","25,99",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume indiano aplicação,120,"449,00",,"471,45","259,30","180,72","141,44","117,86",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume indiano manutenção,120,"399,00",,"418,95","230,42","160,60","125,69","104,74",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume indiano remoção,60,"109,00",,"114,45","62,95","43,87","34,34","28,61",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume extra volume aplicação,240,"699,00",,"733,95","403,67","281,35","220,19","183,49",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume extra volume manutenção,240,"699,00",,"733,95","403,67","281,35","220,19","183,49",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume extra volume remoção,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume russo aplicação,240,"599,00",,"628,95","345,92","241,10","188,69","157,24",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume russo manutenção,240,"599,00",,"628,95","345,92","241,10","188,69","157,24",Não,23/12/2025
+Gabi,Lash Designer,Cílios técnica volume russo remoção,60,"199,00",,"208,95","114,92","80,10","62,69","52,24",Não,23/12/2025
+Gabi,Lash Designer,Curso Alongamento e Extensão de Cílios,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado
+Bruna,Penteadista,Penteado convidada,90,"299,00",,"313,95","172,67","120,35","94,19","78,49",Não,23/12/2025
+Bruna,Penteadista,Penteado coque,90,"289,00",,"303,45","166,90","116,32","91,04","75,86",Não,23/12/2025
+Bruna,Penteadista,Penteado dama,90,"399,00",,"418,95","230,42","160,60","125,69","104,74",Não,23/12/2025
+Bruna,Penteadista,Penteado infantil,90,"289,00",,"303,45","166,90","116,32","91,04","75,86",Não,23/12/2025
+Bruna,Penteadista,Penteado madrinha,90,"599,00",,"628,95","345,92","241,10","188,69","157,24",Não,23/12/2025
+Bruna,Penteadista,Penteado noiva,90,"699,00",,"733,95","403,67","281,35","220,19","183,49",Não,23/12/2025
+Bruna,Penteadista,Penteado rabo de cavalo,90,"259,00",,"271,95","149,57","104,25","81,59","67,99",Não,23/12/2025
+Bruna,Penteadista,Penteado semi-preso,90,"279,00",,"292,95","161,12","112,30","87,89","73,24",Não,23/12/2025
+Bruna,Penteadista,Penteado solto,90,"269,00",,"282,45","155,35","108,27","84,74","70,61",Não,23/12/2025
+Bruna,Penteadista,Penteado trança,90,"259,00",,"271,95","149,57","104,25","81,59","67,99",Não,23/12/2025
+Bruna,Penteadista,Curso Penteado,600,"999,00",,"1048,95","576,92","402,10","314,69","262,24",Não,Esgotado

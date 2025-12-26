@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "delete",
+        "calendar": {
+          "__rl": true,
+          "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Calendar', `Email/ID do calendario do profissional. `, 'string') }}",
+          "mode": "id"
+        },
+        "eventId": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('EventId', 'ID do evento a ser deletado. Obtenha esse ID da lista de eventos do calendario.', 'string') }}"
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        7728,
+        1336
+      ],
+      "id": "deletar-agendamento-001",
+      "name": "Deletar Agendamento",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "vqAVLB2d7sUAHjJG",
+          "name": "Google Calendar - Donna"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Deletar Agendamento": {
+      "ai_tool": [
+        []
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "0dff2809c326d67264ac89b11c62a81c0e33c81a110b2979fd152608e157400d"
+  }
+}
