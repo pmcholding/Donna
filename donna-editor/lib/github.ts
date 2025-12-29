@@ -14,6 +14,13 @@ export interface FileContent {
   sha: string;
 }
 
+export interface CommitInfo {
+  sha: string;
+  message: string;
+  date: string;
+  author: string;
+}
+
 export async function getFileContent(): Promise<FileContent> {
   const response = await octokit.repos.getContent({
     owner,
@@ -48,4 +55,35 @@ export async function updateFileContent(
   });
 
   return response.data.content?.sha || sha;
+}
+
+export async function getCommitHistory(limit = 10): Promise<CommitInfo[]> {
+  const response = await octokit.repos.listCommits({
+    owner,
+    repo,
+    path,
+    per_page: limit,
+  });
+
+  return response.data.map((commit) => ({
+    sha: commit.sha,
+    message: commit.commit.message.split("\n")[0], // Primeira linha apenas
+    date: commit.commit.author?.date || "",
+    author: commit.commit.author?.name || "Unknown",
+  }));
+}
+
+export async function getFileAtCommit(commitSha: string): Promise<string> {
+  const response = await octokit.repos.getContent({
+    owner,
+    repo,
+    path,
+    ref: commitSha,
+  });
+
+  if (Array.isArray(response.data) || response.data.type !== "file") {
+    throw new Error("Path is not a file");
+  }
+
+  return Buffer.from(response.data.content, "base64").toString("utf-8");
 }
