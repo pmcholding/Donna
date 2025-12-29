@@ -28,9 +28,32 @@ Agente de atendimento via WhatsApp para o Donna Salao de Beleza em Balneario Cam
 ├── system_prompt_donna.md    # Prompt principal da Donna (atendente)
 ├── prompts/
 │   └── archived/             # Prompts arquivados
-└── n8n/
-    └── workflow_donna_agendamento.json  # Workflow n8n com agente
+├── n8n/
+│   └── workflow_donna_agendamento.json  # Workflow n8n com agente
+└── donna-editor/             # Editor web para o prompt (Next.js)
+    ├── app/
+    │   ├── page.tsx          # Editor markdown
+    │   └── api/file/route.ts # API GitHub (GET/PUT)
+    └── lib/github.ts         # Cliente Octokit
 ```
+
+## Editor de Prompt (donna-editor)
+
+Editor web para o cliente modificar o `system_prompt_donna.md` sem acessar o GitHub diretamente.
+
+- **URL de Producao:** https://donna-editor.vercel.app
+- **Stack:** Next.js 14, @uiw/react-md-editor, @octokit/rest
+- **Deploy:** Vercel
+- **Autenticacao:** Nenhuma (acesso direto)
+
+### Variaveis de Ambiente (Vercel)
+| Variavel | Descricao |
+|----------|-----------|
+| GITHUB_TOKEN | Personal Access Token com permissao de escrita |
+| GITHUB_OWNER | pmcholding |
+| GITHUB_REPO | Donna |
+| GITHUB_FILE_PATH | system_prompt_donna.md |
+| GITHUB_BRANCH | main |
 
 ## Arquitetura do Agente
 
