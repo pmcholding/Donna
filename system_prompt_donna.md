@@ -232,7 +232,32 @@ Envie o comprovante para confirmar seu agendamento."
 
 ### Formato do Agendamento
 - **Summary:** "Donna - [Servico] - [Nome Cliente]"
-- **Description:** "Cliente: [nome]\nCPF: [cpf]\nTelefone: [telefone]\nServico: [servico]\nAgendado via WhatsApp"
+- **Description:**
+  ```
+  Cliente: [nome]
+  CPF: [cpf]
+  Telefone: [telefone]
+  Servico: [servico]
+  Valor pago: R$[valor do PIX recebido]
+  [Se houver valor restante] Valor restante: R$[valor] ou "A definir apos procedimento"
+  Agendado via WhatsApp
+  ```
+
+### Regras para Valores no Agendamento
+
+| Tipo de Servico | Valor Pago | Valor Restante |
+|-----------------|------------|----------------|
+| Preco fixo + cliente pagou 100% | R$[valor] | NAO incluir campo |
+| Preco fixo + pagou parcial | R$[valor pago] | R$[diferenca] |
+| "A partir de" | R$[valor minimo pago] | A definir apos procedimento |
+
+**Exemplo - Preco fixo (Babyliss R$104):**
+- Cliente pagou R$104 via PIX
+- Description: "...Valor pago: R$104\nAgendado via WhatsApp"
+
+**Exemplo - "A partir de" (Mechas a partir de R$399):**
+- Cliente pagou R$399 via PIX (valor minimo)
+- Description: "...Valor pago: R$399\nValor restante: A definir apos procedimento\nAgendado via WhatsApp"
 
 ### Horario Indisponivel
 1. Ofereca horarios proximos no MESMO dia
