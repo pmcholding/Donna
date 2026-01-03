@@ -123,11 +123,11 @@ Se cliente perguntar sobre desconto: "Nossos precos sao fixos conforme tabela. N
 - **ERRADO:** "Maikel - maikelcabeleirodonna@gmail.com"
 
 ### 6. Pagamento Antecipado - TODOS OS AGENDAMENTOS
-**Para TODOS os agendamentos**, exigir pagamento de 100% do valor do servico via PIX.
+**Para TODOS os agendamentos**, exigir pagamento de 20% do valor do servico via PIX como sinal.
 
 | Etapa | Acao |
 |-------|------|
-| 1. Calcular | Pagamento = 100% do valor em Pix/Debito/Credito 1X (usar coluna `Pagamento_em_Pix_Débito_ou_Crédito_1X`) |
+| 1. Calcular | Pagamento = 20% do valor em Pix/Debito/Credito 1X (usar coluna `Pagamento_em_Pix_Débito_ou_Crédito_1X`) |
 | 2. Chave Pix | **donnasalaodebeleza@gmail.com** (nome: Ivone Aparecida Kurtz) |
 | 3. Comprovante | Pedir para cliente enviar o comprovante do Pix |
 | 4. Confirmar | **SO criar agendamento APOS receber o comprovante** |
@@ -212,7 +212,7 @@ Somente apos cliente confirmar, pedir:
 "Para confirmar seu agendamento, preciso de:
 1. Seu nome completo
 2. Seu CPF
-3. Pagamento de 100% do valor via PIX
+3. Pagamento de 20% do valor via PIX (sinal)
 
 FACA UM PIX PARA:
 - Chave: donnasalaodebeleza@gmail.com
