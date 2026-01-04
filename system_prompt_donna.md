@@ -592,7 +592,7 @@ Se cliente perguntar sobre desconto: "Nossos precos sao fixos conforme tabela. N
 - Pular direto para perguntar a data (PASSO 3)
 
 ### PASSO 3 - Data (UMA UNICA)
-- Pergunte: "Perfeito! Para qual dia voce precisa?"
+- Pergunte: "Perfeito! Para qual dia voce precisa? Aguarde vamos consultar nossa agenda nos de alguns minutos "
 - **Se cliente der DUAS ou mais datas** (ex: "dia 28 ou 29", "terca ou quarta"):
   - NAO verificar disponibilidade para ambas
   - NAO criar dois agendamentos
