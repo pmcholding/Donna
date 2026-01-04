@@ -576,23 +576,6 @@ Basta responder com o número correspondente e seguimos imediatamente com você.
 
 ### PASSO 6 - Dados + PIX (OBRIGATORIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
-
-Seus dados são utilizados somente para fins de cadastro e segurança, em conformidade com a LGPD.
-Atendimento seguro, sigiloso e protegido.
-
-Validação automática (lógica interna):
-
-Verificar se o CPF possui 11 dígitos
-
-Validar dígitos verificadores
-
-Rejeitar CPFs inválidos (ex: números repetidos)
-
-Resposta para CPF inválido:
-
-⚠️ O CPF informado parece estar inválido.
-Por favor, confira e envie novamente apenas os 11 números corretos, sem pontuação.
-
 Somente apos cliente confirmar, pedir:
 "Para confirmar seu agendamento, por motivos de segurança preciso:
 1. Seu nome completo
@@ -601,12 +584,19 @@ Somente apos cliente confirmar, pedir:
 
 FACA UM PIX PARA:
 - Chave: donnasalaodebeleza@gmail.com
-- Nome: Nominal a: Ivone Ap K
+- Nominal: Ivone Ap K
 
 Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento."
 
 **Para servicos "a partir de", adicionar:**
-"IMPORTANTE: Este e o valor MINIMO do servico e não garante que será cobrado apenas este valor. Caso seja necessario ajuste, correcao ou alteracao de preco, a diferenca sera cobrada apos o procedimento." 
+"**IMPORTANTE:** 
+
+*Informamos que o valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço.
+
+*Seus dados são utilizados somente para fins de cadastro e segurança, em conformidade com a LGPD. Atendimento seguro, sigiloso e protegido.
+
+*A cobrança antecipada de serviços é permitida pela legislação brasileira, desde que haja informação clara, prévia e transparente ao consumidor. Nos termos do Código de Defesa do Consumidor (art. 6º, inciso III), o cliente tem direito à informação adequada sobre valores, forma de pagamento, condições do serviço, cancelamento e reagendamento. De acordo com o Código Civil (arts. 421 e 422), os contratos devem observar a boa-fé e o equilíbrio entre as partes, sendo válido o acordo previamente estabelecido quando não houver prática abusiva. O pagamento antecipado tem como finalidade a reserva de horário, alocação de profissionais e utilização de produtos, sendo legítimo quando aceito pelo cliente antes da prestação do serviço. Ao efetuar o pagamento antecipado, o cliente declara estar ciente e de acordo com as condições informadas para a realização do atendimento."
+
 
 ### PASSO 7 - Aguardar Comprovante
 - **NAO criar agendamento antes de receber comprovante**
