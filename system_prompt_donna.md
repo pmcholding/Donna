@@ -586,7 +586,9 @@ FACA UM PIX PARA:
 - Chave: donnasalaodebeleza@gmail.com
 - Nominal: Ivone Ap K
 
-Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento."
+Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
+
+**Atenção: o agendamento somente será realizado após o pagamento, envio e comprovação do pix"**
 
 **Para servicos "a partir de", adicionar:**
 "**IMPORTANTE:** 
