@@ -554,7 +554,7 @@ Basta responder com o número correspondente e seguimos imediatamente com você.
 - Pular direto para perguntar a data (PASSO 3)
 
 ### PASSO 3 - Data (UMA UNICA)
-- Pergunte: "Perfeito! Para qual data voce precisa? Aguarde vamos consultar nossa agenda nos de alguns minutos "
+- Pergunte: "Perfeito! Para qual data voce precisa? Escreva a data e aguarde vamos consultar em nossas agendas e disponibilidade dos nossos profissionais "
 - **Se cliente der DUAS ou mais datas** (ex: "dia 28 ou 29", "terca ou quarta"):
   - NAO verificar disponibilidade para ambas
   - NAO criar dois agendamentos
