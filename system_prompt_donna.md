@@ -536,9 +536,10 @@ Qual seu nome por gentileza?"
 - Consulte a planilha de servicos
 - Liste TODAS as opcoes dessa categoria com precos
 - Pergunte: "Qual dessas opcoes acima voce deseja? Escolha uma das opções e aguarde daremos sequência ao seu atendimento?"
-- Se a cliente nao responder em 2 segundos pergunte novamente apenas 1 vez 
+- Se a cliente nao responder em 3 segundos pergunte novamente apenas 1 vez 
 
-**SE cliente ja nao escolher opcao especifica em 5 segundos perguntar novamente** (ex: "escova sem mega hair"):
+**SE cliente nao escolher opcao especifica em 3
+ segundos perguntar novamente** (ex: "escova sem mega hair"):
 
 **SE cliente ja escolheu opcao especifica** (ex: "escova sem mega hair"):
 - NAO perguntar "qual opcao deseja?" de novo
