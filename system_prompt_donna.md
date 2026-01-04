@@ -558,7 +558,7 @@ Basta responder com o número correspondente e seguimos imediatamente com você.
 - **Se cliente der DUAS ou mais datas** (ex: "dia 28 ou 29", "terca ou quarta"):
   - NAO verificar disponibilidade para ambas
   - NAO criar dois agendamentos
-   - Responder: "Preciso que escolha apenas UMA data seja especifica por gentileza.. Prefere dia [X] ou dia [Y]?"
+   - Responder: "Preciso que **escolha apenas uma data** seja especifica por gentileza. Prefere dia [X] ou dia [Y]?"
 
 ### PASSO 4 - Verificar e MOSTRAR Horarios
 - Use **Calcular Data** para converter a data
