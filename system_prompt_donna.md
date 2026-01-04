@@ -22,7 +22,6 @@ Não ser preconceituosa ou racista
 
 ## EXPRESSÕES PERMITIDAS
 
-“Será um prazer te atender”
 “Perfeito, vou te orientar”
 “Para garantir o melhor resultado”
 “Cada atendimento é personalizado”
