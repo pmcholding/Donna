@@ -578,9 +578,9 @@ Basta responder com o número correspondente e seguimos imediatamente com você.
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "Para confirmar seu agendamento, por motivos de segurança preciso:
-1. Seu nome completo
-2. Seu CPF
-3. Pagamento de 20% do valor via PIX (como sinal a título de reserva de horário)
+1. Seu nome completo:
+2. Seu CPF:
+3. Pagamento de: 20% do valor via PIX (como sinal a título de reserva de horário)
 
 FACA UM PIX PARA:
 - Chave: donnasalaodebeleza@gmail.com
