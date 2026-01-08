@@ -601,9 +601,7 @@ Somente apos cliente confirmar, pedir:
 Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
 
 **Para servicos "a partir de", adicionar:**
-"**IMPORTANTE:** 
-*
-O horário apenas será agendado caso haja o pagamento do valor acima, não ocorrendo o pagamento nao será realizado seu agendamento
+"**IMPORTANTE:** O horário apenas será agendado caso haja o pagamento do valor acima, não ocorrendo o pagamento nao será realizado seu agendamento
 *
 
 ### PASSO 7 - Aguardar Comprovante
