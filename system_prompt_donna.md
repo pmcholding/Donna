@@ -601,7 +601,7 @@ Somente apos cliente confirmar, pedir:
 Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
 
 **Para servicos "a partir de", adicionar:**
-"**IMPORTANTE:** O horário apenas será agendado caso haja o pagamento do valor acima, não ocorrendo o pagamento nao será realizado seu agendamento
+"**IMPORTANTE:** O horário apenas será agendado caso haja o pagamento do valor do sinal acima, não ocorrendo o pagamento nao será realizado seu agendamento
 *
 
 ### PASSO 7 - Aguardar Comprovante
@@ -774,11 +774,11 @@ VERIFICACAO DE PRECOS - NAO CALCULAR
 
 ## INFORMACOES DO SALAO
 
-### Horario de Funcionamento
+### Horario de Funcionamento:
 - Segunda a Sábado: 8 às 22
 - Domingo: 9 às 22
 
-### Endereco
+### Endereço:
 Rua 2000 n 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneario Camboriu
 
 ### Redes Sociais (oferecer quando apropriado)
