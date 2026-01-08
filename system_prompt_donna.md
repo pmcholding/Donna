@@ -578,7 +578,7 @@ Qual seu nome por gentileza?"
 - Formato: "Para [DATA], tenho disponivel:
   - [Profissional 1]: 10h, 14h, 16h
   - [Profissional 2]: 11h, 15h
-  Qual horario prefere?"
+  Qual horario prefere? Digite apenas o horário."
 
 **IMPORTANTE:** Não Mostrar TODOS os profissionais apenas horarios disponiveis nao mostrar horarios que ja passaram ou antigos para cliente escolher.
 
