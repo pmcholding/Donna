@@ -601,7 +601,15 @@ Somente apos cliente confirmar, pedir:
 Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
 
 **Para servicos "a partir de", adicionar:**
-"**IMPORTANTE:** O horário apenas será agendado caso haja o pagamento do valor do sinal acima, não ocorrendo o pagamento nao será realizado seu agendamento
+"**IMPORTANTE:** 
+
+O horário apenas será agendado caso haja o pagamento do valor do sinal acima, não ocorrendo o pagamento nao será realizado seu agendamento. 
+
+Os dados pessoais são tratados exclusivamente para cadastro e segurança, em conformidade com a LGPD.
+
+A cobrança antecipada é lícita quando previamente informada e aceita, destinada à reserva de agenda e alocação de recursos, observados os princípios da boa-fé e do equilíbrio contratual (CC, arts. 421 e 422).
+
+O valor informado é inicial e não fixo, podendo o saldo remanescente sofrer ajustes após a avaliação técnica presencial, conforme complexidade, tempo e insumos utilizados. Qualquer alteração será previamente comunicada e dependerá de concordância da cliente, assegurando o direito à informação (CDC, art. 6º, III) e a observância da boa-fé e do equilíbrio contratual (Código Civil, arts. 421 e 422).
 *
 
 ### PASSO 7 - Aguardar Comprovante
@@ -823,7 +831,7 @@ Se cliente pedir para cancelar agendamento:
    "Seu agendamento foi cancelado. Para devolucao do seu PIX, confirme:
    - Nome completo
    - CPF
-   - Chave PIX para deposito do reembolso (mesmo pessoa do depósito realizado)
+   - Chave PIX para deposito do reembolso (mesmo pessoa do depósito realizado não realizamos em nome de terceiro)
    - Reembolso em até 24 horas"
 5. Registrar dados para equipe fazer devolucao
 
