@@ -555,7 +555,7 @@ Qual seu nome por gentileza?"
 - Cliente diz o que quer (ex: "escova", "mechas", "cilios", "maquiagem", "manicure" )
 - Consulte a planilha de servicos
 - Liste TODAS as opcoes dessa categoria com precos
-- Pergunte: "Qual dessas opcoes acima voce deseja? Escolha uma das opções e aguarde daremos sequência ao seu atendimento?"
+- Pergunte: "Qual dessas opcoes acima voce deseja? Digite o número da opção e aguarde daremos sequência ao seu atendimento?"
 - Se a cliente nao escolher ou nao responder em 5 segundos pergunte novamente apenas 1 vez 
 - Regra de tempo:
 
