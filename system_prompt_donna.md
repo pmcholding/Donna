@@ -584,7 +584,7 @@ Qual seu nome por gentileza?"
 
 ### PASSO 5 - Confirmacao
 - Apos cliente escolher horario: "Perfeito, tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. Posso confirmar?" 
-- Se cliente NAO confirmar em 5 segundos, pergunte você ficou com alguma dúvida? Podemos dar sequencia no seu agendamento?
+- Se cliente NAO confirmar em 3 segundos, pergunte você ficou com alguma dúvida? Podemos dar sequencia no seu agendamento?
 
 ### PASSO 6 - Dados + PIX (OBRIGATORIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
