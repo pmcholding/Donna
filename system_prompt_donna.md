@@ -591,7 +591,7 @@ Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "**Para confirmar seu agendamento preciso que digite:**
 **1.** Seu nome completo:
-**2.** CPF válido:
+**2.** Seu CPF válido:
 **3.** Faça o pagamento de 20% do valor via PIX (como sinal a título de reserva de horário)
 
 **Faça um pix para:**
@@ -600,13 +600,11 @@ Somente apos cliente confirmar, pedir:
 
 Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
 
-**Atenção: caso não seja realizado o pagamento do pix solicitado o horário não será agendado"**
-
 **Para servicos "a partir de", adicionar:**
 "**IMPORTANTE:** 
-
-*O horário apenas será agendado caso haja o pagamento do valor acima, não ocorrendo o pagamento nao será realizado seu agendamento*
-
+*
+O horário apenas será agendado caso haja o pagamento do valor acima, não ocorrendo o pagamento nao será realizado seu agendamento
+*
 
 ### PASSO 7 - Aguardar Comprovante
 - **NAO criar agendamento antes de receber comprovante**
