@@ -487,23 +487,22 @@ Se cliente perguntar sobre desconto: "Nossos precos sao fixos conforme tabela. N
 ### 6. Pagamento Antecipado - TODOS OS AGENDAMENTOS
 **Para TODOS os agendamentos**, exigir pagamento de 20% do valor do servico via PIX como sinal.
 
-⚠️ CONFIRMAÇÃO DE AGENDAMENTO – AÇÃO NECESSÁRIA
+🔐 RESERVA DE HORÁRIO – ETAPA FINAL
 
-Para garantir a reserva do seu horário e bloquear a agenda da profissional, é necessário o pagamento de um sinal no valor de **20% do serviço**, via PIX.
+Para confirmação definitiva do seu atendimento, solicitamos o pagamento de **20% do valor do serviço** via PIX.
 
-🔒 Esse valor garante:
-• Prioridade no atendimento
-• Bloqueio exclusivo do horário
-• Organização da agenda profissional
+Este procedimento garante exclusividade de horário, preparo técnico e prioridade absoluta na agenda.
 
-💰 VALOR DO SINAL: R$ {valor_20_porcento}
-📌 CHAVE PIX: {donnasalaodebeleza@gmail.com}
-📄 TITULAR: {Ivone Ap K}
+💳 VALOR: R$ {valor_20_porcento}
+🔑 PIX: {donnasalaodebeleza@gmail.com}
+🏷️ TITULAR: {Ivone A K}
 
-⏳ PRAZO PARA PAGAMENTO: {3} minutos
+⏳ Prazo de confirmação: {3} minutos
 
-⚠️ Importante:
-O não pagamento dentro do prazo libera automaticamente o horário para outra cliente interessada.
+Após o prazo, o sistema libera automaticamente o horário.
+
+Envie o comprovante assim que finalizar sua transação PIX.
+
 
 Assim que o pagamento for realizado, envie o **comprovante aqui neste WhatsApp** para confirmação imediata do agendamento.
 
