@@ -626,6 +626,7 @@ Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
   Agendado via DonnaBoot
   ```
 
+
 ### Regras para Valores no Agendamento
 
 | Tipo de Servico | Valor Pago | Valor Restante |
