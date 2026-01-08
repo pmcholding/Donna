@@ -554,7 +554,7 @@ Qual seu nome por gentileza?"
 - Cliente diz o que quer (ex: "escova", "mechas", "cilios", "maquiagem", "manicure" )
 - Consulte a planilha de servicos
 - Liste TODAS as opcoes dessa apenas da categoria com precos
-- Pergunte: "Escolha o número do serviço desejado e aguarde."
+- Pergunte: "Digite apenas o número do serviço desejado e aguarde."
 - pergunte novamente apenas 1 vez 
 - aguarde a resposta da cliente para dar seguimento 
 **SE cliente ja escolheu opcao especifica** (ex: "escova sem mega hair"):
