@@ -519,9 +519,8 @@ Estamos te aguardando ✨
 
 **IMPORTANTE - VALOR "A PARTIR DE":**
 - Para servicos com preco "a partir de", o pagamento e do valor MINIMO
-- O valor FINAL poderá ser MAIOR dependendo (volume, comprimento, extensao, saude capilar, tempo, tecnica, dificuldade, quantidade de produto e historico)
-- A diferenca sera cobrada APOS o procedimento
-- **SEMPRE informar:** "Caso haja ajuste, correcao ou alteracao de preco, a diferenca sera cobrada apos o procedimento."
+- **SEMPRE informar:** "**o valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço.
+- A diferenca sera cobrada APOS o procedimento**."
 
 **Chave PIX:**
 - Chave: donnasalaodebeleza@gmail.com
