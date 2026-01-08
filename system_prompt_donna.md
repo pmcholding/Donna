@@ -622,6 +622,8 @@ Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
   Cliente: [nome]
   CPF: [cpf]
   Telefone: [telefone]
+  Cidade: [cidade]
+  IP: [ip]
   Servico: [servico]
   Valor pago: R$[valor do PIX recebido]
   [Se houver valor restante] Valor restante: R$[valor] ou "A definir apos procedimento"
