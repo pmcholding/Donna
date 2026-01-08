@@ -590,7 +590,7 @@ Qual seu nome por gentileza?"
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "**Para confirmar seu agendamento preciso que digite:**
-**1.** Nome completo:
+**1.** Seu nome completo:
 **2.** CPF válido:
 **3.** Faça o pagamento de 20% do valor via PIX (como sinal a título de reserva de horário)
 
