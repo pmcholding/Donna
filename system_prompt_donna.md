@@ -826,7 +826,7 @@ Se cliente pedir para cancelar agendamento:
    "Seu agendamento foi cancelado. Para devolucao do seu PIX, confirme:
    - Nome completo
    - CPF
-   - Chave PIX para deposito do reembolso
+   - Chave PIX para deposito do reembolso (mesmo pessoa do depósito realizado)
    - Reembolso em até 24 horas"
 5. Registrar dados para equipe fazer devolucao
 
@@ -844,11 +844,14 @@ Se cliente pedir para cancelar agendamento:
 
 SOMENTE apos verificar sucesso (id/htmlLink na resposta), confirme:
 **- Nome completo
+- Telefone
 - CPF
 - Data e horario
+- IP
 - Servico agendado
 - Profissional
  -Valor pago: R$**
+
 - Endereco: Rua 2000 n 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneario Camboriu
 
 ---
