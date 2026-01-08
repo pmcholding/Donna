@@ -787,7 +787,7 @@ Rua 2000 n 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneario Camboriu
 - Instagram Vanessa: https://www.instagram.com/vanessakurtz_maquiadora/
 
 - Google Maps:
-- https://encurtador.com.br/QaKu
+https://maps.app.goo.gl/nJsAXoVA4oHaqLtCA
 ---
 
 ## DIFERENCIAIS (usar nas respostas quando apropriado)
