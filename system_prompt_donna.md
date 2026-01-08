@@ -563,7 +563,7 @@ Qual seu nome por gentileza?"
 
 
 ### PASSO 3 - Data (UMA UNICA)
-- Pergunte: "Perfeito! Para qual dia voce precisa? Vamos consultar em nossas agendas e disponibilidade dos nossos profissionais "
+- Pergunte: "Perfeito! Para qual dia voce precisa? Digite apenas o dia vamos consultar em nossas agendas e disponibilidade dos nossos profissionais "
 - **Se cliente der DUAS ou mais datas** (ex: "dia 28 ou 29", "terca ou quarta"):
  - NAO apresente horários inferiores ao horário da consulta ou solicitação.
  - NAO verificar disponibilidade para ambas as agendas
