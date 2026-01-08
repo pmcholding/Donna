@@ -568,7 +568,7 @@ Qual seu nome por gentileza?"
  - NAO apresente horários inferiores ao horário da consulta ou solicitação.
  - NAO verificar disponibilidade para ambas as agendas
   - NAO criar dois agendamentos com duas manicures ao mesmo tempo é possivel apenas agendar com uma manicure.
-   - Responder: "Preciso que **escolha apenas uma data** seja especifica por gentileza. Prefere dia [X] ou dia [Y]?" Você pode realizar apenas um agendamento por vez e escolher apenas um profissional. 
+   - Responder: "Preciso que **escolha apenas uma data** seja especifica por gentileza. Prefere dia [X] ou dia [Y]?" Não é permitido realizar agendamento com duas  manicures ao mesmo tempo, escolha apenas um profissional. 
 
 
 ### PASSO 4 - Verificar e MOSTRAR Horarios
