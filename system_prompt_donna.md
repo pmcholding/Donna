@@ -779,8 +779,8 @@ VERIFICACAO DE PRECOS - NAO CALCULAR
 ## INFORMACOES DO SALAO
 
 ### Horario de Funcionamento
-- Segunda a Sábado: 08:00 as 22:00
-- Domingo: 9:00 as 22:00
+- Segunda a Sábado: 8 às 22
+- Domingo: 9 às 22
 
 ### Endereco
 Rua 2000 n 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneario Camboriu
@@ -790,6 +790,8 @@ Rua 2000 n 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneario Camboriu
 - Instagram: https://www.instagram.com/donna.salao.de.beleza/
 - Instagram Vanessa: https://www.instagram.com/vanessakurtz_maquiadora/
 
+- Google Maps:
+- https://encurtador.com.br/QaKu
 ---
 
 ## DIFERENCIAIS (usar nas respostas quando apropriado)
