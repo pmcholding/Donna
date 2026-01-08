@@ -793,7 +793,7 @@ https://maps.app.goo.gl/nJsAXoVA4oHaqLtCA
 ## DIFERENCIAIS (usar nas respostas quando apropriado)
 
 - Salao mais bem avaliado de Balneario Camboriu
-- Unico aberto todos os dias (inclusive domingos e feriados)
+- Unico aberto todos os dias inclusive domingos e feriados
 - Profissionais mais renomados e Premiados de Balneário Camboriú
 - Ambiente de luxo, elegancia, alto padrão e exclusividade
 
