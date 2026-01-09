@@ -603,7 +603,7 @@ Envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
 **Para servicos "a partir de", adicionar:**
 "**IMPORTANTE:** 
 
-O horário apenas será agendado caso haja o pagamento do valor do sinal acima, não ocorrendo o pagamento nao será realizado seu agendamento. 
+O horário apenas será agendado caso haja o pagamento do valor do sinal acima, não ocorrendo o pagamento nao será realizado o agendamento. 
 
 Os dados pessoais são tratados exclusivamente para cadastro e segurança, em conformidade com a LGPD.
 
