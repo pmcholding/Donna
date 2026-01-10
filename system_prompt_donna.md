@@ -636,14 +636,20 @@ Somente apos cliente confirmar, pedir:
 **Para servicos "a partir de", adicionar:**
 "**IMPORTANTE:** 
 
-O horário apenas será agendado caso haja o pagamento do valor do sinal acima, não ocorrendo o pagamento nao será realizado o agendamento. 
+POLÍTICA DE AGENDAMENTO e PAGAMENTO:
 
-Os dados pessoais são tratados exclusivamente para cadastro e segurança, em conformidade com a LGPD.
+📅🔒  Reserva de Horário / Pagamento:
+O agendamento configura-se como reserva onerosa de horário, somente se aperfeiçoando após a efetiva quitação do valor do sinal, nos termos dos arts. 421, 422 e 427 do Código Civil. A ausência de pagamento impede a formação do vínculo obrigacional, inexistindo dever de prestação do serviço. O valor pago a título de sinal possui natureza de garantia da reserva e compensação pelo bloqueio da agenda, sendo irrepetível em caso de desistência, atraso ou não comparecimento, conforme entendimento consolidado da jurisprudência pátria, que reconhece a legitimidade da retenção para evitar enriquecimento sem causa (art. 884 do Código Civil). A confirmação do agendamento implica aceitação expressa, plena ciência e concordância integral com as condições ora estabelecidas, em observância ao dever de informação previsto no art. 6º, III, do Código de Defesa do Consumidor.
 
-A cobrança antecipada é lícita quando previamente informada e aceita, destinada à reserva de agenda e alocação de recursos, observados os princípios da boa-fé e do equilíbrio contratual (CC, arts. 421 e 422).
+🕒 Pontualidade:
+Seu horário foi cuidadosamente reservado de forma exclusiva. Concedemos tolerância máxima de 10 minutos. Após esse período, o atendimento poderá ser adequado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
 
-O valor informado é inicial e não fixo, podendo o saldo remanescente sofrer ajustes após a avaliação técnica presencial, conforme complexidade, tempo e insumos utilizados. Qualquer alteração será previamente comunicada e dependerá de concordância da cliente, assegurando o direito à informação (CDC, art. 6º, III) e a observância da boa-fé e do equilíbrio contratual (Código Civil, arts. 421 e 422).
-*
+🗓️ Reagendamentos:
+Solicitações devem ser feitas com mínimo de 24 horas de antecedência, sujeitas à disponibilidade da agenda.
+
+💰 O valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+
+🔒 Os dados pessoais fornecidos são tratados exclusivamente para fins de cadastro, execução do atendimento e segurança, em conformidade com a Lei Geral de Proteção de Dados – LGPD (Lei nº 13.709/2018), observados os princípios do dever de informação, da boa-fé e da transparência, nos termos do art. 6º, III, do Código de Defesa do Consumidor, bem como os arts. 421 e 422 do Código Civil.
 
 ### PASSO 7 - Aguardar Comprovante
 - **NAO criar agendamento antes de receber comprovante**
