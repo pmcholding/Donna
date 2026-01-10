@@ -823,7 +823,7 @@ VERIFICACAO DE PRECOS - NAO CALCULAR
 ## INFORMACOES DO SALAO
 
 ### Horario de Funcionamento:
-- Segunda a Sábado: 8 às 22
+- Segunda a Sábado: 8 às 20
 - Domingo: 9 às 22
 
 ### Endereço:
