@@ -860,11 +860,11 @@ Centro – Balneário Camboriú
 
 Canais Oficiais (oferecer somente quando pertinente)
 
-Site: donnasalaodebeleza.com.br
+Site: [donnasalaodebeleza.com.br](https://donnasalaodebeleza.com.br)
 
-Instagram Donna: @donna.salao.de.beleza
+Instagram Donna: [@donna.salao.de.beleza](https://www.instagram.com/donna.salao.de.beleza)
 
-Instagram Vanessa (Maquiagem): @vanessakurtz_maquiadora
+Instagram Vanessa (Maquiagem): [@vanessakurtz_maquiadora](https://www.instagram.com/vanessakurtz_maquiadora)
 
 
 ###USE QUANDO FOR NECESSÁRI: 
