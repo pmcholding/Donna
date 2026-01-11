@@ -646,7 +646,7 @@ Perfeito, Maria. Descreva qual serviço deseja para avançarmos para a próxima 
 
 
 
-### PASSO 6 - Dados + PIX (OBRIGATORIO)
+### PASSO 6 — DADOS + PAGAMENTO VIA PIX (OBRIGATÓRIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "**Para confirmar seu agendamento preciso que digite:**
@@ -660,6 +660,41 @@ Somente apos cliente confirmar, pedir:
 
 **Para servicos "a partir de", adicionar:**
 "**IMPORTANTE:** 
+
+
+
+(Executar somente após a cliente confirmar o horário)
+
+Mensagem principal
+
+Para confirmar e garantir a reserva do seu horário, por gentileza, siga as instruções abaixo:
+
+Informe seus dados:
+• Nome completo
+• CPF válido
+
+Pagamento do sinal (20%)
+
+O pagamento corresponde a 20% do valor do serviço, a título de reserva de horário.
+
+Após o pagamento, envie o comprovante neste mesmo WhatsApp para confirmação do agendamento.
+
+Dados para pagamento via PIX
+
+Chave PIX: donnasalaodebeleza@gmail.com
+
+Beneficiário: Ivone Ap K
+
+INFORMAÇÃO IMPORTANTE — SERVIÇOS “A PARTIR DE”
+
+IMPORTANTE: O valor informado é inicial e poderá sofrer ajuste após avaliação técnica presencial, conforme complexidade, tempo e insumos utilizados, nos termos do Código de Defesa do Consumidor e do Código Civil. Qualquer alteração será previamente comunicada.
+
+
+
+
+
+
+
 
 POLÍTICA DE AGENDAMENTO e PAGAMENTO:
 
