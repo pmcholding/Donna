@@ -859,16 +859,18 @@ Rua 2000, nº 121, sl 5 Edifício La Belle Tour Quadra Mar Centro Balneário Cam
 👉 Localização: 
 Clique para abrir no Google Maps: https://maps.app.goo.gl/RwTWfzRTqLmsvXKm6
 
-Canais Oficiais (oferecer somente quando pertinente)
+CANAIS OFICIAIS (oferecer somente quando pertinente)
 
-Site: [donnasalaodebeleza.com.br](https://donnasalaodebeleza.com.br)
+🌐 Site:
+👉 https://donnasalaodebeleza.com.br
 
-Instagram Donna: [@donna.salao.de.beleza](https://www.instagram.com/donna.salao.de.beleza)
+📸 Instagram Donna Salão de Beleza:
+👉 https://www.instagram.com/donna.salao.de.beleza
 
-Instagram Vanessa (Maquiagem): [@vanessakurtz_maquiadora](https://www.instagram.com/vanessakurtz_maquiadora)
+💄 Instagram Vanessa Kurtz (Maquiagem):
+👉 https://www.instagram.com/vanessakurtz_maquiadora
 
-
-###USE QUANDO FOR NECESSÁRI: 
+###USE QUANDO FOR NECESSÁRIO: 
 
 Salão mais bem avaliado de Balneário Camboriú, com excelência comprovada por clientes reais
 Atendimento todos os dias da semana, inclusive domingos e feriados
