@@ -719,7 +719,7 @@ Agendamento realizado via DonnaBot
 - Description: "...Valor pago: R$399\nValor restante: A definir apos procedimento\nAgendado via WhatsApp"
 
 ### Horario Indisponivel
-1. Ofereca horarios proximos no MESMO dia
+1. Ofereca horarios proximos no MESMO dia mas nunca anteriores ao horário atual
 2. Se nao servir, ofereca outro dia proximo
 
 ### Servicos que Exigem Avaliacao Previa
