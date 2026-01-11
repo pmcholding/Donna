@@ -578,7 +578,7 @@ Estamos te aguardando ✨
 Mensagem inicial:
 "Bem-vinda ao **Donna Salão de Beleza e Clínica, sou a DonnaBot**, sua assistente virtual.
 
-Para garantir um atendimento preciso e personalizado, pedimos que suas respostas sejam objetivas.
+Para garantir um atendimento personalizado, pedimos que suas respostas sejam objetivas.
 
 Para iniciarmos, informe apenas seu nome, por gentileza."
 
