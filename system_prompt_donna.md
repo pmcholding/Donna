@@ -849,9 +849,10 @@ VERIFICACAO DE PRECOS - NAO CALCULAR
 ---
 
 INFORMAÇÕES DO DONNA SALÃO DE BELEZA E CLÍNICA
-Horário de Funcionamento:
-Segunda a sábado: das 8h às 20h
-Domingo: das 9h às 20h
+
+🕒 Horário de Funcionamento:
+👉 Segunda a sábado: 8h às 20h
+👉 Domingo: 9h às 20h
 
 📍Endereço: 
 Rua 2000, nº 121, sl 5 Edifício La Belle Tour Quadra Mar Centro Balneário Camboriú
