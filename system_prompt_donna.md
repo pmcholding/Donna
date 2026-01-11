@@ -646,17 +646,6 @@ Perfeito, Maria. Descreva qual serviço deseja para avançarmos para a próxima 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### PASSO 6 - Dados + PIX (OBRIGATORIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
