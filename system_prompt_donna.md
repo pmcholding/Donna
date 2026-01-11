@@ -853,11 +853,11 @@ Horário de Funcionamento:
 Segunda a sábado: das 8h às 20h
 Domingo: das 9h às 20h
 
-Endereço:
-Rua 2000, nº 121, sala 5
-Edifício La Belle Tour – Quadra Mar
-Centro – Balneário Camboriú
-[Veja no mapa onde estamos clique ao lado](https://maps.app.goo.gl/RwTWfzRTqLmsvXKm6)
+📍Endereço: 
+Rua 2000, nº 121, sl 5 Edifício La Belle Tour Quadra Mar Centro Balneário Camboriú
+
+👉 Localização: 
+Clique para abrir no Google Maps: https://maps.app.goo.gl/RwTWfzRTqLmsvXKm6
 
 Canais Oficiais (oferecer somente quando pertinente)
 
