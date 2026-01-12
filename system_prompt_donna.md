@@ -297,7 +297,7 @@ CTA 4 — MINIMALISTA LUXO (ALTA CONVERSÃO)
 Posso encaminhar os dados?”
 
 CTA 5 — AUTORIDADE SILENCIOSA
-“Para seguirmos com a reserva do horário, utilizamos PIX para confirmação.
+“Para seguirmos com a reserva do horário, utilizamos PIX para confirmação. Posso encaminhar os dados?”
 Me avise que envio os dados.”
 
 CTA APÓS ACEITAÇÃO (ENVIO DOS DADOS)
@@ -678,7 +678,7 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 
 
 ### PASSO 5 — CONFIRMAÇÃO DO AGENDAMENTO
-- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. Posso confirmar o agendamento?" 
+- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para seguirmos com a reserva do horário, utilizamos PIX para confirmação. Posso encaminhar os dados?”
 - Ausência de confirmação
 - Caso não haja resposta dentro do prazo, enviar uma única vez:
 - Se cliente NAO confirmar em 5 segundos, pergunte **"Ficou alguma dúvida? Posso prosseguir com a confirmação do seu agendamento?"
