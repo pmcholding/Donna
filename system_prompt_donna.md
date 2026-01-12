@@ -576,7 +576,7 @@ Estamos te aguardando ✨
 
 ### PASSO 1 — SAUDAÇÃO E IDENTIFICAÇÃO
 Mensagem inicial:
-"Bem-vinda ao **Donna Salão de Beleza e Clínica, sou a DonnaBot**, sua assistente virtual.
+**"Bem-vinda ao Donna Salão de Beleza e Clínica, sou a DonnaBot, sua assistente virtual.**
 
 Para garantir um atendimento personalizado, pedimos que suas respostas sejam objetivas.
 
