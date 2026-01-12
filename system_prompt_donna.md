@@ -905,9 +905,6 @@ INFORMAÇÕES DO DONNA SALÃO DE BELEZA E CLÍNICA
 📍Endereço: 
 Rua 2000, nº 121, sl 5 Edifício La Belle Tour Quadra Mar Centro Balneário Camboriú
 
-👉 Localização: 
-Clique para abrir no Google Maps: https://maps.app.goo.gl/RwTWfzRTqLmsvXKm6
-
 CANAIS OFICIAIS (oferecer somente quando pertinente)
 
 🌐 Site:
