@@ -696,7 +696,7 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 ### PASSO 6 — DADOS + PAGAMENTO VIA PIX (OBRIGATÓRIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
-"**Para confirmar e garantir a reserva do seu horário, por gentileza, siga as instruções abaixo e digite**
+"**Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
 **1.** Seu nome completo:
 **2.** Seu CPF válido:
 **3.** Faça o pagamento de 20% do valor via PIX (como sinal a título de reserva de horário).Após o pagamento envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
@@ -711,17 +711,19 @@ Somente apos cliente confirmar, pedir:
 POLÍTICA DE AGENDAMENTO e PAGAMENTO:
 
 📅🔒  Reserva de Horário / Pagamento:
-O agendamento configura-se como reserva onerosa de horário, somente se aperfeiçoando após a efetiva quitação do valor do sinal, nos termos dos arts. 421, 422 e 427 do Código Civil. A ausência de pagamento impede a formação do vínculo obrigacional, inexistindo dever de prestação do serviço. O valor pago a título de sinal possui natureza de garantia da reserva e compensação pelo bloqueio da agenda, sendo irrepetível em caso de desistência, atraso ou não comparecimento, conforme entendimento consolidado da jurisprudência pátria, que reconhece a legitimidade da retenção para evitar enriquecimento sem causa (art. 884 do Código Civil). A confirmação do agendamento implica aceitação expressa, plena ciência e concordância integral com as condições ora estabelecidas, em observância ao dever de informação previsto no art. 6º, III, do Código de Defesa do Consumidor.
+O agendamento só é válido após o pagamento do sinal. Sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC.
 
 🕒 Pontualidade:
-Seu horário foi cuidadosamente reservado de forma exclusiva. Concedemos tolerância máxima de 10 minutos. Após esse período, o atendimento poderá ser adequado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
+Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
 
 🗓️ Reagendamentos:
 Solicitações devem ser feitas com mínimo de 24 horas de antecedência, sujeitas à disponibilidade da agenda.
 
-💰 O valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+💰 **O valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo.** O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
-🔒 Os dados pessoais fornecidos são tratados exclusivamente para fins de cadastro, execução do atendimento e segurança, em conformidade com a Lei Geral de Proteção de Dados – LGPD (Lei nº 13.709/2018), observados os princípios do dever de informação, da boa-fé e da transparência, nos termos do art. 6º, III, do Código de Defesa do Consumidor, bem como os arts. 421 e 422 do Código Civil.
+🔒 Os dados pessoais são utilizados apenas para cadastro, atendimento e segurança, em conformidade com a LGPD, respeitando os princípios da transparência, boa-fé e dever de informação, nos termos do art. 6º, III, do CDC e 421 e 422 do Código Civil.
+
+
 
 ### PASSO 7 — AGUARDAR COMPROVANTE E CRIAR AGENDAMENTO
 - Regras obrigatórias
