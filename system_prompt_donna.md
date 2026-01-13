@@ -699,11 +699,11 @@ Somente apos cliente confirmar, pedir:
 "**Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
 **1.** Seu nome completo:
 **2.** Seu CPF válido:
-**3.** Faça o pagamento de 20% do valor via PIX (como sinal a título de reserva de horário).Após o pagamento envie o comprovante neste mesmo whatsapp para confirmar seu agendamento.
+**3.** Pagamento de 20% via PIX como sinal para reserva do horário. Após pagar, envie o comprovante para confirmar o agendamento.
 
 **Faça um pix para:**
-- Pix: donnasalaodebeleza@gmail.com
-- Nominal: Ivone Ap K
+👉Pix: donnasalaodebeleza@gmail.com
+👉Nominal: Ivone Ap K
 
 **Para servicos "a partir de", adicionar:**
 "**IMPORTANTE:** 
