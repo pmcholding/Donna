@@ -742,8 +742,6 @@ Solicitações devem ser feitas com mínimo de 24 horas de antecedência, sujeit
 Cliente: [Nome completo]
 CPF: [CPF]
 Telefone: [Telefone]
-Cidade: [Cidade]
-IP: [IP]
 Serviço: [Serviço contratado]
 Valor pago (PIX): R$ [Valor recebido]
 Valor restante: R$ [Valor] ou "A definir após avaliação técnica"
@@ -998,7 +996,6 @@ SOMENTE apos verificar sucesso (id/htmlLink na resposta), confirme:
 - Telefone
 - CPF
 - Data e horario
-- IP
 - Servico agendado
 - Profissional
  -Valor pago: R$**
