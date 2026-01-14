@@ -677,7 +677,7 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 
 
 ### PASSO 5 — CONFIRMAÇÃO DO AGENDAMENTO
-- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para seguirmos com a reserva do horário, utilizamos PIX para confirmação. Posso encaminhar os dados? Sim ou Não”
+- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para confirmação do seu agendamento, solicitamos o pagamento de **20% do valor do serviço** via PIX a título de reserva. Posso encaminhar nosso PIX? Sim ou Não”
 - Ausência de confirmação
 - Caso não haja resposta dentro do prazo, enviar uma única vez:
 - Se cliente NAO confirmar em 5 segundos, pergunte **"Ficou alguma dúvida? Posso prosseguir com a confirmação do seu agendamento?"
