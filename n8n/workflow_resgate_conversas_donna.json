@@ -1,0 +1,271 @@
+{
+  "name": "Resgate de Conversas - Donna",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 5
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-800, 300],
+      "id": "trigger-schedule",
+      "name": "Schedule Trigger - A cada 5 minutos"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n  c.id as conversation_id,\n  c.display_id,\n  ct.phone_number as contact_phone,\n  ct.name as nome_cliente,\n  last_client_msg.created_at as ultima_msg_cliente_at,\n  last_msg.content as ultima_msg_donna,\n  last_client_msg.content as ultima_msg_cliente,\n  EXTRACT(EPOCH FROM (NOW() - last_client_msg.created_at))/60 as minutos_desde_ultima,\n  CASE\n    WHEN EXTRACT(EPOCH FROM (NOW() - last_client_msg.created_at))/60 BETWEEN 14 AND 20 THEN '15_minutos'\n    ELSE '2_horas'\n  END as categoria_tempo\nFROM conversations c\nJOIN contacts ct ON c.contact_id = ct.id\nJOIN LATERAL (\n  SELECT m.created_at, m.content, m.message_type\n  FROM messages m\n  WHERE m.conversation_id = c.id\n  ORDER BY m.created_at DESC\n  LIMIT 1\n) last_msg ON true\nJOIN LATERAL (\n  SELECT m.content, m.created_at\n  FROM messages m\n  WHERE m.conversation_id = c.id AND m.message_type = 0\n  ORDER BY m.created_at DESC\n  LIMIT 1\n) last_client_msg ON true\nWHERE c.account_id = 11\n  AND c.status = 0\n  AND last_msg.message_type = 1\n  AND (\n    EXTRACT(EPOCH FROM (NOW() - last_client_msg.created_at))/60 BETWEEN 14 AND 20\n    OR EXTRACT(EPOCH FROM (NOW() - last_client_msg.created_at))/60 BETWEEN 115 AND 130\n  )\nLIMIT 50;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [-560, 300],
+      "id": "postgres-buscar-conversas",
+      "name": "Buscar Conversas Elegíveis",
+      "credentials": {
+        "postgres": {
+          "id": "IT0NoFEDEFya6oUV",
+          "name": "Cordex.ai - Chatwoot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [-320, 300],
+      "id": "loop-conversas",
+      "name": "Loop Conversas"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n  CASE WHEN message_type = 0\n    THEN 'Cliente: \"' || COALESCE(REPLACE(content, E'\\n', ' '), '') || '\"'\n    ELSE 'Donna: \"' || COALESCE(REPLACE(content, E'\\n', ' '), '') || '\"'\n  END as linha\nFROM messages\nWHERE conversation_id = {{ $json.conversation_id }}\nORDER BY created_at DESC\nLIMIT 10;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [-80, 300],
+      "id": "postgres-buscar-historico",
+      "name": "Buscar Histórico",
+      "credentials": {
+        "postgres": {
+          "id": "IT0NoFEDEFya6oUV",
+          "name": "Cordex.ai - Chatwoot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Pega dados da conversa do primeiro input\nconst conversaData = $('Loop Conversas').item.json;\n\n// Pega linhas do histórico e junta em ordem cronológica (invertendo pois veio DESC)\nconst historico = $input.all()\n  .map(item => item.json.linha)\n  .reverse()\n  .join('\\n');\n\nreturn {\n  ...conversaData,\n  historico: historico\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [140, 300],
+      "id": "code-montar-historico",
+      "name": "Montar Histórico"
+    },
+    {
+      "parameters": {
+        "inputText": "={{ $json.historico }}",
+        "categories": {
+          "categories": [
+            {
+              "category": "encerrada",
+              "description": "Houve um desfecho da conversa, agendamento confirmado, ou o cliente se despediu. A conversa está finalizada."
+            },
+            {
+              "category": "sem_resposta",
+              "description": "O cliente parou de responder no meio da conversa. Demonstrou interesse mas sumiu sem concluir."
+            },
+            {
+              "category": "pendente_resposta",
+              "description": "A conversa está aguardando uma informação ou confirmação do cliente (data, horário, profissional, etc)."
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.textClassifier",
+      "typeVersion": 1,
+      "position": [360, 300],
+      "id": "text-classifier",
+      "name": "Text Classifier"
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0.3
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
+      "typeVersion": 1,
+      "position": [360, 520],
+      "id": "deepseek-classifier",
+      "name": "DeepSeek - Classifier",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "U88eY2DLNGSI6jYp",
+          "name": "DeepSeek account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=# Prompt para AI Donna - Salão de Beleza\n\nVocê é a atendente virtual do Donna Salão de Beleza em Balneário Camboriú.\n\nCONTEXTO: Você está enviando uma mensagem de follow-up para {{ $json.nome_cliente }} que parou de responder durante a conversa sobre agendamento de serviços.\n\nINFORMAÇÕES DO FOLLOW-UP:\n- Telefone: {{ $json.contact_phone }}\n- Intervalo: {{ $json.categoria_tempo }}\n- Última mensagem da Donna: \"{{ $json.ultima_msg_donna }}\"\n- Última mensagem do cliente: \"{{ $json.ultima_msg_cliente }}\"\n\nHISTÓRICO DA CONVERSA:\n{{ $json.historico }}\n\nANALISE O HISTÓRICO PARA ENTENDER:\n1. Qual serviço o cliente demonstrou interesse (corte, coloração, manicure, etc.)\n2. Se perguntou sobre preços ou profissionais específicos\n3. Se demonstrou preferência de horário ou data\n4. Em que ponto da conversa parou de responder\n5. Principais dúvidas ou objeções\n\nINSTRUÇÕES PARA A MENSAGEM:\n1. Tom elegante, profissional e acolhedor (nunca informal ou com gírias)\n2. Máximo 3 linhas\n3. Mencione algo específico da conversa se relevante (serviço, profissional, data)\n4. Termine com uma pergunta gentil para retomar o contato\n5. NÃO seja invasiva ou insistente\n6. Máximo 1 emoji (opcional)\n7. Se não houver contexto suficiente, use mensagem genérica elegante\n\nREGRA: Se o histórico mostrar que cliente já agendou ou encerrou, responda apenas: \"SKIP\"\n\nResponda APENAS com a mensagem de follow-up, sem explicações.",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.6,
+      "position": [580, 300],
+      "id": "ai-agent-donna",
+      "name": "AI Agent Donna"
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0.7
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",
+      "typeVersion": 1,
+      "position": [580, 520],
+      "id": "deepseek-agent",
+      "name": "DeepSeek - Agent",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "U88eY2DLNGSI6jYp",
+          "name": "DeepSeek account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "skip-condition",
+              "leftValue": "={{ $json.output }}",
+              "rightValue": "SKIP",
+              "operator": {
+                "type": "string",
+                "operation": "notEquals"
+              }
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [820, 300],
+      "id": "if-skip",
+      "name": "Se não é SKIP"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://app.doutorai.com.br/api/v1/accounts/11/conversations/{{ $('Loop Conversas').last().json.display_id }}/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "content",
+              "value": "={{ $json.output }}"
+            },
+            {
+              "name": "message_type",
+              "value": "outgoing"
+            },
+            {
+              "name": "private",
+              "value": "false"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1060, 200],
+      "id": "enviar-mensagem",
+      "name": "Enviar Mensagem Chatwoot",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "0Ujj4dYgo0luu3PS",
+          "name": "Cordex.ai - Chatwoot"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger - A cada 5 minutos": {
+      "main": [[{"node": "Buscar Conversas Elegíveis", "type": "main", "index": 0}]]
+    },
+    "Buscar Conversas Elegíveis": {
+      "main": [[{"node": "Loop Conversas", "type": "main", "index": 0}]]
+    },
+    "Loop Conversas": {
+      "main": [
+        [],
+        [{"node": "Buscar Histórico", "type": "main", "index": 0}]
+      ]
+    },
+    "Buscar Histórico": {
+      "main": [[{"node": "Montar Histórico", "type": "main", "index": 0}]]
+    },
+    "Montar Histórico": {
+      "main": [[{"node": "Text Classifier", "type": "main", "index": 0}]]
+    },
+    "Text Classifier": {
+      "main": [
+        [{"node": "Loop Conversas", "type": "main", "index": 0}],
+        [{"node": "AI Agent Donna", "type": "main", "index": 0}],
+        [{"node": "AI Agent Donna", "type": "main", "index": 0}]
+      ]
+    },
+    "DeepSeek - Classifier": {
+      "ai_languageModel": [[{"node": "Text Classifier", "type": "ai_languageModel", "index": 0}]]
+    },
+    "AI Agent Donna": {
+      "main": [[{"node": "Se não é SKIP", "type": "main", "index": 0}]]
+    },
+    "DeepSeek - Agent": {
+      "ai_languageModel": [[{"node": "AI Agent Donna", "type": "ai_languageModel", "index": 0}]]
+    },
+    "Se não é SKIP": {
+      "main": [
+        [{"node": "Enviar Mensagem Chatwoot", "type": "main", "index": 0}],
+        [{"node": "Loop Conversas", "type": "main", "index": 0}]
+      ]
+    },
+    "Enviar Mensagem Chatwoot": {
+      "main": [[{"node": "Loop Conversas", "type": "main", "index": 0}]]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "instanceId": "0dff2809c326d67264ac89b11c62a81c0e33c81a110b2979fd152608e157400d"
+  },
+  "active": false,
+  "tags": []
+}

@@ -433,7 +433,7 @@ Agendamento realizado via DonnaBot
 | "A partir de" + pagou 20% do minimo | R$[valor do sinal] | A definir apos procedimento |
 
 **IMPORTANTE - PRECO FIXO:**
-- Se o servico tem preco FIXO (ex: Manicure esmaltacao tradicional R$52,50) e cliente pagou R$10,50 de sinal (20%)
+- Se o servico tem preco FIXO e cliente pagou sinal (20%)
 - Valor restante = R$52,50 - R$10,50 = R$42,00 (mostrar valor EXATO)
 - NUNCA usar "A definir" para preco fixo
 
@@ -441,11 +441,11 @@ Agendamento realizado via DonnaBot
 - Se o servico tem preco "a partir de" (ex: Mechas a partir de R$399)
 - Valor restante = "A definir apos procedimento" (porque o valor final depende da avaliacao)
 
-**Exemplo - Preco fixo (Manicure R$52,50):**
+**Exemplo - Preco fixo:**
 - Cliente pagou R$10,50 de sinal (20%) via PIX
 - Description: "...Valor pago: R$10,50\nValor restante: R$42,00\nAgendado via DonnaBoot"
 
-**Exemplo - "A partir de" (Mechas a partir de R$399):**
+**Exemplo - "A partir de":**
 - Cliente pagou R$79,80 de sinal (20% de R$399) via PIX
 - Description: "...Valor pago: R$79,80\nValor restante: A definir apos procedimento\nAgendado via DonnaBoot"
 
