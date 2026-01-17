@@ -1026,7 +1026,7 @@ SOMENTE apos verificar sucesso (id/htmlLink na resposta), confirme:
 
 - Endereco: Rua 2000 n 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneario Camboriu
 
-- Horario de funcionamento: Segunda a Sabado: 8h as 22h | Domingo: 9h as 22h
+- Horario de funcionamento: Segunda a Sabado: 8h as 21h | Domingo: 9h as 21h
 
 **SEMPRE incluir a POLITICA DE AGENDAMENTO apos os dados acima (texto definido no PASSO 6).**
 
