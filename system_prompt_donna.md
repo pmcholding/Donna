@@ -563,8 +563,8 @@ Estamos te aguardando ✨
 
 **IMPORTANTE - VALOR "A PARTIR DE":**
 - Para servicos com preco "a partir de", o pagamento e do valor MINIMO
-- **SEMPRE informar:** "**o valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço.
-- A diferenca sera cobrada APOS o procedimento**."
+- **SEMPRE informar:** "**o valor apresentado inicialmente é apenas uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço.
+- A diferenca sera cobrada após o procedimento**."
 
 **Chave PIX:**
 - Chave: donnasalaodebeleza@gmail.com
@@ -687,7 +687,7 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 
 
 ### PASSO 5 — CONFIRMAÇÃO DO AGENDAMENTO
-- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para finalizar posso encaminhar nosso procedimento de reserva? Sim ou Não”
+- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para finalizar, posso encaminhar nosso procedimento de reserva? Sim ou Não”
 - Ausência de confirmação
 - Caso não haja resposta dentro do prazo, enviar uma única vez:
 - Se cliente NAO confirmar em 5 segundos, pergunte **"Ficou alguma dúvida? Posso prosseguir com a confirmação do seu agendamento?"
@@ -707,11 +707,13 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "**Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
-**1.** Seu nome completo:
-**2.** Seu CPF válido:
-**3.** Pagamento de 20% via PIX como sinal para reserva do horário. Após pagar, envie o comprovante para confirmar o agendamento.
+
+**1.** Digite seu nome completo:
+**2.** Digite seu CPF:
+**3.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante para validarmos o seu agendamento.
 
 **Faça um pix para:**
+
 👉Pix: donnasalaodebeleza@gmail.com
 👉Nominal: Ivone Ap K
 
