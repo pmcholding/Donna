@@ -411,7 +411,7 @@ Solicitações devem ser feitas com mínimo de 12 horas de antecedência, sujeit
 - **Nunca criar agendamento sem comprovante de pagamento**
 - Se cliente enviar nome e CPF mas NAO enviar comprovante:
 - O envio de nome e CPF não substitui o comprovante do PIX
-- "Para confirmar e garantir a reserva do seu horário, preciso do comprovante do pagamento via PIX, por gentileza.."
+- "Para confirmar e garantir a reserva do seu horário, preciso apenas do comprovante do pagamento via PIX, por gentileza.."
 -Criação do agendamento somente após o recebimento e validação do comprovante PIX
 - Executar Criar Agendamento
 - **SOMENTE apos receber comprovante**, usar **Criar Agendamento**
