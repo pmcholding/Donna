@@ -267,7 +267,6 @@ Mensagem inicial:
 
 
 REGRAS DE EXECUÇÃO:
-Para prosseguirmos com seu atendimento, poderia informar seu nome, por gentileza?
 Se a cliente informar nome + serviço na mesma mensagem
 (Ex.: “Oi, sou Maria, quero escova”)
 NÃO repetir saudação
