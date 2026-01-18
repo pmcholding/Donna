@@ -377,7 +377,7 @@ Se a cliente responder, retomar o fluxo normalmente, sem repetir o aviso.
 ### PASSO 6 — DADOS + PAGAMENTO VIA PIX (OBRIGATÓRIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
-**💖 Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
+**💖 Para confirmar e garantir o agendamento do seu horário, siga as instruções abaixo**
 
 **1.** Digite nome completo e CPF
 **2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante neste whatsapp para validarmos o seu agendamento.
