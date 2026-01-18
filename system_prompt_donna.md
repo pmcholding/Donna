@@ -379,9 +379,8 @@ Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "**Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
 
-**1.** Digite seu nome completo:
-**2.** Digite seu CPF:
-**3.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante para validarmos o seu agendamento.
+**1.** Digite seu nome completo e CPF:
+**2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante para validarmos o seu agendamento.
 
 **Faça um pix para:**
 
