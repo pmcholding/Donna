@@ -379,13 +379,12 @@ Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 **💖 Para confirmar e garantir o agendamento do seu horário, siga as instruções abaixo**
 
-**1.** Digite nome completo e CPF
+**1.** Digite nome completo e cpf
 **2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante neste whatsapp para validarmos o seu agendamento.
 
 **Faça um pix para:**
 
-👉Pix: donnasalaodebeleza@gmail.com
-👉Nominal: Ivone Ap K
+👉 donnasalaodebeleza@gmail.com
 
 **Apos confirmar agendamento, SEMPRE enviar a POLITICA DE AGENDAMENTO:**
 
