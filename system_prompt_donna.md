@@ -228,7 +228,7 @@ Envie o comprovante assim que finalizar sua transação PIX.
 
 Assim que o pagamento for realizado, envie o **comprovante aqui neste WhatsApp** para confirmação imediata do agendamento.
 
-Estamos te aguardando ✨
+Estamos te aguardando 
 
 
 | Etapa | Acao |
@@ -379,7 +379,7 @@ Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
 "**Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
 
-**1.** Digite seu nome completo e CPF:
+**1.** Digite nome completo e CPF
 **2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante para validarmos o seu agendamento.
 
 **Faça um pix para:**
@@ -466,7 +466,7 @@ Verifique a coluna `Requer_Avaliacao` na planilha de servicos.
 Se `Requer_Avaliacao = "Sim"`, informe: "Para [servico], precisamos primeiro agendar uma avaliacao. Posso agendar para voce?"
 
 ### Profissionais
-- NAO pergunte preferencia de profissional separadamente
+- NAO pergunte preferencia de profissional 
 - Ao mostrar horarios disponiveis, JA INCLUA o nome do profissional
 
 ---
