@@ -376,7 +376,7 @@ Somente apos cliente confirmar, pedir:
 **💖 Para confirmar e garantir o agendamento do seu horário, siga as instruções abaixo**
 
 **1.** Digite nome completo e cpf
-**2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. 
+**2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para agendamento. 
 **3.** Envie o comprovante neste whatsapp para validarmos o seu agendamento.
 
 **Faça um pix para:**
