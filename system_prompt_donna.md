@@ -384,7 +384,7 @@ Somente apos cliente confirmar, pedir:
 
 **Faça um pix para:**
 
-👉 donnasalaodebeleza@gmail.com
+donnasalaodebeleza@gmail.com
 
 **Apos confirmar agendamento, SEMPRE enviar a POLITICA DE AGENDAMENTO:**
 
