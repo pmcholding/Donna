@@ -383,7 +383,6 @@ Somente apos cliente confirmar, pedir:
 **2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante neste whatsapp para validarmos o seu agendamento.
 
 **Faça um pix para:**
-
 donnasalaodebeleza@gmail.com
 
 **Apos confirmar agendamento, SEMPRE enviar a POLITICA DE AGENDAMENTO:**
