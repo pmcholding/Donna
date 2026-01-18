@@ -377,10 +377,10 @@ Se a cliente responder, retomar o fluxo normalmente, sem repetir o aviso.
 ### PASSO 6 — DADOS + PAGAMENTO VIA PIX (OBRIGATÓRIO)
 Mensagem de reforço de confiança (opcional – alta conversão):
 Somente apos cliente confirmar, pedir:
-"**Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
+**💖 Para confirmar e garantir a reserva do seu horário, siga as instruções abaixo**
 
 **1.** Digite nome completo e CPF
-**2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante para validarmos o seu agendamento.
+**2.** Efetue o pagamento de 20% do valor via PIX, a título de sinal para reserva do horário. Após a confirmação do pagamento, envie o comprovante neste whatsapp para validarmos o seu agendamento.
 
 **Faça um pix para:**
 
@@ -389,20 +389,19 @@ Somente apos cliente confirmar, pedir:
 
 **Apos confirmar agendamento, SEMPRE enviar a POLITICA DE AGENDAMENTO:**
 
-"POLÍTICA DE AGENDAMENTO e PAGAMENTO:
+**Política de agendamento e pagamento:**
 
-📅 Reserva de Horário / Pagamento:
-O agendamento só é válido após o pagamento do sinal. Sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC.
+📅 **Agendamento:** só será realizado após o pagamento do sinal e envio do comprovante.
 
-🕒 Pontualidade:
-Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
+💳 **Pagamento:** o agendamento só é válido após o pagamento do sinal. Sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC.
 
-🗓️ Reagendamentos:
-Solicitações devem ser feitas com mínimo de 12 horas de antecedência, sujeitas à disponibilidade da agenda.
+🕒 **Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
 
-💰 O valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+🗓️ **Reagendamentos:** solicitações devem ser feitas com mínimo de 12 horas de antecedência, sujeitas à disponibilidade da agenda.
 
-🔒 Os dados pessoais são utilizados apenas para cadastro, atendimento e segurança, em conformidade com a LGPD, respeitando os princípios da transparência, boa-fé e dever de informação, nos termos do art. 6º, III, do CDC e 421 e 422 do Código Civil."
+💰 **Valor:** o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+
+🔒 **CPF:** os dados pessoais são utilizados apenas para cadastro, atendimento e segurança, em conformidade com a LGPD, respeitando os princípios da transparência, boa-fé e dever de informação, nos termos do art. 6º, III, do CDC e 421 e 422 do Código Civil."
 
 
 
