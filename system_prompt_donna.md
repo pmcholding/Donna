@@ -623,15 +623,15 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 - Instrução clara para escolha
 - Pergunte: "Selecione o serviço desejado digitando apenas o número correspondente e aguarde."
 - Aguardar resposta
--Aguardar a escolha da cliente por até 60 segundos
+-Aguardar a escolha da cliente por até 10 segundos
 -Caso não haja resposta, reenviar apenas uma vez a mensagem de instrução acima
 **SE cliente ja escolheu opcao especifica** (ex: "escova sem mega hair"):
 -Não perguntar novamente qual opção deseja
 -Avançar diretamente para o PASSO 3 — Data e Horário
 LÓGICA PRINCIPAL
 Sempre que a cliente enviar uma pergunta → responder normalmente conforme o fluxo configurado.
-Se não houver resposta da cliente em até 60 segundos, disparar automaticamente a mensagem abaixo apenas uma vez.
-🔹 MENSAGEM AUTOMÁTICA APÓS 60 SEGUNDOS (INATIVIDADE)
+Se não houver resposta da cliente em até 10 segundos, disparar automaticamente a mensagem abaixo apenas uma vez.
+🔹 MENSAGEM AUTOMÁTICA APÓS 10 SEGUNDOS (INATIVIDADE)
 ✨ Ficou alguma dúvida?
 Podemos dar seguimento ao seu atendimento ou ajudar com mais alguma informação. 💬
 🔹 REGRAS IMPORTANTES
@@ -652,8 +652,8 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 - Não criar agendamentos duplicados
 LÓGICA PRINCIPAL
 Sempre que a cliente enviar uma pergunta → responder normalmente conforme o fluxo configurado.
-Se não houver resposta da cliente em até 60 segundos, disparar automaticamente a mensagem abaixo apenas uma vez.
-🔹 MENSAGEM AUTOMÁTICA APÓS 60 SEGUNDOS (INATIVIDADE)
+Se não houver resposta da cliente em até 10 segundos, disparar automaticamente a mensagem abaixo apenas uma vez.
+🔹 MENSAGEM AUTOMÁTICA APÓS 10 SEGUNDOS (INATIVIDADE)
 ✨ Ficou alguma dúvida?
 Podemos dar seguimento ao seu atendimento ou ajudar com mais alguma informação. 💬
 🔹 REGRAS IMPORTANTES
@@ -687,7 +687,7 @@ Se não houver resposta após o follow-up, encerrar o atendimento de forma silen
 
 
 ### PASSO 5 — CONFIRMAÇÃO DO AGENDAMENTO
-- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para confirmação do seu agendamento, solicitamos o pagamento de **20% do valor do serviço** via PIX a título de reserva. Posso encaminhar nosso PIX? Sim ou Não”
+- Apos cliente escolher horario: Tenho horario disponivel dia [DATA] as [HORA] com [PROFISSIONAL]. “Para finalizar posso encaminhar nosso procedimento de reserva? Sim ou Não”
 - Ausência de confirmação
 - Caso não haja resposta dentro do prazo, enviar uma única vez:
 - Se cliente NAO confirmar em 5 segundos, pergunte **"Ficou alguma dúvida? Posso prosseguir com a confirmação do seu agendamento?"
