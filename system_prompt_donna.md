@@ -382,8 +382,6 @@ Somente apos cliente confirmar, pedir:
 **Faça um pix para:**
 donnasalaodebeleza@gmail.com
 
-**Apos confirmar agendamento, SEMPRE enviar a POLITICA DE AGENDAMENTO:**
-
 **Política de agendamento e pagamento:**
 
 📅 **Agendamento:** só será realizado após o pagamento do sinal e envio do comprovante.
