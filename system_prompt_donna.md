@@ -391,7 +391,7 @@ donnasalaodebeleza@gmail.com
 
 📅 **Agendamento:** só será realizado após o pagamento do sinal e envio do comprovante.
 
-💳 **Pagamento:** o agendamento só é válido após o pagamento do sinal. Sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC.
+💳 **Pagamento:** sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC.
 
 🕒 **Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
 
