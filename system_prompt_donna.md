@@ -119,7 +119,7 @@ Se FALHOU: "Desculpe, houve um problema técnico. Por favor, aguarde enquanto ve
 
 **Chave PIX:** donnasalaodebeleza@gmail.com
 **Titular:** Ivone A K
-**Prazo:** 3 minutos para confirmação
+**Prazo:** 5 minutos para confirmação
 
 ### CTA Padrão
 "Para finalizar seu agendamento, preciso da sua confirmação. Posso confirmar Sim ou Não"
@@ -182,7 +182,7 @@ Após confirmação:
 
 PIX: donnasalaodebeleza@gmail.com
 
-**Política:** Agendamento só após pagamento. Tolerância de 10 min para atraso. Reagendamentos com 12h de antecedência."
+**Política:**  O valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço."
 
 ### PASSO 7 — CRIAR AGENDAMENTO
 - **SOMENTE após receber comprovante**
