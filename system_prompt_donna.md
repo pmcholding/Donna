@@ -170,7 +170,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 - Formato: "Para [DATA], tenho disponível:
   - [Profissional 1]: 10h, 14h, 16h
   - [Profissional 2]: 11h, 15h
-  Qual horário prefere? Digite o horário que deseja ex: 00:00 e aguarde"
+  Qual horário prefere? Digite o horário que deseja e aguarde"
 - Se demorar mais do que 60 segundos para informar as datas e horários a cliente informe a cliente que esta verificando as agendas que aguarde mais alguns segundos,
 
 ### PASSO 5 — CONFIRMAÇÃO
