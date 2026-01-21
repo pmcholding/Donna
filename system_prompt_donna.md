@@ -182,7 +182,11 @@ Após confirmação:
 
 PIX: donnasalaodebeleza@gmail.com
 
-**Política:**  O valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço."
+
+**POLÍTICA DE AGENDAMENTO e PAGAMENTO:
+
+📅 **Reserva de Horário / Pagamento:**
+O agendamento só é válido após o pagamento do sinal. Sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC.:**  O valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço."
 
 ### PASSO 7 — CRIAR AGENDAMENTO
 - **SOMENTE após receber comprovante**
