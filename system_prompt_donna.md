@@ -183,7 +183,10 @@ Após confirmação:
 
 **PIX:** donnasalaodebeleza@gmail.com
 
-**Valor a ser depositado:** 20% (
+**Valor a ser depositado:** 20% 
+Valor pago (PIX): R$ [Valor]
+Valor restante: R$ [Valor] ou "A definir após procedimento"
+
 
 **Nossa Política:**
 
