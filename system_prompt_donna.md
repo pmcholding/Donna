@@ -297,6 +297,7 @@ Verificar coluna `Requer_Avaliacao`. Se "Sim": "Para [serviço], precisamos prim
 SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 **Dados do seu atendimento:**
+
 - Cliente: [nome]
 - CPF: [cpf]
 - Serviço: [serviço]
@@ -306,6 +307,16 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Valor pago (PIX): R$[valor]
 - Valor restante: R$[valor] ou "A definir após procedimento"
 - Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Centro, Balneário Camboriú
+
+📅 **Política de agendamento:**
+
+🕒 **Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
+
+🗓️ **Reagendamentos**: solicitações devem ser feitas com mínimo de 12 horas de antecedência, sujeitas à disponibilidade da agenda.
+
+💰 **Valor**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+
+🔒 **Dados**: Os dados pessoais são utilizados apenas para cadastro, atendimento e segurança, em conformidade com a LGPD, respeitando os princípios da transparência, boa-fé e dever de informação, nos termos do art. 6º, III, do CDC e 421 e 422 do Código Civil.
 
 ---
 
