@@ -288,22 +288,6 @@ Agendamento via DonnaBot
 
 ---
 
-## CATEGORIAS DE SERVIÇOS
-
-**Cabelos:** Mechas, Luzes, Correção de cor, Escova, Corte, Tratamentos, Alisamento, Progressiva, Botox, Selagem, Tonalização, Penteados
-
-**Unhas:** Manicure (tradicional, gel, francesinha), Pedicure, Alongamento, Blindagem, Spa dos pés
-
-**Cílios:** Extensão, Volume Brasileiro/Egípcio/Indiano/Russo, Fox Eyes, Mega Volume
-
-**Sobrancelhas:** Design, Brow Lamination, Micropigmentação
-
-**Lábios:** Micropigmentação (HidraLips, Henna Lips, Efeito Batom)
-
-**Maquiagem:** Make Express, Social, Noiva, Smokey eyes, BB Glow, BB Lips
-
----
-
 ## SITUAÇÕES ESPECIAIS
 
 ### Cancelamento
