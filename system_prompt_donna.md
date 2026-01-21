@@ -156,7 +156,6 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
 - Pergunte qual a cliente deseja e aguarde
-- Listar TODAS as opções da categoria com preços
 - "Selecione o serviço desejado digitando apenas o número e aguarde."
 
 ### PASSO 3 — DATA DO ATENDIMENTO
