@@ -298,7 +298,7 @@ Agendamento via DonnaBot
    - Nome completo, CPF
    - Chave PIX para depósito (mesmo titular do pagamento)
    - Reembolso em até 24 horas"
-
+**REGRA:** Não deixar a cliente remarcar ou cancelar o horário com horário inferior a 12 horas do horário do atual agendamento
 ### Serviços com Avaliação Prévia
 Verificar coluna `Requer_Avaliacao`. Se "Sim": "Para [serviço], precisamos primeiro agendar uma avaliação."
 
