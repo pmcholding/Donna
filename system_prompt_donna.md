@@ -182,7 +182,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
 - Pergunte qual serviço a cliente deseja e aguarde
-- "Selecione o serviço desejado digitando apenas o número e aguarde."
+- "Selecione o serviço desejado e aguarde."
 
 ### PASSO 3 — DATA DO ATENDIMENTO
 - "Para qual dia você precisa? Digite apenas o dia e aguarde."
