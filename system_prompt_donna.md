@@ -324,7 +324,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Valor pago (PIX): R$[valor]
 - Valor restante: R$[valor] ou "A definir após procedimento"
 
-- Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Centro, Balneário Camboriú
+- Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
 **Nossa Política:**
 
