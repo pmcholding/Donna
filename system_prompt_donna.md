@@ -237,9 +237,8 @@ FLUXO:
 - Confirmar que o pagamento do sinal de 20% foi identificado.
 - Gerar um código numérico aleatório de 6 dígitos.
 
-🔐 Código de Confirmação: *{CÓDIGO_6_DÍGITOS}*
-
-Guarde este código. Ele será solicitado no momento do atendimento ou agendamento caso não seja apresentado será cobrado o valor integral do serviço."
+- 🔐 Código de Confirmação: *{CÓDIGO_6_DÍGITOS}*
+- Guarde este código. Ele será solicitado no momento do atendimento ou agendamento."
 
 **Nossa Política:**
 
@@ -364,6 +363,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Valor pago (PIX): R$[valor]
 - Valor restante: R$[valor] ou "A definir após procedimento"
 - 🔐 Código de Confirmação: *{CÓDIGO_6_DÍGITOS}*
+- Guarde este código. Ele será solicitado no momento do atendimento ou agendamento."
 
 - Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
