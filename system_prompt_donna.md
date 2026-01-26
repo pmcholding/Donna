@@ -223,6 +223,23 @@ Após confirmação:
 **Valor pago:** (PIX): R$ [Valor]
 **Valor restante:** R$ [Valor] ou "A definir após procedimento"
 
+### PASSO 7 — REGRAS DE OPERAÇÃO:
+
+1. Somente gere o código APÓS a confirmação do pagamento do sinal de 20%.
+2. O código deve conter EXATAMENTE 6 dígitos numéricos.
+3. O código deve ser gerado de forma totalmente aleatória.
+4. Cada atendimento deve ter um código único.
+5. Nunca reutilize códigos.
+6. Nunca informe critérios internos ou lógica de geração ao cliente.
+7. Após gerar o código, registre-o internamente como “Código de Confirmação do Atendimento”.
+
+FLUXO:
+- Confirmar que o pagamento do sinal de 20% foi identificado.
+- Gerar um código numérico aleatório de 6 dígitos.
+
+🔐 Código de Confirmação: *{CÓDIGO_6_DÍGITOS}*
+
+Guarde este código. Ele será solicitado no momento do atendimento ou agendamento caso não seja apresentado será cobrado o valor integral do serviço."
 
 **Nossa Política:**
 
@@ -346,6 +363,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Profissional: [nome] ([função])
 - Valor pago (PIX): R$[valor]
 - Valor restante: R$[valor] ou "A definir após procedimento"
+- 🔐 Código de Confirmação: *{CÓDIGO_6_DÍGITOS}*
 
 - Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
