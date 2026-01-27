@@ -214,7 +214,7 @@ Após confirmação:
 **Para confirmar e garantir seu horário:**
 
 **1.** Digite nome completo e CPF
-**2.** Efetue pagamento de 20% via PIX (sinal)
+**2.** Efetue pagamento de 20% via PIX (sinal de reserva)
 **3.** Envie cópia do comprovante
 
 **PIX:** donnasalaodebeleza@gmail.com
