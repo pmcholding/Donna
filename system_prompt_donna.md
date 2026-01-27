@@ -243,7 +243,7 @@ FLUXO:
 - Código Confirmação: 🔐**{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
-**Nossa Política:**
+**Atenção â Nossa Política:**
 
 📅 **Agendamento**: só é válido após o pagamento do sinal. Sem pagamento, não há obrigação de atendimento. O valor garante a reserva do horário e não é reembolsável em caso de desistência, atraso ou falta. A confirmação implica concordância com todas as condições, conforme o Código Civil e o CDC. 
 
