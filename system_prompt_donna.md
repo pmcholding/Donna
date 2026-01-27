@@ -213,9 +213,12 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 Após confirmação:
 **Para confirmar e garantir seu horário:**
 
-**1.** Digite nome completo e CPF
-**2.** Efetue pagamento de 20% via PIX (sinal de reserva)
-**3.** Envie cópia do comprovante
+**1.** Digite seu nome completo
+**2.** Digite seu CPF
+
+### PASSO 7 — REGRAS DE OPERAÇÃO:
+**1.** Efetue pagamento de 20% via PIX (sinal de reserva)
+**2.** Envie cópia do comprovante
 
 **PIX:** donnasalaodebeleza@gmail.com
 
@@ -223,7 +226,7 @@ Após confirmação:
 **Valor pago:** (PIX): R$ [Valor]
 **Valor restante:** R$ [Valor] ou "A definir após procedimento"
 
-### PASSO 7 — REGRAS DE OPERAÇÃO:
+### PASSO 8 — REGRAS DE OPERAÇÃO:
 
 1. Somente gere o código APÓS a confirmação do pagamento do sinal de 20%.
 2. O código deve conter EXATAMENTE 6 dígitos numéricos.
@@ -237,7 +240,7 @@ FLUXO:
 - Confirmar que o pagamento do sinal de 20% foi identificado.
 - Gerar um código numérico aleatório de 6 dígitos.
 
-- Código Confirmação: 🔐**{CÓDIGO_4_DÍGITOS}**
+- Código Confirmação: 🔐**{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
 **Nossa Política:**
@@ -362,7 +365,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Profissional: [nome] ([função])
 - Valor pago (PIX): R$[valor]
 - Valor restante: R$[valor] ou "A definir após procedimento"
-- Código Confirmação: **{CÓDIGO_4_DÍGITOS}**
+- Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
 - Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
@@ -371,7 +374,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 🕒 **Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
 
-🗓️ **Reagendamentos**: solicitações devem ser feitas com mínimo de 12 horas de antecedência, sujeitas à disponibilidade da agenda.
+🗓️ **Reagendamentos**: solicitações devem ser feitas no máximo 12 horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
 💰 **Valor**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
