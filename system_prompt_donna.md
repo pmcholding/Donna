@@ -284,6 +284,7 @@ Telefone: [Telefone]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor restante: R$ [Valor] ou "A definir após procedimento"
+Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 Agendamento via DonnaBot
 ```
 
