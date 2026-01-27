@@ -238,7 +238,7 @@ FLUXO:
 - Gerar um código numérico aleatório de 6 dígitos.
 
 - Código Confirmação: 🔐**{CÓDIGO_4_DÍGITOS}**
-- Guarde este código; pois ele será solicitado no momento do atendimento, agendamento ou pagamento."
+- Guarde este código. Ele será solicitado para atendimento."
 
 **Nossa Política:**
 
@@ -363,7 +363,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Valor pago (PIX): R$[valor]
 - Valor restante: R$[valor] ou "A definir após procedimento"
 - Código Confirmação: **{CÓDIGO_4_DÍGITOS}**
-- Guarde este código, pois ele será solicitado para atendimento ou agendamento."
+- Guarde este código. Ele será solicitado para atendimento."
 
 - Endereço: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
