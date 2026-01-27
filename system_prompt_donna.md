@@ -183,7 +183,7 @@ Após pagamento, envie o comprovante **aqui neste WhatsApp**."
 
 Para sua comodidade, permita-nos conduzir seu atendimento.
 
-**Para iniciarmos digite apenas seu nome e aguarde."**
+Para iniciarmos digite apenas seu nome e aguarde."
 
 Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 
