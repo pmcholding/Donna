@@ -242,7 +242,7 @@ Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante
 
 **PIX:** donnasalaodebeleza@gmail.com
 
-**Valor a ser depositado: **20% 
+**Valor a ser depositado:** 20% sinal 
 **Valor a ser pago: (PIX):** R$ [Valor]
 **Valor restante:** R$ [Valor] ou "A definir após procedimento"
 
