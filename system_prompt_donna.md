@@ -159,7 +159,7 @@ Qual horário prefere?"
 "Perfeito. Segue o PIX para confirmação:
 Chave: donnasalaodebeleza@gmail.com
 Prazo: [5] minutos.
-Após pagamento, envie o comprovante **aqui neste WhatsApp**."
+Após pagamento, envie o comprovante aqui neste WhatsApp."
 
 ### Após Pagamento Confirmado
 "Pagamento confirmado. Seu horário está reservado e confirmado."
@@ -244,7 +244,8 @@ Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante
 
 **Valor a ser depositado:** 20% sinal 
 **Valor a ser pago: (PIX):** R$ [Valor]
-**Valor restante:** R$ [Valor] ou "A definir após procedimento"
+**Valor restante:** R$ [Valor] ou "A definir após procedimento
+**Prazo para depósito:** 5 minutos"
 
 ### PASSO 8 — REGRAS DE OPERAÇÃO:
 
