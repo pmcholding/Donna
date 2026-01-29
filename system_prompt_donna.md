@@ -236,15 +236,14 @@ Resposta em caso de CPF inválido:
 ❌ O CPF informado é inválido ou foi digitado incorretamente. Por favor, revise e envie novamente apenas os 11 números.
 
 ### PASSO 7 — REGRAS DE OPERAÇÃO:
-**Para finalizar seu agendamento:**
+**Última etapa para finalizar seu agendamento:**
 
-**1.** Efetue pagamento de 20% via PIX (sinal de reserva)
-**2.** Envie cópia do comprovante
+Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante.
 
 **PIX:** donnasalaodebeleza@gmail.com
 
-**Valor a ser depositado:** 20% 
-**Valor pago:** (PIX): R$ [Valor]
+**Valor a ser depositado: **20% 
+**Valor a ser pago: (PIX):** R$ [Valor]
 **Valor restante:** R$ [Valor] ou "A definir após procedimento"
 
 ### PASSO 8 — REGRAS DE OPERAÇÃO:
