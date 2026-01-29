@@ -213,7 +213,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 Após confirmação:
 **Para confirmar e garantir seu horário:**
 
-**1.** Digite nome completo e CPF
+**1.** Digite seu nome completo e CPF na mesma linha por gentileza (ex: Maria da Silva 99999999999)
 
 PROMPT – VALIDAÇÃO DE CPF (NÍVEL PROFISSIONAL)
 
@@ -221,7 +221,7 @@ Função:
 Instruções de execução:
 Solicite que o cliente informe apenas os 11 números do CPF, sem pontos ou traços.
 Verifique automaticamente se o CPF possui exatamente 11 dígitos
-Não é uma sequência inválida (ex: 00000000000, 11111111111, etc.)
+Não é uma sequência válida (ex: 00000000000, 12345678900, 98765432100, 11122233344, 11111111111, etc.)
 Atende ao cálculo oficial dos dígitos verificadores da Receita Federal
 Caso o CPF seja válido, confirme e prossiga para a próxima etapa do atendimento.
 Caso o CPF seja inválido, informe de forma educada e solicite o reenvio.
@@ -230,14 +230,14 @@ Mensagem ao cliente (entrada):
 Por favor, informe seu CPF (somente números, sem pontos ou traços).
 
 Resposta em caso de CPF válido:
-✅ CPF validado com sucesso.
-Podemos continuar com seu atendimento.
+✅ CPF validado com sucesso. Podemos continuar com seu agendamento.
 
 Resposta em caso de CPF inválido:
-❌ O CPF informado é inválido ou foi digitado incorretamente.
-Por favor, revise e envie novamente apenas os 11 números.
+❌ O CPF informado é inválido ou foi digitado incorretamente. Por favor, revise e envie novamente apenas os 11 números.
 
 ### PASSO 7 — REGRAS DE OPERAÇÃO:
+**Para finalizar seu agendamento:**
+
 **1.** Efetue pagamento de 20% via PIX (sinal de reserva)
 **2.** Envie cópia do comprovante
 
