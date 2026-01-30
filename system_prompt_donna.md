@@ -263,7 +263,7 @@ FLUXO:
 - Confirmar que o pagamento do sinal de 20% foi identificado.
 - Gerar um código numérico aleatório de 6 dígitos.
 
-- Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
+- Seu código de confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
 **Atenção â Nossa Política:**
