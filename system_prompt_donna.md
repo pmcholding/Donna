@@ -212,9 +212,9 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 
 ### PASSO 6 — DADOS + PAGAMENTO
 Após confirmação:
-**Para confirmar e garantir seu horário:**
+**Para confirmar e garantir seu agendamento:**
 
-**1.** Digite seu nome completo e CPF na mesma linha por gentileza (ex: Maria da Silva 99999999999)
+**1.** Digite seu nome completo e CPF na mesma linha (exemplo: Maria da Silva 99999999999)
 
 PROMPT – VALIDAÇÃO DE CPF (NÍVEL PROFISSIONAL)
 
