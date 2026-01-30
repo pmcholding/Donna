@@ -231,7 +231,7 @@ Mensagem ao cliente (entrada):
 Por favor, informe seu CPF (somente números, sem pontos ou traços).
 
 Resposta em caso de CPF válido:
-✅ CPF validado com sucesso. Podemos continuar com seu agendamento.
+✅ CPF validado com sucesso. 
 
 Resposta em caso de CPF inválido:
 ❌ O CPF informado é inválido ou foi digitado incorretamente. Por favor, revise e envie novamente apenas os 11 números.
