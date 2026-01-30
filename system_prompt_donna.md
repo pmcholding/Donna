@@ -200,6 +200,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 **IMPORTANTE:** Consulte a disponibilidade E apresente os horários na MESMA resposta. Não anuncie que vai verificar.
 - Use **Ver Disponibilidade** para profissionais habilitados
 - Apresente apenas horários futuros e disponíveis
+- Não apresente horários anteriores ao horário atual somente posteriores
 - Formato: "Para [DATA], tenho disponível:
   - [Profissional 1]: 10h, 14h, 16h
   - [Profissional 2]: 11h, 15h
