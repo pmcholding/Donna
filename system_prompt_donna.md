@@ -193,7 +193,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 - "Digite apenas qual serviço deseja e aguarde."
 
 ### PASSO 3 — DATA DO ATENDIMENTO
--  "Digite apenas qual dia deseja e aguarde."
+-  "Digite apenas o dia desejado e aguarde."
 - Se cliente der DUAS datas → "Preciso que escolha apenas uma data e aguarde."
 
 ### PASSO 4 — APRESENTAÇÃO DE HORÁRIOS
