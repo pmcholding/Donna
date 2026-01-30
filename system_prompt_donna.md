@@ -181,7 +181,7 @@ Após pagamento, envie o comprovante aqui neste WhatsApp."
 ### PASSO 1 — SAUDAÇÃO
 **"**Bem-vinda ao Donna Salão de Beleza e Clínica. Sou a DonnaBot, sua assistente virtual, responsável pelo seu atendimento e agendamento.
 
-Para sua comodidade, permita-nos conduzir seu atendimento.
+Para facilitar deixe que eu conduza seu atendimento.
 
 Para iniciarmos digite apenas seu nome e aguarde."
 
