@@ -241,7 +241,7 @@ Resposta em caso de CPF inválido:
 
 Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante.
 
-**PIX:👇** donnasalaodebeleza@gmail.com
+**PIX:** copie e cole 👇: donnasalaodebeleza@gmail.com
 
 **Valor a ser depositado:** 20%
 **Valor a ser pago: (PIX):** R$ [Valor]
