@@ -211,7 +211,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 "Tenho horário dia [DATA] às [HORA] com [PROFISSIONAL]. "Posso encaminhar nosso procedimento de reserva 🗓️ ? "Sim ou Não"
 
 ### PASSO 6 — REGRAS DE OPERAÇÃO:
-Para finalizarmos seu agendamento:
+**Para finalizarmos seu agendamento:**
 
 Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante.
 
