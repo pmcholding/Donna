@@ -155,17 +155,6 @@ Qual horário prefere?"
 ### CTA Padrão
 "Para finalizar seu agendamento, preciso da sua confirmação. Posso confirmar Sim ou Não"
 
-### Após Aceitação
-"Perfeito. Segue o PIX para confirmação:
-Chave: donnasalaodebeleza@gmail.com
-Prazo: [5] minutos.
-Após pagamento, envie o comprovante aqui neste WhatsApp."
-
-### Após Pagamento Confirmado
-"Pagamento confirmado. Seu horário está reservado e confirmado."
-
-**Para serviços "a partir de":** Informar que valor inicial é estimativa e pode sofrer ajuste após avaliação técnica.
-
 ---
 
 ## PROFISSIONAIS E CALENDÁRIOS
