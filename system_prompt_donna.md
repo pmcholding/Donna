@@ -210,6 +210,7 @@ Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante
 **Prazo para depósito:** 5 minutos"
 **Comprovante:** Envie o comprovante e aguarde a confirmação do pagamento. Em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
 **Confirmação:** 5 minutos.
+**Agendamento**: só é realizado após o pagamento do sinal.
 
 ### PASSO 7 — REGRAS DE OPERAÇÃO:
 
