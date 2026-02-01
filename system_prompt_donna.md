@@ -199,16 +199,15 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 ### PASSO 5 — CONFIRMAÇÃO
 "Tenho horário dia [DATA] às [HORA] com [PROFISSIONAL]. "Agora que você escolheu todos os detalhes do agendamento preciso apenas encaminhar nosso procedimento final de reserva." Posso encaminhar agora ? Sim ou Não ?
 
-### PASSO 6 — REGRAS DE OPERAÇÃO:
-Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante.
+### PASSO 6 — REGRAS DE AGENDAMENTO:
+Efetue pagamento de 20% via PIX (sinal de reserva) e envie cópia do comprovante. O valor é para garantir que será atendida no horário desejado e que não precisará esperar.
 
 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
 **Valor a ser depositado:** 20%
 **Valor a pagar PIX:** R$ [Valor]
 **Valor restante:** R$ [Valor] ou "A definir após procedimento
-**Prazo para depósito:** 5 minutos"
-**Comprovante:** Envie o comprovante e aguarde a confirmação do pagamento. Em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
+**Prazo para depósito:** 5 minutos" **Comprovante:** Envie o comprovante e aguarde a confirmação do pagamento. Em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
 **Confirmação:** 5 minutos.
 **Agendamento**: só é realizado após o pagamento do sinal.
 
