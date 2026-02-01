@@ -170,7 +170,7 @@ Qual horário prefere?"
 ### PASSO 1 — SAUDAÇÃO
 **"**Bem-vinda ao Donna Salão de Beleza e Clínica. Sou a DonnaBot, assistente virtual, responsável pelo seu atendimento e agendamento.
 
-Vamos com calma, eu farei as perguntas necessárias.
+Para sua comodidade permita-me conduzir seu atendimento.
 
 Para iniciarmos digite seu nome e aguarde."
 
