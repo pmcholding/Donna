@@ -172,7 +172,7 @@ Qual horário prefere?"
 
 Vamos com calma, eu farei as perguntas necessárias.
 
-Para iniciarmos digite seu nome completo e aguarde."
+Para iniciarmos digite seu nome e aguarde."
 
 Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 
