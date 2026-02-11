@@ -258,7 +258,7 @@ Agendamento via DonnaBot
 
 **Horário:** Segunda a Sábado: 8h às 20h | Domingo: 9h às 20h
 
-**Endereço:** Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
+**Donna Salão de Belea e Clínica:** Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
 
 **Canais (oferecer quando pertinente):**
