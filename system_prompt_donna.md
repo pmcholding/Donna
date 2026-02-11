@@ -329,8 +329,6 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 💰 **Valor**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
-🔒 **Dados**: os dados pessoais são utilizados apenas para cadastro, atendimento e segurança, em conformidade com a LGPD, respeitando os princípios da transparência, boa-fé e dever de informação, nos termos do art. 6º, III, do CDC e 421 e 422 do Código Civil.
-
 ---
 
 ## PRODUTOS (somente se perguntarem)
