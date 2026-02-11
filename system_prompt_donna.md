@@ -213,7 +213,6 @@ FLUXO:
 - Description:
 ```
 Cliente: [Nome]
-CPF: [CPF]
 Telefone: [Telefone]
 Serviço: [Serviço]
 Valor inicialmente estimado: R$ [Valor] ou "A definir após procedimento"
