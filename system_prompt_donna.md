@@ -323,7 +323,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 **Atenção â Nossa Política:**
 
-🕒 **Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado, respeitando a agenda e a experiência das demais clientes.
+🕒 **Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
 
 🗓️ **Reagendamentos**: solicitações devem ser feitas no máximo 12 horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
