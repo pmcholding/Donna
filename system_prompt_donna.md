@@ -209,9 +209,9 @@ FLUXO:
 - Usar **Think** para verificar resultado
 
 **Formato do Agendamento:**
-- Summary: "[Nome Cliente] - [Serviço]" - **Pagar R$ [Valor]** **{CÓDIGO_6_DÍGITOS}**
+- Summary: "[Nome Cliente] - [Serviço]" - **Pagar R$ [Valor]** {CÓDIGO_6_DÍGITOS}
 - Description:
-```
+
 Cliente: [Nome]
 Telefone: [Telefone]
 Serviço: [Serviço]
@@ -258,7 +258,7 @@ Agendamento via DonnaBot
 
 **Horário:** Segunda a Sábado: 8h às 20h | Domingo: 9h às 20h
 
-**Donna Salão de Belea e Clínica:** Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
+**Donna Salão de Beleza e Clínica:** Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
 
 **Canais (oferecer quando pertinente):**
@@ -307,12 +307,11 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 **Dados do seu atendimento:**
 
 - Cliente: [nome]
-- CPF: [cpf]
 - Serviço: [serviço]
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
 - Profissional: [nome] ([função])
-- Valor inicialmente eatimado: R$[valor] ou "A definir após procedimento"
+- Valor inicialmente estimado: R$[valor] ou "A definir após procedimento"
 - Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
