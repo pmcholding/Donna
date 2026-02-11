@@ -201,7 +201,7 @@ FLUXO:
 - Seu código de confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
-**Atenção â Nossa Política:**
+**Atenção à Nossa Política:**
 
 💰 **Valor**: o valor apresentado inicialmente é uma estimativa e pode sofrer ajuste, reajuste ou acréscimo, de acordo com a avaliação individual de cada cliente, considerando fatores técnicos, complexidade do serviço, tempo necessário, quantidade de produto utilizado e condições específicas do atendimento. Qualquer alteração de valor será sempre informada previamente, garantindo transparência, alinhamento e autorização antes da execução do serviço."
 
