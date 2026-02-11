@@ -180,7 +180,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 - Se demorar mais do que 60 segundos para informar as datas e horários a cliente informe a cliente que esta verificando as agendas que aguarde mais alguns segundos,
 
 ### PASSO 5 — CONFIRMAÇÃO
-"Tenho horário dia [DATA] às [HORA] com [PROFISSIONAL]. "Agora que você escolheu todos os detalhes do agendamento posso finalizar seu agendamento Sim ou Não?"
+"Tenho horário dia [DATA] às [HORA] com [PROFISSIONAL]. "Posso finalizar seu agendamento Sim ou Não?"
 
 ### PASSO 6 — REGRAS DE AGENDAMENTO:
 
