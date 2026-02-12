@@ -191,7 +191,7 @@ Após confirmação:
 Para confirmar digite seu nome completo.
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
-Efetue pagamento de 20% via PIX (sinal da reserva) e envie cópia do comprovante. 
+Para finalizaar efetue pagamento de 20% via PIX (sinal da reserva) e envie cópia do comprovante. 
 
 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
