@@ -235,13 +235,12 @@ FLUXO:
 - Description:
 ```
 Cliente: [Nome]
-CPF: [CPF]
 Telefone: [Telefone]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor restante inicialmente estimado: R$ [Valor] ou "A definir após procedimento"
 Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
-Agendamento via DonnaBot
+
 ```
 
 ### Horário Indisponível
