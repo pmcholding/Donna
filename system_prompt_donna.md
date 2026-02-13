@@ -190,19 +190,16 @@ Para finalizaar efetue pagamento de 20% via PIX (sinal da reserva) e envie cópi
 **Confirmação:** 5 minutos.
 **Agendamento**: só é realizado após o pagamento do sinal.
 
+
 **Atenção à Nossa Política:**
 
 📅 **Agendamento**: 
 
-Somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário e profissionais. 
+Somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário e profissionais. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 12 horas de antecedência do horário agendado. O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
 
-O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. 
+💰 **Política de Orçamento e Ajuste de Valores**: 
 
-Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. 
-
-O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 12 horas de antecedência do horário agendado.O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
-
-💰 **Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+O valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
 
 ### PASSO 8— REGRAS DE OPERAÇÃO:
@@ -221,12 +218,6 @@ FLUXO:
 
 - Seu código de confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
-
-**Atenção â Nossa Política:**
-
-📅 **Agendamento**: somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 12 horas de antecedência do horário agendado.O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
-
-💰 **Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
 ### PASSO 8 — CRIAR AGENDAMENTO
 - **SOMENTE após receber comprovante**
@@ -306,6 +297,9 @@ Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
    - Nome completo, CPF
    - Chave PIX para depósito (mesmo titular do pagamento)
    - Reembolso em até 24 horas"
+
+### Cancelamento (Cancelamento de Horário)
+**REGRA INVIOLÁVEL:** Cliente só pode cancelar seu agendamento com mínimo de **12 horas** de antecedência.
 
 ### Reagendamento (Alteração de Horário)
 **REGRA INVIOLÁVEL:** Cliente só pode alterar agendamento com mínimo de **12 horas** de antecedência.
