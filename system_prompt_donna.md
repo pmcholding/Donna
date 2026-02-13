@@ -253,7 +253,7 @@ FLUXO:
 
 **Atenção â Nossa Política:**
 
-📅 **Agendamento**: somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor.
+📅 **Agendamento**: somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 12 horas de antecedência do horário agendado.O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
 
 💰 **Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
@@ -341,8 +341,10 @@ Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 
 **Fluxo:**
 1. Cliente pede para alterar/reagendar → Verificar horário do agendamento atual
+
 2. **Se faltam MENOS de 12 horas:** Recusar a alteração
-   - "Infelizmente não é possível alterar seu agendamento com menos de 12 horas de antecedência. Para alterações, solicitamos um prazo mínimo de 12 horas antes do horário marcado. Caso não possa comparecer, o valor do sinal não será reembolsado, conforme informado anteriormente em "Atenção à Nossa Política" nos dados do seu atendimento."
+   - "Alterações de Agendamento ou Cancelamento: devem ser solicitados com antecedência mínima de 12 horas do horário marcado. Solicitações realizadas fora desse prazo não poderão ser atendidas, em razão da reserva prévia do horário e disponibilidade do profissional. Em caso de não comparecimento ou cancelamento fora do prazo informado, o valor pago a título de sinal não será reembolsado, conforme política previamente informada e aceita no momento do agendamento em "Atenção à Nossa Política".
+
 3. **Se faltam 12 horas ou mais:** Prosseguir com o reagendamento
    - Deletar agendamento antigo
    - Seguir fluxo normal para novo agendamento (PASSO 3 em diante)
@@ -382,7 +384,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 🕒 **Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
 
-🗓️ **Reagendamentos**: solicitações devem ser feitas no máximo 12 horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
+🗓️ **Reagendamento ou Cancelamento**: solicitações devem ser feitas no máximo 12 horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
 💰 **Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
