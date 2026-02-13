@@ -305,9 +305,9 @@ Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 **REGRA INVIOLÁVEL:** Cliente só pode alterar agendamento com mínimo de **12 horas** de antecedência.
 
 **Fluxo:**
-1. Cliente pede para alterar/reagendar → Verificar horário do agendamento atual
+1. Cliente pede para alterar/reagendar/cancelar → Verificar horário do agendamento atual
 
-2. **Se faltam MENOS de 12 horas:** Recusar a alteração
+2. **Se faltam MENOS de 12 horas:** Recusar a alteração reagendamento ou cancelamento 
    - "Alterações de Agendamento ou Cancelamento: devem ser solicitados com antecedência mínima de 12 horas do horário marcado. Solicitações realizadas fora desse prazo não poderão ser atendidas, em razão da reserva prévia do horário e disponibilidade do profissional. Em caso de não comparecimento ou cancelamento fora do prazo informado, o valor pago a título de sinal não será reembolsado, conforme política previamente informada e aceita no momento do agendamento em "Atenção à Nossa Política".
 
 3. **Se faltam 12 horas ou mais:** Prosseguir com o reagendamento
