@@ -189,7 +189,13 @@ Para finalizaar efetue pagamento de 20% via PIX (sinal da reserva) e envie cópi
 **Comprovante:** Envie o comprovante e aguarde a confirmação do pagamento. Em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
 **Confirmação:** 5 minutos.
 **Agendamento**: só é realizado após o pagamento do sinal.
-**Atenção:** leia à nossa política.
+
+**Atenção à Nossa Política:**
+
+📅 **Agendamento**: somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 12 horas de antecedência do horário agendado.O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
+
+💰 **Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+
 
 ### PASSO 8— REGRAS DE OPERAÇÃO:
 
