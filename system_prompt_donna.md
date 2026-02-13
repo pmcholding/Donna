@@ -175,7 +175,7 @@ Se cliente informar nome + serviço juntos → Avançar direto para PASSO 2.
 
 ### PASSO 6 — DADOS + PAGAMENTO
 Após confirmação:
-Para confirmar digite seu nome completo.
+Para confirmar digite seu nome completo e aguarde.
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
 Para finalizaar efetue pagamento de 20% via PIX (sinal da reserva) e envie cópia do comprovante. 
