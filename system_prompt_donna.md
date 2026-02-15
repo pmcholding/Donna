@@ -238,8 +238,8 @@ Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 ```
 
 ### Horário Indisponível
-1. Ofereça horários próximos no MESMO dia nunca no próximo mês
-2. Se não servir, ofereça outro dia próximo
+1. Ofereça horários próximos no MESMO dia nunca no próximo mês.
+2. Se não servir, ofereça outro dia próximo.
 
 ---
 
@@ -275,7 +275,7 @@ Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 
 ## INFORMAÇÕES DO SALÃO
 
-**Horário:** Segunda a Sábado: 8h às 20h | Domingo: 9h às 20h
+**Horário de atendimento:** Segunda a Sábado: 8h às 20h | Domingo: 9h às 20h
 
 **Donna Salão de Beleza e Clínica:** Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
@@ -308,7 +308,7 @@ Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
    - Usar **Ver Disponibilidade** para localizar o evento (buscar pelo nome da cliente)
    - Usar **Deletar Agendamento** com o eventId encontrado
    - Verificar se a deleção foi bem-sucedida (resposta sem erro)
-   - Responder: "Seu agendamento para [DATA] às [HORA] com [PROFISSIONAL] foi cancelado ou reagendado. Conforme nossa política, o valor do sinal não é reembolsável. Caso deseje agendar novamente, será um prazer atendê-la."
+   - Responder: "Seu agendamento para [DATA] às [HORA] com [PROFISSIONAL] foi cancelado. Conforme nossa política, o valor do sinal não é reembolsável. Caso deseje agendar novamente, será um prazer atendê-la."
 
 **NUNCA:**
 - Oferecer reembolso ou devolução do sinal
