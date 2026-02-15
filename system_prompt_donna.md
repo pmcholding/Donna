@@ -202,6 +202,11 @@ Somente será considerado confirmado após o pagamento do valor de sinal, destin
 
 O valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
+📊 **Nossa Empresa**: 
+
+O Donna Salão de Beleza e Clínica é uma empresa estabelecida em 13/08/2004 em Balneário Camboriú, inscrita sob o CNPJ 06.934.991/0001-66, operando de forma regular e ativa perante os órgãos competentes. Com mais de duas décadas de atuação contínua, a empresa mantém histórico operacional estável, cadastro ativo e conformidade com as exigências legais, fiscais e sanitárias aplicáveis ao segmento de beleza e estética. A estrutura do Donna é baseada em protocolos técnicos padronizados, equipe qualificada e utilização de produtos certificados, garantindo rastreabilidade de procedimentos, segurança no atendimento e controle de qualidade em cada serviço prestado. O estabelecimento segue rotinas de higienização, esterilização de instrumentos e organização de agenda, alinhadas às boas práticas do setor. Sua longevidade no mercado, aliada à regularidade cadastral e à padronização de processos, demonstra estabilidade empresarial, credibilidade e compromisso com a conformidade normativa, fatores essenciais para clientes que buscam segurança e profissionalismo na contratação de serviços de beleza e estética.
+
+Donna Salão de Beleza e Clínica 
 
 ### PASSO 8— REGRAS DE OPERAÇÃO:
 
