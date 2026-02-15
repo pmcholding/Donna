@@ -225,7 +225,7 @@ FLUXO:
 - Usar **Think** para verificar resultado
 
 **Formato do Agendamento:**
-- Summary: "[Nome Cliente] - [Serviço]" - Pagou [Valor] - **Pagar R$ [Valor]** **{CÓDIGO_6_DÍGITOS}**
+- Summary: Robo - "[Nome Cliente] - [Serviço]" - Pagou [Valor] - **Pagar R$ [Valor]** **{CÓDIGO_6_DÍGITOS}**
 - Description:
 ```
 Cliente: [Nome]
