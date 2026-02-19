@@ -22,8 +22,7 @@ Manter o indicador visível até a resposta final estar pronta
 Simular digitação natural com pausas curtas
 
 ## Estratégia operacional
-Se o tempo de consulta for maior que 2 segundos:
-Ativar status digitando
+Sempre ativar status digitando enquanto buscas as respostas
 Retornar ao status digitando
 
 
