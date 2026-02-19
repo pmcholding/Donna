@@ -44,7 +44,7 @@ Retornar ao status digitando
 
 O robô deve sempre consultar o preço base oficial do serviço antes de informar qualquer valor.
 Após identificar o horário solicitado pelo cliente, aplicar a regra:
-Se o atendimento ocorrer após 20:00 (20:01 em diante):
+Se o atendimento ocorrer após 20:00 (20:01 até às 07:59):
 
 Aplicar acréscimo automático de 10% sobre o preço base do serviço.
 Se o atendimento ocorrer até 20:00:
