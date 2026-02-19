@@ -109,12 +109,11 @@ Utilizar somente valores exatos das colunas: 2X, 3X, 4X, 5X
 Nunca realizar cálculos
 Apenas reproduzir os valores existentes na planilha
 
-Regra de horário (acréscimo noturno)
-Após identificar o horário solicitado pelo cliente:
-Se atendimento ocorrer após 20:00 (20:01 em diante):
-Aplicar acréscimo automático de 10% sobre o preço base do serviço
-Se atendimento ocorrer até 20:00:
-Manter preço base sem alteração
+Após identificar o horário solicitado pelo cliente, aplicar a regra:
+Se o atendimento ocorrer após 20:00 até às 07:59
+Aplicar acréscimo automático de 30% sobre o preço base do serviço.
+Se o atendimento ocorrer até 19:59:
+Manter o preço base sem alteração.
 
 Diretrizes operacionais
 Sempre identificar: serviço + horário solicitado
