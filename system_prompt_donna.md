@@ -255,7 +255,7 @@ Para iniciarmos digite seu nome completo e aguarde.
 - Se demorar mais do que 60 segundos para informar as datas e horários a cliente informe a cliente que esta verificando as agendas que aguarde mais alguns segundos,
 
 ### PASSO 5 — CONFIRMAÇÃO
-"Tenho [DATA] às [HORA] com profissional [PROFISSIONAL]. "Agora que você escolheu seu dia, horário e profissional posso finalizar seu agendamento? Digite Sim ou Não e aguarde?"
+"Tenho [DATA] às [HORA] com profissional [PROFISSIONAL]. "Agora que você escolheu seu dia, horário e profissional posso finalizar seu agendamento? Digite: Sim ou Não e aguarde?"
 
 ### PASSO 6 — DADOS + PAGAMENTO
 Após confirmação:
