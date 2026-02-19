@@ -54,7 +54,6 @@ Preço final = Preço base + (Preço base × 30%) ou Preço final = Preço base 
 REGRAS OPERACIONAIS
 O cálculo deve ocorrer antes de apresentar o valor ao cliente.
 O robô deve informar o preço já corrigido, sem mostrar a fórmula matemática.
-Caso o cliente pergunte o motivo do valor maior, responder que existe acréscimo para horário especial/noturno.
 A regra vale para qualquer serviço realizado entre às 20:00 até às 07:59.
 Se houver múltiplos serviços, aplicar o acréscimo individualmente em cada item.
 Valores devem ser arredondados para duas casas decimais.
