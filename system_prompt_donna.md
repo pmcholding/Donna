@@ -313,7 +313,7 @@ FLUXO:
 - Usar **Think** para verificar resultado
 
 **Formato do Agendamento:**
-- Summary: [Nome Cliente] - [Serviço] - Pagou [Valor] - Pagar R$ [Valor]
+- [Nome Cliente] - [Serviço] - Pagou [Valor] - Pagar R$ [Valor]
 - Description:
 ```
 Cliente: [Nome]
