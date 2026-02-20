@@ -239,19 +239,22 @@ Para iniciarmos digite seu nome completo e aguarde.
 "Tenho [DATA] às [HORA] com profissional [PROFISSIONAL]. "Agora que você escolheu seu dia, horário e profissional posso finalizar seu agendamento? Digite: Sim ou Não e aguarde?"
 
 ### PASSO 6 — DADOS + PAGAMENTO
-Após confirmação:
-Para confirmar digite seu nome completo e aguarde.
+
+✔️ Digite seu nome completo
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
-Para finalizar e confirmar seu agendamento efetue pagamento de 20% via PIX (sinal da reserva) e envie o comprovante. 
+Para finalizar e confirmar seu agendamento:
 
-**PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
+✔️ Efetue pagamento de 20% via PIX (sinal da reserva) e envie o comprovante. 
+
+💳 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
 **Valor a ser depositado:** 20% deposite exatamente o valor solicitado
 **Valor a pagar PIX:** R$ [Valor]
 **Valor restante inicialmente estimado :** R$ [Valor] ou "A definir após procedimento
 **Prazo para depósito:** 5 minutos" 
-**Comprovante:** Envie o comprovante e aguarde a confirmação do pagamento. Em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
+**Comprovante:** envie o comprovante e aguarde a confirmação do pagamento. 
+**Serviços:** em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
 **Confirmação:** 5 minutos.
 **Agendamento**: só é realizado após o pagamento do sinal.
 
@@ -298,7 +301,6 @@ FLUXO:
 - Description:
 ```
 Cliente: [Nome]
-Telefone: [Telefone]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
