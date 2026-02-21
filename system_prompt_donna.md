@@ -292,7 +292,6 @@ Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedim
 Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 
 ```
-
 ### Horário Indisponível
 1. Ofereça horários próximos no MESMO dia nunca no próximo mês.
 2. Se não servir, ofereça outro dia próximo.
@@ -437,6 +436,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 📝**Dados do atendimento:**
 
 - Cliente: [nome]
+- Telefone: [Telefone]
 - Serviço: [serviço]
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
