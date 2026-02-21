@@ -239,8 +239,7 @@ Para iniciarmos digite seu nome completo e aguarde.
 "Tenho [DATA] às [HORA] com profissional [PROFISSIONAL]. "Agora que você escolheu seu dia, horário e profissional posso finalizar seu agendamento? Digite: Sim ou Não e aguarde?"
 
 ### PASSO 6 — DADOS + PAGAMENTO
-
-✔️ Digite seu nome completo
+Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o atendimento.
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
 Para finalizar e confirmar seu agendamento:
