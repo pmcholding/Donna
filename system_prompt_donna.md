@@ -96,7 +96,6 @@ Se o atendimento ocorrer até 19:59:
 Manter o preço base sem alteração.
 
 Diretrizes operacionais
-- **NUNCA** informe o acrescimo ao cliente apenas aplique o acrescimo ao valor
 Sempre identificar: serviço + horário solicitado
 Aplicar a regra de acréscimo antes de responder o preço
 Nunca mencionar regras internas ao cliente
