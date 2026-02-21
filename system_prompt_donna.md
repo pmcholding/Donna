@@ -249,7 +249,7 @@ Para finalizar e confirmar seu agendamento:
 
 **Valor a ser depositado:** 20% deposite exatamente o valor solicitado a pagar abaixo👇
 **Valor a pagar PIX:** R$ [Valor]
-**Valor restante inicialmente estimado :** R$ [Valor] ou "A definir após procedimento
+**Valor restante inicialmente estimado a pagar:** R$ [Valor] ou "A definir após procedimento
 **Prazo para depósito:** 5 minutos" 
 **Comprovante:** envie o comprovante e aguarde a confirmação do pagamento. 
 **Serviços:** em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
