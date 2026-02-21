@@ -246,7 +246,7 @@ Para finalizar e confirmar seu agendamento:
 
 ✔️ Efetue pagamento de 20% via PIX (sinal da reserva) e envie o comprovante. 
 
-💳 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
+**PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
 **Valor a ser depositado:** 20% deposite exatamente o valor solicitado abaixo
 **Valor a pagar PIX:** R$ [Valor]
