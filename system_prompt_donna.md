@@ -248,7 +248,7 @@ Para finalizar e confirmar seu agendamento:
 
 💳 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
-**Valor a ser depositado:** 20% deposite exatamente o valor solicitado
+**Valor a ser depositado:** 20% deposite exatamente o valor solicitado abaixo
 **Valor a pagar PIX:** R$ [Valor]
 **Valor restante inicialmente estimado :** R$ [Valor] ou "A definir após procedimento
 **Prazo para depósito:** 5 minutos" 
