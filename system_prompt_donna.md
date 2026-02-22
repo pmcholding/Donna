@@ -455,7 +455,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 🕒**Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
 
-🗓️**Reagendamento ou Cancelamento**:** solicitações devem ser feitas no máximo 6horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
+🗓️**Reagendamento ou Cancelamento:** solicitações devem ser feitas no máximo 6horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
 💰**Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
