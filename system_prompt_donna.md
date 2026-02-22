@@ -463,7 +463,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 Seu horário está reservado com prioridade. Permanecemos à disposição para qualquer ajuste ou esclarecimento que desejar.
 
-Será um prazer recebê-la em breve.
+Será um prazer recebê-la.
 
 ---
 
