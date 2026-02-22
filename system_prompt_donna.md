@@ -433,6 +433,7 @@ Verificar coluna `Requer_Avaliacao`. Se "Sim": "Para [serviço], precisamos prim
 SOMENTE após verificar sucesso (id/htmlLink na resposta):
 **REGRA:** Sempre enviar a confirmação do agendamento após a confirmação do recebimento PIX.
 
+
 📝**Dados do atendimento:**
 
 - Cliente: [nome]
