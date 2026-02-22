@@ -280,8 +280,9 @@ FLUXO:
 - **SOMENTE após receber comprovante**
 - Usar **Think** para verificar resultado
 
-**Formato do Agendamento:**
-- [Serviço] - [Nome Cliente] - Pagou [Valor] - Pagar R$ [Valor]
+ **Formato do Agendamento:**
+- [Nome Cliente] - [Serviço] - Pagou [Valor] - Pagar R$ [Valor]
+
 - Description:
 ```
 Cliente: [Nome]
