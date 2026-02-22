@@ -227,7 +227,7 @@ Para iniciarmos digite seu nome completo e aguarde.
 Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o atendimento.
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
-Para finalizar e confirmar seu agendamento:
+**Perfeito chegamos ao final agora para finalizar e confirmar seu agendamento:**
 
 💳 Efetue pagamento de 20% via PIX e envie o comprovante. 
 
