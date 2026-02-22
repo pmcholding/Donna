@@ -281,11 +281,10 @@ FLUXO:
 - Usar **Think** para verificar resultado
 
 **Formato do Agendamento:**
-- [Nome Cliente] - [Serviço] - Pagou [Valor] - Pagar R$ [Valor]
+- [Serviço] - [Nome Cliente] - Pagou [Valor] - Pagar R$ [Valor]
 - Description:
 ```
 Cliente: [Nome]
-Telefone: [Telefone]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
