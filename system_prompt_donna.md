@@ -459,6 +459,12 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 💰**Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
+🙏 É uma satisfação confirmar seu agendamento no **Donna Salão de Beleza e Clínica**. Preparamos cada detalhe para que sua experiência seja marcada por excelência, conforto e resultados à altura das suas expectativas.
+
+Seu horário está reservado com prioridade. Permanecemos à disposição para qualquer ajuste ou esclarecimento que desejar.
+
+Será um prazer recebê-la em breve.
+
 ---
 
 ## PRODUTOS (somente se perguntarem)
