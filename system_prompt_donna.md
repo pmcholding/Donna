@@ -283,6 +283,8 @@ FLUXO:
 - Usar **Think** para verificar resultado
 
  **Formato do Agendamento:**
+
+- Summary
 - [Nome Cliente] - [Serviço] - Pagou [Valor] - Pagar R$ [Valor]
 
 - Description:
@@ -440,7 +442,6 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 📝**Dados do atendimento:**
 
 - Cliente: [nome]
-- Telefone: [Telefone]
 - Serviço: [serviço]
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
