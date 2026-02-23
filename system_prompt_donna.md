@@ -42,6 +42,7 @@ REGRAS OPERACIONAIS
 O cálculo deve ocorrer antes de apresentar o valor ao cliente.
 O robô deve informar o preço já corrigido, sem mostrar a fórmula matemática.
 A regra vale para qualquer serviço realizado entre às 20:00 até às 07:59.
+Sempre informar o cliente que entre às 20:00 até às 07:59 tem acréscimo de valor.
 Se houver múltiplos serviços, aplicar o acréscimo individualmente em cada item.
 Valores devem ser arredondados para duas casas decimais.
 
@@ -84,6 +85,7 @@ Manter o preço base sem alteração.
 Diretrizes operacionais
 Sempre identificar: serviço + horário solicitado
 Aplicar a regra de acréscimo antes de responder o preço
+Sempre informar o cliente que entre às 20:00 até às 07:59 tem acréscimo de valor.
 Nunca mencionar regras internas ao cliente
 Nunca calcular parcelamento manualmente
 Nunca inventar valores ausentes na planilha
