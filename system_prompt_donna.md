@@ -494,7 +494,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Horário: [hora início] às [hora fim]
 - Profissional: [nome] ([função])
 - Valor pago (PIX): R$ [Valor]
-- Valor restante a pagar inicialmente estimado: 👇 R$ [Valor] ou "A definir após procedimento 
+- Valor restante a pagar inicialmente estimado  : R$ [Valor] ou "A definir após procedimento 
 - Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
