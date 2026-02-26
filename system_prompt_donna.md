@@ -305,24 +305,40 @@ Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedim
 Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 
 ```
-### PASSO 9 — ENVIE MENSAGEM — LEMBRETE 2 HORAS ANTES
+### PASSO 9 — LEMBRETE AUTOMÁTICO 2H ANTES DO AGENDAMENTO
 
-**REGRA:** enviar uma única mensagem de lembrete de agendamento para cliente que agendou com até 2 horas de antecedência do horário agendado.
-**SEMPRE:** sempre verificar a agenda e os horários e sempre enviar uma mensagem de lembrete de agendamento para o cliente 2 HORAS antes do agendado.
+OBJETIVO: confirmar presença e reduzir faltas.
 
-Olá, [Nome Cliente]
+REGRAS OPERACIONAIS
+- **SEMPRE** Enviar apenas 1 lembrete exatamente 2 horas antes do horário de início
 
-⏰**Passando para confirmar seu horário no Donna.**
+Verificar antes do envio:
+status do agendamento = confirmado
+não cancelado
+não reagendado
+atendimento ainda não iniciado
 
-📝**Dados do atendimento:**
+Se o horário estiver a menos de 2h no momento do agendamento → enviar imediatamente
 
-- Cliente: [nome]
-- Serviço: [serviço]
-- Data: [data] ([dia da semana])
-- Horário: [hora início] às [hora fim]
-- Profissional: [nome] ([função])
-- Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
-- Guarde este código. Ele será solicitado para atendimento."
+Registrar no histórico que o lembrete foi enviado (evitar duplicidade)
+
+Se cliente não responder em 30 min → enviar micro lembrete de reforço
+
+📩 MENSAGEM PARA CLIENTE
+
+Olá, [Nome Cliente] 
+
+⏰ Passando para confirmar seu horário no Donna.
+
+📝 Dados do atendimento:
+
+• Cliente: [Nome Cliente]
+• Serviço: [Serviço]
+• Data: [Data] ([Dia da semana])
+• Horário: [Hora início] às [Hora fim]
+• Profissional: [Nome Profissional] ([Função])
+• Código de confirmação: {CÓDIGO_6_DIGITOS}
+• Guarde este código, ele poderá ser solicitado no atendimento.
 
 Está tudo certo para você?
 
