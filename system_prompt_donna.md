@@ -488,7 +488,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 ---
 🙏 **Donna Salão de Beleza e Clínica*
 
-📝**Dados do Agendamento:**
+📝 **Dados do Agendamento:**
 
 - Cliente: [nome]
 - Serviço: [serviço]
@@ -500,17 +500,17 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
-📌**Nosso endereço:**
+**📌 Nosso endereço:**
 
 - Donna Salão de Beleza e Clínica: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
 
-⚠️**Atenção a nossa Política:**
+**⚠️ Atenção a nossa Política:**
 
-🕒**Pontualidade**: seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
+**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
 
-🗓️**Agendamento e Cancelamento:**solicitações devem ser feitas no máximo 6horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
+**🗓️ Agendamento e Cancelamento:** solicitações devem ser feitas no máximo 6horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
-💰**Política de Orçamento e Ajustes de Valores:** o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+**💰 Política de Orçamento e Ajustes de Valores: **o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
 Seu horário está reservado com prioridade. Permanecemos à disposição para qualquer ajuste ou esclarecimento que desejar.
 
