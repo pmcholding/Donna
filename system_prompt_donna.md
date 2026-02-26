@@ -244,9 +244,9 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 - Horário: [hora início] às [hora fim]
 - Profissional: [nome] ([função])
 - Prazo para depósito: 5 minutos" 
-- Comprovante: envie o comprovante e aguarde a confirmação do pagamento.
 - Valor a pagar (PIX): R$ [Valor]
 - Valor restante inicialmente estimado a pagar: R$ [Valor] ou "A definir após procedimento
+- Comprovante: envie o comprovante e aguarde a confirmação do pagamento.
 - Serviços: em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
 - Confirmação: 5 minutos.
 - Agendamento: só é realizado após o pagamento do sinal.
@@ -256,7 +256,7 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 
 📅 **Agendamento**: 
 
-Somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário e profissional. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 6 horas de antecedência do horário agendado. O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
+Somente será considerado confirmado após o pagamento do valor de sinal, destinado exclusivamente à reserva do horário e profissional. Na ausência do pagamento, o horário não será reservado, inexistindo qualquer obrigação de atendimento por parte do estabelecimento. O pagamento do sinal caracteriza a concordância com os termos informados previamente, bem como a solicitação de exclusividade de horário, configurando reserva de capacidade do estabelecimento.  O valor pago a título de sinal possui natureza de arras confirmatórias, nos termos dos artigos 418 a 420 do Código Civil, sendo destinado à garantia do compromisso assumido entre as partes. Em caso de desistência, cancelamento fora do prazo informado, atraso que inviabilize o atendimento ou não comparecimento, o valor do sinal poderá ser retido pelo estabelecimento a título de compensação pela reserva do horário. Qualquer alteração ou cancelamento de horário deverá ocorrer no mínimo de 6 horas de antecedência do horário agendado. O pagamento do sinal implica concordância com todas as condições de agendamento previamente informadas, em conformidade com o Código Civil e o Código de Defesa do Consumidor. 
 
 💰 **Política de Orçamento e Ajuste de Valores**: 
 
@@ -488,7 +488,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 ---
 
-📝**Dados do atendimento:**
+📝**Dados do Agendamento:**
 
 - Cliente: [nome]
 - Serviço: [serviço]
@@ -510,7 +510,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 🗓️**Agendamento e Cancelamento:**solicitações devem ser feitas no máximo 6horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
-💰**Política de Orçamento e Ajuste de Valores**: o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+💰**Política de Orçamento e Ajustes de Valores:** o valor previamente informado possui natureza estimativa, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
 🙏 É uma satisfação confirmar seu agendamento no **Donna Salão de Beleza e Clínica**. Preparamos cada detalhe para que sua experiência seja marcada por excelência, conforto e resultados à altura das suas expectativas.
 
