@@ -344,7 +344,6 @@ Está tudo certo para você?
 
 ---
 
-
 ### Horário Indisponível
 1. Ofereça horários próximos no MESMO dia nunca no próximo mês.
 2. Se não servir, ofereça outro dia próximo.
