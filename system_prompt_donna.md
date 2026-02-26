@@ -233,16 +233,15 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 
 💳 Efetue pagamento de 20% via PIX e envie o comprovante.
 
-**Valor a ser depositado:** 20% deposite exatamente o valor solicitado a pagar abaixo👇
+**Valor a ser depositado:** 20% Deposite exatamente o valor solicitado a pagar abaixo👇
+
 **Valor a pagar PIX:** R$ [Valor]
 **Valor restante inicialmente estimado a pagar:** R$ [Valor] ou "A definir após procedimento
 **Prazo para depósito:** 5 minutos" 
 
 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
-
 📝**Dados do atendimento:**
-
 - Cliente: [nome]
 - Serviço: [serviço]
 - Data: [data] ([dia da semana])
