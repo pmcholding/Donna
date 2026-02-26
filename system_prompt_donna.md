@@ -242,7 +242,7 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
 - Profissional: [nome] ([função])
-- Prazo para depósito: 5 min 
+- Prazo para pagar: 5 minutos 
 - Valor a pagar (PIX): R$ [Valor]
 - Valor restante inicialmente estimado a pagar: R$ [Valor] ou "A definir após procedimento
 - Comprovante: envie o comprovante e aguarde a confirmação do pagamento.
