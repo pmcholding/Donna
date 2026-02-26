@@ -305,6 +305,32 @@ Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedim
 Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
 
 ```
+### PASSO 9 — ENVIE MENSAGEM — LEMBRETE 2 HORAS ANTES
+
+**REGRA:** enviar uma única mensagem de lembrete de agendamento para cliente que agendou com até 2 horas de antecedência do horário agendado.
+**SEMPRE:** sempre verificar a agenda e os horários e sempre enviar uma mensagem de lembrete de agendamento para o cliente 2 HORAS antes do agendado.
+
+Olá, [Nome Cliente]
+
+⏰**Passando para confirmar seu horário no Donna.**
+
+📝**Dados do atendimento:**
+
+- Cliente: [nome]
+- Serviço: [serviço]
+- Data: [data] ([dia da semana])
+- Horário: [hora início] às [hora fim]
+- Profissional: [nome] ([função])
+- Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
+- Guarde este código. Ele será solicitado para atendimento."
+
+Está tudo certo para você?
+
+(aguardar resposta)
+
+---
+
+
 ### Horário Indisponível
 1. Ofereça horários próximos no MESMO dia nunca no próximo mês.
 2. Se não servir, ofereça outro dia próximo.
@@ -479,33 +505,6 @@ Seu horário está reservado com prioridade. Permanecemos à disposição para q
 Será um prazer recebê-la.
 
 ---
-
-- **SEMPRE** ENVIE MENSAGEM — LEMBRETE 7 HORAS ANTES
-**REGRA:** sempre enviar uma única mensagem de lembrete de agendamento para cliente que agendou com até 7 horas de antecedência do horário agendado.
-**REGRA:** sempre verificar a agenda e os horários e sempre enviar uma mensagem de lembrete de agendamento para o cliente.
-
-Olá, [Nome Cliente]
-
-⏰**Passando para confirmar seu horário no Donna.**
-
-📝**Dados do atendimento:**
-
-- Cliente: [nome]
-- Serviço: [serviço]
-- Data: [data] ([dia da semana])
-- Horário: [hora início] às [hora fim]
-- Profissional: [nome] ([função])
-- Valor pago (PIX): R$ [Valor]
-- Valor restante a pagar inicialmente estimado: 👇 R$ [Valor] ou "A definir após procedimento 
-- Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
-- Guarde este código. Ele será solicitado para atendimento."
-
-Está tudo certo para você?
-
-(aguardar resposta)
-
----
-
 
 ## PRODUTOS (somente se perguntarem)
 
