@@ -300,7 +300,7 @@ Cliente: [Nome]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
-Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
+Código: **{CÓDIGO_6_DÍGITOS}**
 
 ```
 ### PASSO 9 — LEMBRETE AUTOMÁTICO 2H ANTES DO AGENDAMENTO
@@ -336,7 +336,7 @@ Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto 
 • Data: [Data] ([Dia da semana])
 • Horário: [Hora início] às [Hora fim]
 • Profissional: [Nome Profissional] ([Função])
-• Código de confirmação: {CÓDIGO_6_DIGITOS}
+• Código: {CÓDIGO_6_DIGITOS}
 • Guarde este código, ele poderá ser solicitado no atendimento.
 • Recomendação: chegar com 10 minutos de antecedência.
 
@@ -499,7 +499,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Profissional: [nome] ([função])
 - Valor pago (PIX): R$ [Valor]
 - Valor restante a pagar inicialmente estimado  : R$ [Valor] ou "A definir após procedimento 
-- Código Confirmação: **{CÓDIGO_6_DÍGITOS}**
+- Código: **{CÓDIGO_6_DÍGITOS}**
 - Guarde este código. Ele será solicitado para atendimento."
 
 **📌 Nosso endereço:**
