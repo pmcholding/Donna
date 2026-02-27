@@ -316,16 +316,17 @@ não reagendado
 atendimento ainda não iniciado
 
 Se o horário estiver a menos de 2h no momento do agendamento → enviar imediatamente
-
 Registrar no histórico que o lembrete foi enviado (evitar duplicidade)
-
 Se cliente não responder em 30 min → enviar micro lembrete de reforço
 
 📩 MENSAGEM PARA CLIENTE
 
-Olá, [Nome Cliente] 
+⏰ Olá, [Nome Cliente] 
 
-⏰ Passando para confirmar seu horário no Donna.
+É um prazer lembrar que seu atendimento no Donna Salão de Beleza e Clínica está agendado e terá início em aproximadamente 2 horas.
+
+Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto e sofisticação, garantindo uma experiência cuidadosamente pensada para você. 
+
 
 📝 Dados do atendimento:
 
@@ -336,10 +337,8 @@ Olá, [Nome Cliente]
 • Profissional: [Nome Profissional] ([Função])
 • Código de confirmação: {CÓDIGO_6_DIGITOS}
 • Guarde este código, ele poderá ser solicitado no atendimento.
+• Recomendação: chegar com 10 minutos de antecedência.
 
-Está tudo certo para você?
-
-(aguardar resposta)
 
 ---
 
