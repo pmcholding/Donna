@@ -308,7 +308,7 @@ Código: **{CÓDIGO_6_DÍGITOS}**
 OBJETIVO: confirmar presença e reduzir faltas.
 
 REGRAS OPERACIONAIS
-- **SEMPRE** Enviar apenas 1 lembrete exatamente 2 horas antes do horário de início
+- **SEMPRE** Enviar apenas 1 lembrete exatamente 1 hora antes do horário de início
 
 Verificar antes do envio:
 status do agendamento = confirmado
@@ -316,7 +316,7 @@ não cancelado
 não reagendado
 atendimento ainda não iniciado
 
-Se o horário estiver a menos de 2h no momento do agendamento → enviar imediatamente
+Se o horário estiver a menos de 1h no momento do agendamento → enviar imediatamente
 Registrar no histórico que o lembrete foi enviado (evitar duplicidade)
 Se cliente não responder em 30 min → enviar micro lembrete de reforço
 
