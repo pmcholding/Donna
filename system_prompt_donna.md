@@ -232,6 +232,8 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 
 💳 Efetue um depósito via PIX exatamente de R$ [Valor] (20%) para garantia de horário e nos envie o comprovante.
 
+⏰ Prazo para pagar: 5 minutos
+
 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
 
@@ -242,8 +244,7 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
 - Profissional: [nome] ([função])
-- Prazo para pagar: 5 minutos 
-- Valor a pagar (PIX): R$ [Valor]
+ - Valor a pagar (PIX): R$ [Valor]
 - Valor restante inicialmente estimado a pagar: R$ [Valor] ou "A definir após procedimento
 - Comprovante: envie o comprovante e aguarde a confirmação do pagamento.
 - Serviços: em seguida, você será informado(a) e receberá todos os dados e o código do seu agendamento. 
