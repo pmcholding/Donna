@@ -241,6 +241,7 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 📝**Dados do atendimento:**
 
 - Cliente: [nome]
+- Telefone: [Telefone]
 - Serviço: [serviço]
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
@@ -298,6 +299,7 @@ FLUXO:
 - Description:
 ```
 Cliente: [Nome]
+Telefone: [Telefone]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
@@ -333,6 +335,7 @@ Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto 
 **📝 Dados do atendimento:**
 
 • Cliente: [Nome Cliente]
+• Telefone: [Telefone]
 • Serviço: [Serviço]
 • Data: [Data] ([Dia da semana])
 • Horário: [Hora início] às [Hora fim]
