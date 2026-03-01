@@ -497,6 +497,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 📝 **Dados do Agendamento:**
 
 - Cliente: [nome]
+- Telefone: [Telefone]
 - Serviço: [serviço]
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
