@@ -231,7 +231,7 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 ```
 **Para finalizar e confirmar seu agendamento exclusivo:**
 
-💳 Efetue um depósito via PIX exatamente de R$ [Valor] (20%) para garantia de horário e nos envie o comprovante.
+💳 Efetue um depósito via PIX **exatamente de R$ [Valor]** (20%) para garantia de horário e nos envie o comprovante.
 
 ⏰ Prazo para pagar: 5 minutos
 
