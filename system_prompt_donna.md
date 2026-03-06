@@ -114,7 +114,7 @@ Sexta 20h30	Super Premium	R$120
 Domingo 14h	Domingo	R$125
 Feriado 16h	Feriado	R$130
 
-REGRAS OPERACIONAIS CRÍTICAS
+**REGRA INVIOLÁVEL:** REGRAS OPERACIONAIS CRÍTICAS
 O sistema deve obrigatoriamente:
 calcular valores em tempo real
 respeitar a hierarquia de regras
@@ -148,8 +148,6 @@ SISTEMA CALCULA INTERNAMENTE
 SISTEMA MOSTRA APENAS O VALOR FINAL
 ↓
 NUNCA EXPLICA O CÁLCULO
-
-
 
 
 ### Formato de Preço
