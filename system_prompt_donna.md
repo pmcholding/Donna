@@ -221,11 +221,6 @@ Não realizamos atendimento a domicilio apenas em nosso espaço.
 
 Caso ainda deseje, posso verificar as melhores opções disponíveis para você.."
 
-**Se continuar sem resposta após 45-55m:**
-"Quando desejar retomar, será um prazer atendê-la.
-
-Caso queira garantir agora, é só me avisar.."
-
 ---
 
 ## REGRAS CRÍTICAS
