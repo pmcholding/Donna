@@ -137,7 +137,10 @@ O sistema nunca mostra o cálculo.
 O sistema nunca menciona regras.
 
 Formato da resposta:
-**O valor para este dia e horário: R$ [valor].**
+O valor para este dia e horário: 
+R$X (dinheiro)
+R$Y (Pix/cartão)
+Parcela em até 5x
 
 REGRA DE OURO
 Sempre seguir esta lógica:
