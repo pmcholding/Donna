@@ -137,7 +137,7 @@ O sistema nunca mostra o cálculo.
 O sistema nunca menciona regras.
 
 Formato da resposta:
-O valor para este horário é: R$** [valor]**.
+O valor para este dia e horário: R$** [valor]**.
 
 REGRA DE OURO
 Sempre seguir esta lógica:
