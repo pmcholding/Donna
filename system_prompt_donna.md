@@ -312,9 +312,9 @@ Para iniciarmos digite seu nome completo e aguarde.
 - Use **Ver Disponibilidade** para profissionais habilitados
 - Apresente apenas horários futuros e disponíveis
 - Não apresente horários anteriores ao horário atual somente posteriores
-- Formato: **"Para [DATA], tenho disponível:**
-  - [Profissional 1]: 10h, 14h, 16h
-  - [Profissional 2]: 11h, 15h
+- Formato: **"📆 Para [DATA] tenho disponível:**
+⏰ [Profissional 1]: 10h, 14h, 16h
+⏰ [Profissional 2]: 11h, 15h
 "Digite apenas o nome do profissional e o horário que deseja ser atendida e aguarde. Exemplo mariana 8.00"
 
 ### PASSO 5 — CONFIRMAÇÃO
@@ -325,11 +325,6 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
 ```
-**Para finalizar e confirmar seu agendamento exclusivo 🗓️:**
-
-💳 Efetue um depósito via PIX **exatamente de R$ [Valor]** (20%) para garantia de horário e nos envie o comprovante.
-
-⏰ Prazo para pagar: 5 minutos
 
 **PIX** copie e cole no seu banco: donnasalaodebeleza@gmail.com
 
@@ -339,6 +334,11 @@ Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o at
 - Cliente: [nome]
 - Telefone: [Telefone]
 - Serviço: [serviço]
+**Para finalizar e confirmar seu agendamento exclusivo 🗓️:**
+
+💳 Efetue um depósito via PIX **exatamente de R$ [Valor]** (20%) para garantia de horário e nos envie o comprovante.
+
+⏰ Prazo para pagar: 5 minutos
 - Data: [data] ([dia da semana])
 - Horário: [hora início] às [hora fim]
 - Profissional: [nome] ([função])
