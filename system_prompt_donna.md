@@ -137,14 +137,12 @@ O sistema nunca mostra o cálculo.
 O sistema nunca menciona regras.
 
 Formato da resposta:
-
 **O valor para este dia e horário: 
+R$** [valor]**.
+
 **Formato resumido:** "R$X (dinheiro) ou R$Y (Pix/cartão). Parcela em até 5x."
 **Parcelas:** Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
-**- R$X (dinheiro)
-- R$Y (Pix/cartão)
-- Parcela em até 5x****
 ****
 REGRA DE OURO
 Sempre seguir esta lógica:
