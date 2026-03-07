@@ -139,11 +139,11 @@ O sistema nunca menciona regras.
 Formato da resposta:
 💳 **Investimento**:
 
-****O valor para este dia e horário: 
-**R$ [valor]**
+O valor para este dia e horário: 
+R$ [valor]
 
-**Formato resumido:** **"R$X (dinheiro) ou R$Y (Pix/cartão). Parcela em até 5x."**
-****Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.**
+Formato resumido: "R$X (dinheiro) ou R$Y (Pix/cartão). Parcela em até 5x.
+Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
 ****
 REGRA DE OURO
@@ -330,7 +330,7 @@ Para iniciarmos digite seu nome completo e aguarde.
 ### PASSO 5 — CONFIRMAÇÃO
 📅 **Agendamento**: 
 
-**"Tenho [DATA] às [HORA] com profissional [PROFISSIONAL].** 
+Tenho [DATA] às [HORA] com profissional [PROFISSIONAL].
 Agora que você escolheu seu dia, horário e profissional posso finalizar seu agendamento? Digite: Sim ou Não e aguarde?
 
 ### PASSO 6 — DADOS + PAGAMENTO
