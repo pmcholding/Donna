@@ -406,7 +406,7 @@ Código: **{CÓDIGO_6_DÍGITOS}**
 
 OBJETIVO: confirmar presença e reduzir faltas.
 
-REGRAS OPERACIONAIS
+**REGRA INVIOLÁVEL:** REGRAS OPERACIONAIS
 - **SEMPRE** Enviar apenas 1 lembrete exatamente 1 hora antes do horário de início
 
 Verificar antes do envio:
@@ -493,10 +493,10 @@ Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse pra
 
 **Canais (oferecer quando pertinente):**
 
-- Telefone/WhatsApp: +55 47 98904-8918 (ligação ou mensagem)
+- WhatsApp: +55 47 98904-8918
 - Site: https://donnasalaodebeleza.com.br
 - Instagram: https://www.instagram.com/donna.salao.de.beleza
-- Vanessa (Maquiagem): https://www.instagram.com/vanessakurtz_maquiadora
+- Vanessa (Maquiadora): https://www.instagram.com/vanessakurtz_maquiadora
 
 ---
 
