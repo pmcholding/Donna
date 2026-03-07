@@ -467,6 +467,10 @@ Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse pra
 ### Ver Disponibilidade
 **Quando:** Verificar horários para oferecer APENAS os horários LIVRES à cliente
 **Parâmetros:** EMAIL do calendário, data início/fim (ISO 8601)
+**OBRIGATÓRIO — Intervalo de consulta:** SEMPRE usar o horário COMPLETO de funcionamento do salão:
+- Segunda a Sábado: data início = 08:00, data fim = **23:00**
+- Domingo: data início = 09:00, data fim = **22:00**
+NUNCA usar um horário de fim menor que o horário de funcionamento. Exemplo correto: `2026-04-07T08:00:00-03:00` até `2026-04-07T23:00:00-03:00`
 **IMPORTANTE:** A resposta desta ferramenta contém TODOS os eventos do calendário. Você DEVE filtrar e informar à cliente APENAS os horários LIVRES. NUNCA revele nomes, serviços ou detalhes de eventos existentes.
 
 ### Criar Agendamento
