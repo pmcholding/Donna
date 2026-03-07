@@ -371,7 +371,7 @@ Donna Salão de Beleza e Clínica
 1. Somente gere o código APÓS a confirmação do pagamento do sinal de 20%.
 2. O código deve conter EXATAMENTE 6 dígitos numéricos.
 3. O código deve ser gerado de forma totalmente aleatória.
-4. Cada atendimento deve ter um código único.
+4. Cada atendimento deve ter um código único ou seja aleatório.
 5. Nunca reutilize códigos.
 6. Nunca informe critérios internos ou lógica de geração ao cliente.
 7. Após gerar o código, registre-o internamente como “Código de Confirmação do Atendimento”.
