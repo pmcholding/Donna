@@ -141,7 +141,6 @@ Formato da resposta:
 **O valor para este dia e horário: 
 **Formato resumido:** "R$X (dinheiro) ou R$Y (Pix/cartão). Parcela em até 5x."
 **Parcelas:** Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
-**💳 Investimento: **
 
 **- R$X (dinheiro)
 - R$Y (Pix/cartão)
