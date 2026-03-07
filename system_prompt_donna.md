@@ -137,6 +137,8 @@ O sistema nunca mostra o cálculo.
 O sistema nunca menciona regras.
 
 Formato da resposta:
+💳 **Investimento**:
+
 **O valor para este dia e horário: 
 R$** [valor]**.
 
