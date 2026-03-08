@@ -447,7 +447,6 @@ Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto 
 
 Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado. 
 
-
 ---
 
 ### Horário Indisponível
@@ -455,6 +454,16 @@ Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse pra
 2. Se não servir, ofereça outro dia próximo.
 
 ---
+
+## Recuperação Estratégica (após 24h)
+
+Olá, [Nome Cliente].
+
+Passando para avisar que ainda temos alguns horários disponíveis para [Serviço] no Donna Salão de Beleza.
+
+Se desejar, posso verificar rapidamente um horário ideal para você.
+
+
 
 ## USO DAS FERRAMENTAS
 
