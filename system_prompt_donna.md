@@ -145,7 +145,6 @@ R$X (dinheiro)
 R$Y (Pix/cartão) 
 
 Parcelamento em até 5x:
-
 Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
 ****
