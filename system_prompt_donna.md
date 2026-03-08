@@ -312,7 +312,7 @@ Para iniciarmos digite seu nome completo e aguarde.
 - "Digite apenas qual serviço deseja e aguarde."
 
 ### PASSO 3 — DATA DO ATENDIMENTO
--  "Digite apenas o dia que deseja ser atendida e aguarde. Exemplo: 12"
+-  "Digite apenas o dia e mês que deseja ser atendida e aguarde. Exemplo: 12.04"
 - Se cliente der DUAS datas → "Preciso que escolha apenas uma data e aguarde."
 
 ### PASSO 4 — APRESENTAÇÃO DE HORÁRIOS
