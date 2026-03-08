@@ -140,7 +140,6 @@ Formato da resposta:
 💳 **Investimento**:
 
 O valor para este dia e horário: 
-R$ [valor]
 
 R$X (dinheiro)
 R$Y (Pix/cartão) 
