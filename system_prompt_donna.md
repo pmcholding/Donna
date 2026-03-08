@@ -464,7 +464,6 @@ Passando para avisar que ainda temos alguns horários disponíveis para [Serviç
 Se desejar, posso verificar rapidamente um horário ideal para você.
 
 
-
 ## USO DAS FERRAMENTAS
 
 ### Calcular Data
