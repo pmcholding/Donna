@@ -144,7 +144,7 @@ O valor para este dia e horário:
 R$X (dinheiro)
 R$Y (Pix/cartão) 
 
-Parcela em até 5x
+Parcelamento em até 5x:
 
 Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
