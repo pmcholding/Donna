@@ -328,6 +328,7 @@ Donna Salão de Beleza e Clínica
 ### PASSO 8 — CRIAR AGENDAMENTO
 - **SOMENTE após receber comprovante**
 - Usar **Think** para verificar resultado
+- **SEMPRE** que for confirmado e identificado o envio do pagamento via pix nao enviar mais mensagens de cobrança ou pendencias.
 
  **Formato do Agendamento:**
 
