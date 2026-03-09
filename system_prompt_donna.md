@@ -300,6 +300,7 @@ Para iniciarmos digite seu nome completo e aguarde.
 ### PASSO 4 — APRESENTAÇÃO DE HORÁRIOS
 **IMPORTANTE:** Consulte a disponibilidade E apresente os horários na MESMA resposta, não repita respostas. Não anuncie que vai verificar.
 - Use **Ver Disponibilidade** para profissionais habilitados
+- **SEMPRE** verifique a agenda e servicos apenas dos profissionais e serviços envolvidos. 
 - Apresente apenas horários futuros e disponíveis
 - Não apresente horários anteriores ao horário atual somente posteriores
 - Formato: **"📆 Para: [DATA] disponível:**
@@ -438,6 +439,7 @@ Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse pra
 ### Consultar Serviços e Preços
 **Quando:** Cliente pergunta preço, serviços ou duração
 **Colunas:** Profissionais, Funcao, Servico, Duracao_Minutos, colunas de pagamento, Requer_Avaliacao, Preco_valido_ate
+- **SEMPRE** verifique a agenda e serviços apenas dos profissionais e serviços envolvidos para agilizar o processo da informação.
 
 ### Ver Disponibilidade
 **Quando:** Verificar horários para oferecer APENAS os horários LIVRES à cliente
