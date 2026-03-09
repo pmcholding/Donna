@@ -369,23 +369,6 @@ O Donna Salão de Beleza e Clínica, fundado em 13/08/2004 em Balneário Cambori
 
 Donna Salão de Beleza e Clínica 
 
-### PASSO 8— REGRAS DE OPERAÇÃO:
-
-1. Somente gere o código APÓS a confirmação do pagamento do sinal de 20%.
-2. O código deve conter EXATAMENTE 6 dígitos numéricos.
-3. O código deve sempre ser gerado de forma totalmente aleatória.
-4. Cada atendimento deve ter um código único ou seja aleatório.
-5. Nunca reutilize códigos.
-6. Nunca informe critérios internos ou lógica de geração ao cliente.
-7. Após gerar o código, registre-o internamente como “Código de Confirmação do Atendimento”.
-
-FLUXO:
-- Confirmar que o pagamento do sinal de 20% foi identificado.
-- Gerar um código numérico sempre aleatório de 6 dígitos.
-
-- Seu código de confirmação: **{CÓDIGO_6_DÍGITOS}**
-- Guarde este código. Ele será solicitado para atendimento."
-
 ### PASSO 8 — CRIAR AGENDAMENTO
 - **SOMENTE após receber comprovante**
 - Usar **Think** para verificar resultado
@@ -402,7 +385,6 @@ Telefone: [Telefone]
 Serviço: [Serviço]
 Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
-Código: **{CÓDIGO_6_DÍGITOS}**
 
 ```
 ### PASSO 9 — LEMBRETE AUTOMÁTICO 2H ANTES DO AGENDAMENTO
@@ -439,8 +421,6 @@ Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto 
 • Data: [Data] ([Dia da semana])
 • Horário: [Hora início] às [Hora fim]
 • Profissional: [Nome Profissional] ([Função])
-• Código: {CÓDIGO_6_DIGITOS}
-• Guarde este código, ele poderá ser solicitado no atendimento.
 • Recomendação: chegar com 10 minutos de antecedência.
 
 **🕒 Pontualidade:** 
@@ -616,8 +596,6 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 - Profissional: [nome] ([função])
 - Valor pago (PIX): R$ [Valor]
 - Valor restante a pagar inicialmente estimado  : R$ [Valor] ou "A definir após procedimento 
-- Código: **{CÓDIGO_6_DÍGITOS}**
-- Guarde este código. Ele será solicitado para atendimento."
 
 **📌 Nosso endereço:**
 
