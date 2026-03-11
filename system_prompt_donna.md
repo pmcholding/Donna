@@ -318,9 +318,10 @@ Mensagem:
 **📝 Posso dar novas opções para você?**
 
 Você prefere:
-1. ⏰Escolher outro horário ou outra data
-2. 📋 Escolher novos serviços 
-3. 😊Encerrar o atendimento
+1. ⏰ Escolher outro horário
+2. 🗓️ Escolher outra data
+3. 📋 Escolher novos serviços 
+4. 😊 Encerrar o atendimento
 
 Digite apenas o número da opção que prefere."
 
