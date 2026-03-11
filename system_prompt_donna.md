@@ -319,7 +319,8 @@ Mensagem:
 
 Prefere:
 1. Escolher outro horário ou outra data
-2 .Ver outros serviços disponíveis
+2 .Escolher novos serviços 
+3. Encerrar o atendimento
 
 Digite apenas o número da opção que prefere."
 
@@ -330,6 +331,9 @@ Perguntar:
 Se escolher OUTRO SERVIÇO:
 Responder:
 - "Digite apenas quais serviços deseja ou se já digitou aguarde".
+
+Se escolhe ENCERRAR O ATENDIMENTO:
+- "Agradecer com educação e encerrar o atendimento".
 
 📅 **Agendamento**: 
 
