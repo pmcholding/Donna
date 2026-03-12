@@ -349,7 +349,9 @@ Agora que você escolheu seu dia, horário e profissional posso finalizar seu ag
 Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o atendimento.
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
+
 ```
+
 **Para finalizar e confirmar seu agendamento exclusivo:**
 
 💳 Efetue um depósito via PIX **exatamente de: R$ [Valor]** (20%) para garantia de horário e nos envie o comprovante.
