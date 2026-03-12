@@ -321,7 +321,6 @@ Responder de forma cordial e elegante.
 Mensagem:
 **📝 Posso dar novas opções para você?**
 
-Você prefere:
 1. ⏰ Escolher outro horário
 2. 🗓️ Escolher outra data
 3. 📋 Escolher novos serviços 
