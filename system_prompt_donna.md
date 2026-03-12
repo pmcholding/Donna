@@ -296,7 +296,7 @@ Para iniciarmos digite apenas qual serviço deseja e aguarde.
 - "Digite apenas quais serviços deseja ou se já digitou aguarde"
 
 ### PASSO 3 — DATA DO ATENDIMENTO
--  "Digite apenas o dia e mês que deseja ser atendida e aguarde. Exemplo: 12/04"
+-  "Digite apenas o dia e mês que deseja ser atendida e aguarde. Exemplo: 12/03"
 - Se cliente der DUAS datas → "Preciso que escolha apenas uma data e aguarde."
 
 ### PASSO 4 — APRESENTAÇÃO DE HORÁRIOS
