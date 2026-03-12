@@ -322,10 +322,9 @@ Responder de forma cordial e elegante.
 Mensagem:
 **📝 Posso dar novas opções para você e a sua Autoestima?**
 
-1. ⏰ Escolher outro horário
-2. 🗓️ Escolher outra data
-3. 📋 Escolher novos serviços 
-4. 😊 Encerrar o atendimento
+1. 🗓️ Escolher outra data ou horário
+2. 📋 Escolher novos serviços 
+3. 😊 Encerrar o atendimento
 
 Digite apenas o número da opção que prefere."
 
@@ -410,31 +409,24 @@ Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
 
 ```
-### PASSO 9 — LEMBRETE AUTOMÁTICO 2H ANTES DO AGENDAMENTO
+### PASSO 9 — LEMBRETE AUTOMÁTICO – 2 HORAS ANTES DO ATENDIMENTO
 
-OBJETIVO: confirmar presença e reduzir faltas.
+OBJETIVO:
+Lembrar a cliente do horário agendado no Donna Salão de Beleza e solicitar confirmação rápida de presença.
 
-**REGRA INVIOLÁVEL:** REGRAS OPERACIONAIS
-- **SEMPRE** Enviar apenas 1 lembrete exatamente 1 hora antes do horário de início
-
+REGRAS:
 Verificar antes do envio:
 status do agendamento = confirmado
 não cancelado
 não reagendado
 atendimento ainda não iniciado
 
-Se o horário estiver a menos de 1h no momento do agendamento → enviar imediatamente
-Registrar no histórico que o lembrete foi enviado (evitar duplicidade)
-Se cliente não responder em 30 min → enviar micro lembrete de reforço
+MENSAGEM:
+Olá *{NOME_CLIENTE}*!
 
-📩 MENSAGEM PARA CLIENTE
-
-⏰ Olá, [Nome Cliente] 
-
-É um prazer lembrar que seu atendimento no Donna Salão de Beleza e Clínica está agendado e terá início em aproximadamente 2 horas.
+Este é um lembrete do seu atendimento no **Donna Salão de Beleza**, que acontecerá em aproximadamente **2 horas**.
 
 Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto e sofisticação, garantindo uma experiência cuidadosamente pensada para você. 
-
 
 **📝 Dados do atendimento:**
 
