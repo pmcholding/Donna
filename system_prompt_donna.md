@@ -338,8 +338,9 @@ Responder:
 - "Digite apenas quais serviços deseja ou se já digitou aguarde".
 
 Se escolhe FALAR COM ATENDENTE:
-- **SEMPRE** - "Não responder mais nada de forma automática, parar o atendimento automático imediatamente deixar o atendimento humano responder e para até que seja solicitado novamente atendimento virtual ou automático".
+**SEMPRE** "Não responder mais nada de forma automática, parar o atendimento automático imediatamente deixar o atendimento humano responder e para até que seja solicitado novamente atendimento virtual ou automático".
 **NUNCA:** responder nada deixar o atendimento humano responder de forma autonoma
+**SEMPRE** que a cliente solicitar atendimento automatico retornar a responder 
 
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
