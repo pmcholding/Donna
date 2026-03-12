@@ -319,7 +319,7 @@ Se a cliente responder "não", "não posso", "prefiro não", "não vou conseguir
 Execute imediatamente o protocolo de recuperação.
 Responder de forma cordial e elegante.
 Mensagem:
-**📝 Posso dar novas opções para você?**
+**📝 Posso dar novas opções para você e sua Autoestima?**
 
 1. ⏰ Escolher outro horário
 2. 🗓️ Escolher outra data
