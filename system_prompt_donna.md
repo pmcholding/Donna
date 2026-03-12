@@ -450,6 +450,9 @@ Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto 
 Seu horário é exclusivo, com tolerância máxima de 10 minutos. Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado. 
 
 
+### PASSO 10 — RESET DO SISTEMA
+- **SEMPRE** Espere 180 minutos após o PASSO 9 envie a palavra ##REINICIAR## para a cliente para limpar o historico de pesquisa
+
 ---
 
 ### Horário Indisponível
