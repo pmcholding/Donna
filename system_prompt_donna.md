@@ -430,6 +430,9 @@ Este é um lembrete do seu atendimento no **Donna Salão de Beleza**, que aconte
 
 Nossa equipe já prepara cada detalhe para recebê-la com excelência, conforto e sofisticação, garantindo uma experiência cuidadosamente pensada para você. 
 
+---
+
+
 **📝 Dados do atendimento:**
 
 • Cliente: [Nome Cliente]
@@ -598,6 +601,7 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 **REGRA:** Sempre enviar a confirmação do agendamento após a confirmação do recebimento PIX.
 
 ---
+
 
 📝 **Dados do Agendamento:**
 
