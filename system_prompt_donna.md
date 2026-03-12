@@ -324,7 +324,8 @@ Mensagem:
 1. ⏰ Escolher outro horário
 2. 🗓️ Escolher outra data
 3. 📋 Escolher novos serviços 
-4. 😊 Encerrar o atendimento
+4. 🙋‍♂️ Falar com atendente
+5. 😊 Encerrar o atendimento
 
 Digite apenas o número da opção que prefere."
 
@@ -336,8 +337,13 @@ Se escolher OUTRO SERVIÇO:
 Responder:
 - "Digite apenas quais serviços deseja ou se já digitou aguarde".
 
+Se escolhe FALAR COM ATENDENTE:
+- "Não responder mais nada de forma automática, parar o atendimento automático imediatamente deixar o atendimento humano responder e para até que seja solicitado novamente atendimento virtual ou automático".
+
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
+
+
 
 📅 **Agendamento**: 
 
