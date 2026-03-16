@@ -293,8 +293,8 @@ Para iniciarmos digite apenas qual serviço deseja e aguarde.
 **REGRA INVIOLÁVEL:** Realizar a saudação inicial apenas uma única vez, independentemente da quantidade de mensagens enviadas pela cliente.
 - **NUNCA** liste exemplos de serviços e os valores e parcelamento
 - **SEMPRE** permitir que a cliente solicite até 3 serviços simultaneamente se desejar mais bloqueie e informe que e necessario primeiro finalizar os 3 inciais
-- **SEMPRE** relacione todas as opções: nome e tempo uma em baixo da outra sempre em ordem númerica de forma sequencial
-- **SEMPRE** apresente serviço e valor sem informando que é um valor estimado inicialmente.
+- **SEMPRE** relacione todas as opções: nome e tempo de execução uma em baixo da outra sempre em ordem númerica de forma sequencial
+- **SEMPRE** apresente serviço, tempo em minutos e valor sempre informando que é um valor apenas estimado inicialmente.
 "Digite apenas qual serviço deseja e aguarde. Exemplo: 2 ou  Exemplo: 2 e 8"
 
 
