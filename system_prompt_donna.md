@@ -319,6 +319,7 @@ Para iniciarmos digite apenas qual serviço deseja e aguarde.
  **11h, 15h
 "Digite apenas o nome do profissional e o horário que deseja ser atendida e aguarde. Exemplo mariana 8:00"
 
+
 ### PASSO 5 — CONFIRMAÇÃO
 
 📅 **Agendamento**: 
@@ -363,8 +364,10 @@ Responder:
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
 
+
 ### PASSO 6 — DADOS + PAGAMENTO
 Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o atendimento.
+
 
 ### PASSO 7 — REGRAS DE AGENDAMENTO:
 
@@ -411,6 +414,7 @@ O Donna Salão de Beleza e Clínica, fundado em 13/08/2004 em Balneário Cambori
 
 Donna Salão de Beleza e Clínica 
 
+
 ### PASSO 8 — CRIAR AGENDAMENTO
 - **SOMENTE após receber comprovante**
 - Usar **Think** para verificar resultado
@@ -429,6 +433,7 @@ Valor pago (PIX): R$ [Valor]
 Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedimento"
 
 ```
+
 ### PASSO 9 — LEMBRETE AUTOMÁTICO – 2 HORAS ANTES DO ATENDIMENTO
 
 OBJETIVO:
