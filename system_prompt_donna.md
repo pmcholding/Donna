@@ -353,7 +353,10 @@ Mensagem:
 
 1. 🗓️ Escolher outra data ou horário
 2. 📋 Escolher novos serviços 
-3. 😊 Encerrar o atendimento
+3. 💳 Não tenho pix
+4. ☎️ Falar com uma atendente 
+4. 😊 Encerrar o atendimento
+
 
 Digite apenas o número da opção que prefere."
 
@@ -364,6 +367,14 @@ Perguntar:
 Se escolher OUTRO SERVIÇO:
 Responder:
 - "Digite apenas quais serviços deseja ou se já digitou aguarde".
+
+Se escolher NÂO TENHO PIX:
+Responder:
+- "Aguarde uma das nossas atendentes entrará em contato com você para ajustar o seu agendamento."?
+
+Se escolher FALAR COM UMA DE NOSSAS ATENDENTES:
+Responder:
+- "Aguarde uma das nossas atendentes entrará em contato com você para ajustar o seu agendamento."?
 
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
