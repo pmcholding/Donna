@@ -301,6 +301,7 @@ Para iniciarmos digite apenas qual serviço deseja e aguarde.
 - Se cliente der DUAS datas → "Preciso que escolha apenas uma data e aguarde."
 
 ### PASSO 4 — APRESENTAÇÃO DE HORÁRIOS
+**REGRA INVIOLÁVEL:** responda apenas uma única vez, independentemente da quantidade de mensagens enviadas pela cliente.
 **NUNCA:** avance para o PASSO 5 se a cliente não informar nome do profissional e o horário de atendimento.
 **IMPORTANTE:** Consulte a data e a disponibilidade e apresente os horários de forma automática sem a cliente perguntar.
 - Use **Ver Disponibilidade** para profissionais habilitados
