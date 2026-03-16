@@ -137,7 +137,7 @@ O sistema nunca menciona regras.
 Formato da resposta:
 💳 **Investimento**:
 
-O valor para este dia e horário: 
+O valor inicialmente estimado para este dia e horário: 
 
 R$X (dinheiro)
 R$Y (Pix/cartão) 
