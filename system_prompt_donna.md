@@ -293,6 +293,8 @@ Digite a opção de atendimento:
 **2. Robotizado** (atendimento imediato)
 
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
+Sou a DonnaBot, assistente virtual, responsável pelo seu atendimento e agendamento.
+
 Permita-me conduzir seu atendimento e seja objetiva em suas perguntas e respostas.
 
 Para iniciarmos digite seu nome completo e aguarde.
