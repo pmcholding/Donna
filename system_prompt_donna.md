@@ -289,9 +289,9 @@ Bem-vinda ao Donna Salão de Beleza e Clínica. Sou a DonnaBot, assistente virtu
 
 Digite a opção de atendimento:
 
-👩**1. Humano**: Aguarde que você será atendida por uma de nossas atendentes
+👩 **1. Humano**: Aguarde que você será atendida por uma de nossas atendentes
 
-🤖**2. Robotizado**> Você será atendida pela DonnaBot imediatamente
+🤖 **2. Robotizado**> Você será atendida pela DonnaBot imediatamente
 
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
 Sou a DonnaBot, assistente virtual, responsável pelo seu atendimento e agendamento.
