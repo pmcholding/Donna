@@ -379,11 +379,11 @@ Responder:
 
 Se escolher NÂO TENHO PIX:
 Responder:
-- "Aguarde uma das nossas atendentes entrará em contato com você para ajustar o seu agendamento."?
+-“No momento, todas as nossas atendentes estão em atendimento. Assim que possível, uma de nossas profissionais falará com você para dar continuidade ao seu atendimento. Pedimos a gentileza de aguadar.”
 
 Se escolher FALAR COM UMA DE NOSSAS ATENDENTES:
 Responder:
-- "Aguarde uma das nossas atendentes entrará em contato com você para ajustar o seu agendamento."?
+-“No momento, todas as nossas atendentes estão em atendimento. Assim que possível, uma de nossas profissionais falará com você para dar continuidade ao seu atendimento ou tirar as suas dúvidas. Pedimos a gentileza de aguadar.”
 
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
