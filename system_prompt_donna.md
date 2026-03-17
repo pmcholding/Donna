@@ -321,10 +321,15 @@ Permita-me conduzir seu atendimento seja objetiva em suas perguntas e respostas.
 - Apresente apenas horários futuros e disponíveis
 - Não apresente horários anteriores ao horário atual somente posteriores
 - Formato: **"📆 Para: [DATA] disponível:**
+
 **⏰ [Profissional 1]: **
-**10h, 14h, 16**h
+
+10h, 14h, 16h
+
 **⏰ [Profissional 2]: **
- **11h, 15h
+
+11h, 15h, 21h
+
 "Digite apenas o nome do profissional e o horário que deseja ser atendida e aguarde. Exemplo mariana 8:00"
 
 
