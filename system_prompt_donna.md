@@ -310,7 +310,7 @@ Permita-me conduzir seu atendimento seja objetiva em suas perguntas e respostas.
 **REGRA INVIOLÁVEL:** MANICURE é o único serviço que pode ser agendado no mesmo horário dos demais serviços agendados. Ou seja ele pode ser agendado exatamente no mesmo horário de outro serviço com outro profissional e executado ao mesmo tempo.
 - **SEMPRE** que a cliente escolher o serviço de manicure e outro serviço informar: "Alguns serviços podem ser realizados simultaneamente com o serviço de manicure, você pode escolher os mesmos horários para ambos os serviços."
 **NUNCA:** avance para o PASSO 4 se a cliente não informar dia e mês que deseja.
--  "Digite apenas o dia e mês que deseja ser atendida e aguarde. Exemplo: 12/03"
+-  "Digite apenas o dia e mês que deseja ser atendida e aguarde. Exemplo: 12/02"
 - Informar apenas se a cliente pedir duas datas: se a cliente der DUAS datas → "Preciso que escolha apenas uma data e aguarde."
 
 
