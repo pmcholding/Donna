@@ -363,8 +363,9 @@ Mensagem:
 1. 🗓️ Escolher outra data ou horário
 2. 📋 Escolher novos serviços 
 3. 💳 Não tenho pix
-4. ☎️ Falar com uma atendente 
-4. 😊 Encerrar o atendimento
+4. ☎️ Falar com uma atendente
+5. 📅 Continuar com o agendamento 
+6. 😊 Encerrar o atendimento
 
 
 Digite apenas o número da opção que prefere."
@@ -384,6 +385,10 @@ Responder:
 Se escolher FALAR COM UMA DE NOSSAS ATENDENTES:
 Responder:
 -“No momento, todas as nossas atendentes estão em atendimento. Assim que possível, uma de nossas profissionais falará com você para dar continuidade ao seu atendimento ou tirar as suas dúvidas. Pedimos a gentileza de aguadar.”
+
+Se escolher CONTINUAR COM O AGENAMENTO:
+Responder:
+- "Avance diretamente para o PASSO 8".
 
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
