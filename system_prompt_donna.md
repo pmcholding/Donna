@@ -283,9 +283,11 @@ Qual horário prefere?"
 
 Bem-vinda ao Donna Salão de Beleza e Clínica. Sou a DonnaBot, assistente virtual, responsável pelo seu atendimento e agendamento.
 
-Permita-me conduzir seu atendimento e seja objetiva em suas perguntas e respostas.
+São apenas 4 passos e você já realiza seu agendamento. Vamos começar?
 
-"Digite apenas qual serviço deseja e aguarde."
+Permita-me conduzir seu atendimento seja objetiva em suas perguntas e respostas.
+
+"**Digite apenas** qual serviço deseja e aguarde."
 
 
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
