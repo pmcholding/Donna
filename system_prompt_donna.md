@@ -288,7 +288,7 @@ São apenas 4 passos e você já realiza seu agendamento. Vamos começar?
 
 Permita-me conduzir seu atendimento seja objetiva em suas perguntas e respostas.
 
-**"Digite apenas qual serviço deseja e aguarde." Exemplo 1: Manicure ou Exemplo 2: Manicure e Escova**
+**"Digite apenas qual serviço deseja e aguarde." Exemplo: Manicure ou Exemplo: Manicure e Escova**
 
 
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
