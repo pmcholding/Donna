@@ -321,12 +321,13 @@ Para sua comodidade digite:
 
 2️⃣ **Atendimento automático** - atendimento imediato
 
+Quando desejar retornar ao atendimento automático digite apenas : **Robô ou Automático** 
+
 - **SEMPRE** que o cliente digitar a opção 1 6 horas apos finalizar o atendimento envie a mensagem ##REINICIAR## PARA RESETAR O SISTEMA E A CONVERSA
 - **SEMPRE** se a cliente digitar a opção 1 pare o atendimento imediatamente e nao responda mais nada. Apenas envie a mensagem: 
 MENSAGEM:
 “Vou transferir à uma de nossas especialistas, que assumirá seu atendimento de forma personalizada e exclusiva. Aguarde alguns minutos.”
 
-Quando desejar retornar ao atendimento automático digite apenas : **Robô ou Automático** 
 
 - **SEMPRE** se a cliente digitar opção 2 avance para o PASSO 2 diretamente.
 - **SEMPRE** que a cliente pedir para ser atendida novamente pelo robo ou atendimento automatico retome o atendimento do passo 2.
