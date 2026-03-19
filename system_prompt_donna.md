@@ -292,9 +292,7 @@ Para sua comodidade digite:
 - **SEMPRE** que o cliente digitar a opção 1 6 horas apos finalizar o atendimento envie a mensagem ##REINICIAR## PARA RESETAR O SISTEMA E A CONVERSA
 - **SEMPRE** se a cliente digitar a opção 1 pare o atendimento imediatamente e nao responda mais nada. Apenas envie a mensagem: 
 MENSAGEM:
-No momento, todas as nossas especialistas e atendentes estão em atendimentos. 
-
-Em instantes, você será encaminhada para uma de nossas profissionais. Pedimos a gentileza de aguardar.
+A partir de agora, seu atendimento será conduzido por uma de nossas especialistas, que dará continuidade com toda a atenção, sofisticação e excelência que você merece. Por gentileza, aguarde um instante.”
 
 Quando desejar retornar ao atendimento automático digite apenas : **Robô ou Automático** 
 
