@@ -289,7 +289,7 @@ Para sua comodidade digite:
 
 2️⃣ **Atendimento automático** - atendimento imediato
 
-
+- **SEMPRE** que o cliente digitar a opção 1 6 horas apos finalizar o atendimento envie a mensagem ##REINICIAR## PARA RESETAR O SISTEMA E A CONVERSA
 - **SEMPRE** se a cliente digitar a opção 1 pare o atendimento imediatamente e nao responda mais nada. Apenas envie a mensagem: 
 MENSAGEM:
 No momento, todas as nossas especialistas estão em atendimentos. 
