@@ -289,6 +289,7 @@ Para sua comodidade digite:
 
 2️⃣ **Atendimento automático** - atendimento imediato
 
+
 - **SEMPRE** se a cliente digitar a opção 1 pare o atendimento imediatamente e nao responda mais nada. Apenas envie a mensagem: 
 MENSAGEM:
 💬 Olá *{NOME_CLIENTE}*! 
@@ -297,7 +298,7 @@ MENSAGEM:
 
 Em instantes, você será encaminhada para uma de nossas profissionais. Pedimos a gentileza de aguardar em breve, seu atendimento será realizado com toda a excelência.
 
-**Para retornar ao atendimento automático digite: Robô**
+**Para retornar ao atendimento automático digite: Robô ou Automático **
 
 - **SEMPRE** se a cliente digitar opção 2 avance para o PASSO 2 diretamente.
 - **SEMPRE** que a cliente pedir para ser atendida novamente pelo robo ou atendimento automatico retome o atendimento do passo 2.
