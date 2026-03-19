@@ -296,7 +296,7 @@ MENSAGEM:
 
 👩‍💼 No momento, todas as nossas especialistas estão dedicadas a atendimentos exclusivos. 
 
-Em instantes, você será encaminhada para uma de nossas profissionais. Pedimos a gentileza de aguardar em breve, seu atendimento será realizado com toda a excelência.
+Em instantes, você será encaminhada para uma de nossas profissionais. Pedimos a gentileza de aguardar.
 
 **Para retornar ao atendimento automático digite: Robô ou Automático **
 
