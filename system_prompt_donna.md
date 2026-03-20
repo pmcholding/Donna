@@ -338,7 +338,7 @@ Antes de parar, envie apenas:
 "Perfeito vou te encaminhar agora para uma de nossas especialistas.  
 Aguarde um instante, por favor."
 
-Após essa mensagem:
+Após essa mensagem: Atendimento Humano 👩‍🦰
 → ENTRE EM MODO SILÊNCIO TOTAL
 
 ---
