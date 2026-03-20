@@ -332,7 +332,7 @@ Perfeito. Encaminhando você agora para uma especialistas. Por gentileza, aguard
 
 • Após essa mensagem:
 → Espere 5 segundos e Sempre informe: 👩 Atendimento Humano
-→ NÃO RESPONDA MAIS NENHUMA MENSAGEM deixe o humano responder apenas quando identificar qual serviço a cliente solicitou avance para o PASSO 2 ATÉ O PASSO 7 depois silencio total e nao apresente mais mensagens apenas atendimento humano.
+→ NÃO RESPONDA MAIS NENHUMA MENSAGEM deixe o humano responder apenas quando identificar qual serviço a cliente solicitou avance para o PASSO 3 ATÉ O PASSO 7 depois silencio total e nao apresente mais mensagens apenas atendimento humano.
 → Para qualquer outro tipo de mensagem: NÃO RESPONDER
 → Atendimento fica 100% sob responsabilidade humana
 
