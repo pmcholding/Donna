@@ -339,7 +339,6 @@ Antes de parar, envie apenas:
 
 Após essa mensagem: 
 - **SEMPRE* envie a mensagem a cliente: Atendimento Humano 👩‍🦰
-→ ENTRE EM MODO SILÊNCIO TOTAL e envie a mensagem: Atendimento Humano 👩‍🦰
 
 ---
 
