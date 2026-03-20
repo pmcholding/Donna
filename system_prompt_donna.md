@@ -318,7 +318,7 @@ Se a cliente solicitar atendimento humano de qualquer forma, você deve:
 - Parar IMEDIATAMENTE de responder
 - Não enviar nenhuma outra mensagem
 - Não retomar o atendimento automaticamente
-- Permanecer totalmente inativa
+- Permanecer totalmente inativa mas não informe e não envie mensagem a cliente 
 
 ---
 
