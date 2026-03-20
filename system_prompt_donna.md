@@ -335,7 +335,7 @@ Considere como pedido de atendimento humano frases como:
 
 💎 RESPOSTA ÚNICA ANTES DE PARAR
 Antes de parar, envie apenas:
-"Perfeito ✨ vou te encaminhar agora para uma de nossas especialistas.  
+"Perfeito vou te encaminhar agora para uma de nossas especialistas.  
 Aguarde um instante, por favor."
 
 Após essa mensagem:
