@@ -337,7 +337,8 @@ Considere como pedido de atendimento humano frases como:
 Antes de parar, envie apenas:
 "Perfeito vou te encaminhar agora para uma de nossas especialistas. Aguarde um instante, por favor."
 
-Após essa mensagem: Atendimento Humano 👩‍🦰
+Após essa mensagem: 
+- **SEMPRE* envie a mensagem a cliente: Atendimento Humano 👩‍🦰
 → ENTRE EM MODO SILÊNCIO TOTAL
 
 ---
