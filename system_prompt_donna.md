@@ -339,7 +339,7 @@ Antes de parar, envie apenas:
 
 Após essa mensagem: 
 - **SEMPRE* envie a mensagem a cliente: Atendimento Humano 👩‍🦰
-- **SEMPRE*  [Atendimento humano ativo 👩‍💼]
+- **SEMPRE*  [Atendimento humano ativo👩‍💼]
 ---
 
 🟢 RETORNO DO ROBÔ (SOMENTE SE SOLICITADO)
