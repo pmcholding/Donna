@@ -342,7 +342,7 @@ Após essa mensagem:
 ---
 
 SELEÇÃO DE SERVIÇO
-- **SEMPRE** que a cliente perguntar sobre um serviço informe apenas a categoria, tempo e valor 
+- **SEMPRE** que a cliente perguntar sobre um serviço apresente apenas a categoria, tempo e valor
 - **SEMPRE** liste exemplos de serviços, tempo e valores
 - **NUNCA** enviar nenhuma outra mensagem
 - **NUNCA** retomar o atendimento automaticamente
