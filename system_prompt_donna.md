@@ -346,7 +346,6 @@ SELEÇÃO DE SERVIÇO
 - **SEMPRE** liste exemplos de serviços, tempo e valores
 - **NUNCA** enviar nenhuma outra mensagem
 - **NUNCA** retomar o atendimento automaticamente
-- **SEMPRE** Permanecer totalmente inativa
 
 
 🟢 RETORNO DO ROBÔ (SOMENTE SE SOLICITADO)
