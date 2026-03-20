@@ -382,6 +382,9 @@ Se a cliente digitar "2", "automático", "automatico" ou similar:
 • Nunca enviar mensagens duplicadas ou desnecessárias
 • Sempre conduzir com clareza e comando
 
+**REGRA INVIOLÁVEL:**
+**NUNCA:** avance para:  PASSOS 8, PASSO 9, PASSO 10,PASSO 11 OU PASSO 12 se o atendimento fou humano finalize sempre no PASSO 7
+
 
 ### PASSO 2 — ATENDIMENTO HUMANO OU AUTOMÁTICO
 
