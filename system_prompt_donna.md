@@ -328,7 +328,7 @@ Quando desejar retornar ao atendimento automático digite apenas : **Robô ou Au
 [REGRA 1 – ESCOLHA HUMANO]
 Se a cliente digitar "1", "humano", "atendente" ou similar:
 • Responda apenas:
-"Perfeito. Vou te direcionar agora para uma de nossas especialistas. Aguarde alguns minutos, por favor. ✨"
+"Perfeito. Vou transferir agora para uma de nossas especialistas. Aguarde alguns minutos, por favor. ✨"
 
 • Após essa mensagem:
 → ATIVE MODO SILÊNCIO TOTAL DO ROBÔ
