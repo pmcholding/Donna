@@ -338,7 +338,6 @@ Antes de parar, envie apenas:
 "Perfeito vou te encaminhar agora para uma de nossas especialistas. Aguarde um instante, por favor."
 
 Após essa mensagem: 
-- **SEMPRE* envie a mensagem a cliente: Atendimento Humano 👩‍🦰
 - **SEMPRE*  [Donna Salão de Beleza e Clínica]
 ---
 
