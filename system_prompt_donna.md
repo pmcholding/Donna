@@ -422,6 +422,7 @@ Considere como pedido de atendimento humano frases como:
 🟢 RETORNO DO ROBÔ (SOMENTE SE SOLICITADO)
 
 O robô SÓ pode voltar a operar se receber EXATAMENTE um dos gatilhos:
+- **SEMPRE** QUE  a cliente descrever o nome do serviço avançar para o PASSO 3 ATÉ O PASSO 7 APENAS apos retornar para o modo humano nunca avançar para o PASSO 8
 "robô"
 "robo"
 "automático"
