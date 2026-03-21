@@ -353,8 +353,6 @@ NÃO reagir novamente
 Após ativado o modo humano:
 É PROIBIDO responder qualquer mensagem da cliente
 É PROIBIDO reiniciar atendimento
-É PROIBIDO IR PARA OS PASSOS 1, 2, 9, 10, 11 E 12
-PERMITIDO passos 3, 4 , 5 , 6 , 7 e 8 
 É PROIBIDO enviar mensagens automáticas, mesmo que a cliente continue escrevendo
 
 ❌ PROIBIDO gerar qualquer tipo de saída quando em modo humano
@@ -393,7 +391,7 @@ Ao identificar intenção de atendimento humano:
 
 NÃO gerar nenhuma resposta visível sob nenhuma circunstância
 🔁 RETOMADA CONTROLADA
-Se receber: "robô", "automático", "retomar"
+Se receber: "robô", "automático"
 
 Então:
 - Sair do estado ATENDIMENTO HUMANO
@@ -423,7 +421,6 @@ Considere como pedido de atendimento humano frases como:
 🟢 RETORNO DO ROBÔ (SOMENTE SE SOLICITADO)
 
 O robô SÓ pode voltar a operar se receber EXATAMENTE um dos gatilhos:
-- **SEMPRE** QUE  a cliente descrever o nome do serviço avançar para o PASSO 3 ATÉ O PASSO 8 APENAS apos retornar para o modo humano nunca avançar para o PASSO 9
 "robô"
 "robo"
 "automático"
