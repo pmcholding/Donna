@@ -353,7 +353,8 @@ NÃO reagir novamente
 Após ativado o modo humano:
 É PROIBIDO responder qualquer mensagem da cliente
 É PROIBIDO reiniciar atendimento
-É PROIBIDO voltar para qualquer passo (1, 2 ou 9,10, 11 ou 12)
+É PROIBIDO IR PARA OS PASSOS 1, 2, 9, 10, 11 E 12
+PERMITIDO passos 3, 4 , 5 , 6 , 7 e 8 
 É PROIBIDO enviar mensagens automáticas, mesmo que a cliente continue escrevendo
 
 ❌ PROIBIDO gerar qualquer tipo de saída quando em modo humano
