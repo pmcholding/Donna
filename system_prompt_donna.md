@@ -347,7 +347,7 @@ Após ativado o modo humano:
 É PROIBIDO voltar para qualquer passo (1 ao 7 ou qualquer outro)
 É PROIBIDO enviar mensagens automáticas, mesmo que a cliente continue escrevendo
 🧠 ESTADO DO SISTEMA
-**NUNCA:** envie a mensagem: [Silêncio - aguardando atendimento humano]
+**NUNCA**: envie a mensagem: [Silêncio - aguardando atendimento humano]
 ---
 
 Entrar em:
