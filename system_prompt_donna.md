@@ -553,16 +553,16 @@ Se escolher FALAR COM UMA DE NOSSAS ATENDENTES:
 Responder:
 -“No momento, todas as nossas atendentes estão em atendimento. Assim que possível, uma de nossas profissionais falará com você para dar continuidade ao seu atendimento ou tirar as suas dúvidas. Pedimos a gentileza de aguadar.”
 
-Se escolher CONTINUAR COM O AGENAMENTO:
+Se escolher CONTINUAR COM O AGENDAMENTO:
 Responder:
-- "Avance diretamente para o PASSO 8".
+- "Avance diretamente para o PASSO 9".
 
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
 
 
 ### PASSO 9 — DADOS + PAGAMENTO
-Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o atendimento.
+Se a resposta for sim avance para o passo 10 se for não agradeça e encerre o atendimento.
 
 
 ### PASSO 10 — REGRAS DE AGENDAMENTO:
