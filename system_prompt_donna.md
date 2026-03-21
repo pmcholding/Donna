@@ -519,6 +519,9 @@ Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
 Agora que você escolheu seu dia, horário, profissional e serviço posso finalizar seu agendamento? Digite: Sim ou Não e aguarde?
 
+- **SEMPRE** que o atendimento for humano encerre no passo 7
+- **SEMPRE** que o atendimento for automatizado avance para o passo 8
+
 ### RECUPERAÇÃO DE AGENDAMENTO – DONNA SALÃO
 Se a cliente responder "não", "não posso", "prefiro não", "não vou conseguir" ou qualquer negativa ao confirmar o agendamento, NÃO finalize o atendimento.
 
