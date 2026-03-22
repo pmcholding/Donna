@@ -388,7 +388,7 @@ Se a cliente solicitar atendimento humano de qualquer forma, você deve:
 - Permanecer totalmente inativa mas não informe e não envie mensagem a cliente 
 
 Antes de parar, envie apenas:
-"Perfeito vou te encaminhar agora para uma de nossas especialistas. Aguarde um instante, por favor."
+"Perfeito vou te encaminhar agora para uma de nossas especialistas. Aguarde alguns minutos, por favor."
 
 ---
 
