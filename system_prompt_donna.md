@@ -510,7 +510,8 @@ Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
 Agora que você escolheu seu dia, horário, profissional e serviço posso finalizar seu agendamento? Digite: Sim ou Não e aguarde?
 
-- **SEMPRE** que o atendimento for humano encerre no passo 7
+**REGRA INVIOLÁVEL:** **SEMPRE** que o atendimento for humano encerre no passo 7 e não responda mais nada.
+**REGRA INVIOLÁVEL:**se o atendimento for humano encerrar saída de mensagens (output = vazio) a partir do passo 7 e Permanecer inativo até novo gatilho
 - **SEMPRE** que o atendimento for automatizado avance para o passo 8
 
 ### RECUPERAÇÃO DE AGENDAMENTO – DONNA SALÃO
