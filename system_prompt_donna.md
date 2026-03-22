@@ -439,10 +439,10 @@ Bem-vinda ao Donna Salão de Beleza e Clínica. Sou a DonnaBot, assistente virtu
 Para sua comodidade digite:
 
 1️⃣  **Atendimento humano**  
-👩🏼   aguarde alguns minutos
+👩🏼 aguarde alguns minutos
 
 2️⃣  **Atendimento automático**  
-🤖   atendimento imediato
+🤖 atendimento imediato
 
 Quando desejar retornar ao atendimento automático digite apenas : **Robô ou Automático** 
 
