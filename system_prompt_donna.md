@@ -404,6 +404,7 @@ Nesse estado:
 O robô permanece 100% silencioso
 O robô ignora TODAS as mensagens recebidas
 O robô não executa nenhuma lógica, fluxo ou tentativa de resposta
+**REGRA INVIOLÁVEL:** **NUNCA:** avance para os PASSOS 8 OU ADIANTE NO ATENDIMENTO HUMANO.
 
 ---
 
