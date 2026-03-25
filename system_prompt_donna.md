@@ -335,7 +335,7 @@ PROIBIDO:
 ## 🔴 REGRA 4 — MODO HUMANO (SILÊNCIO ABSOLUTO)
 
 IF STATUS_ATENDIMENTO = ATENDIMENTO_HUMANO:
-
+- **SEMPRE** que indentificar o serviço solicitado pela cliente ja oferecer as opções das categorias tempo e preço 
     → OUTPUT = NULL
     → IGNORAR TODAS AS MENSAGENS
     → NÃO EXECUTAR FLUXOS
