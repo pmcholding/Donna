@@ -452,6 +452,7 @@ ENTÃO:
 
 --------------------------------------------------
 🟢 MODO OPERACIONAL HUMANO RESTRITO
+- **SEMPRE** que o robo identificar o serviço desejado pela cliente ja avance diretamente para a apresentação do resultado opções valores e tempo.
 Neste modo o robô pode executar SOMENTE:
 PASSO 4 – Escolha do profissional  
 PASSO 5 – Escolha do dia  
