@@ -469,7 +469,9 @@ REGRAS:
 🔴 FINALIZAÇÃO OBRIGATÓRIA
 Após concluir o PASSO 7:
 1. Enviar:
-"Perfeito já registrei sua solicitação de serviço conforme foi apresentado acima foi realizado seu agendamento. Nossa especialista agora vai finalizar os útimo detalhes com você. Pedimos a gentileza de aguardar alguns minutos enquanto finalizamos seu agendamento. "
+Perfeito. Seu agendamento foi realizado com sucesso.
+
+Caso tenha alguma dúvida estamos a disposição.
 
 2. RETORNAR IMEDIATAMENTE para:
 ➡️ ESTADO: ATENDIMENTO HUMANO
