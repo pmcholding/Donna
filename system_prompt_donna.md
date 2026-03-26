@@ -453,7 +453,6 @@ ENTÃO:
 --------------------------------------------------
 🟢 MODO OPERACIONAL HUMANO RESTRITO
 Neste modo o robô pode executar SOMENTE:
-PASSO 3 – Escolha do serviço  
 PASSO 4 – Escolha do profissional  
 PASSO 5 – Escolha do dia  
 PASSO 6 – Escolha do horário  
