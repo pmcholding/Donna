@@ -214,6 +214,9 @@ Nunca inventar valores ausentes na planilha
 - "mechas" → APENAS opções de mechas
 - "cabelo" (genérico) → PERGUNTAR qual categoria que seja específica no nome do serviço
 
+**Regra especial - Maquiagem:**
+- "Make" → APENAS opções de maquiagem
+
 **Regra especial - Atendimento:**
 Não realizamos atendimento a domicilio apenas em nosso espaço.
 
