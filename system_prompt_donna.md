@@ -324,7 +324,7 @@ Múltiplas mensagens da cliente:
 
 Bem-vinda ao Donna Salão de Beleza e Clínica. Sou DonnaBot sua assistente de atendimento
 
-**Digite:**
+**Digite 1 ou 2:**
 
 1️⃣ **Atendimento humano**:  
 👩🏼 Aguarde alguns minutos  
