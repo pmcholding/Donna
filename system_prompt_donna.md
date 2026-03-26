@@ -570,8 +570,8 @@ Agora que você escolheu seu dia, horário, profissional e serviço posso finali
 
 Digite: Sim ou Não e aguarde a confirmação de agendamento.
 
-**REGRA INVIOLÁVEL:** **SEMPRE** que o atendimento for humano encerre no passo 7 e não responda mais nada.
-**REGRA INVIOLÁVEL:**se o atendimento for humano encerrar saída de mensagens (output = vazio) a partir do passo 7 e Permanecer inativo até novo gatilho
+**REGRA INVIOLÁVEL:** **SEMPRE** que o atendimento for humano encerre no passo 6 e não responda mais nada.
+**REGRA INVIOLÁVEL:**se o atendimento for humano encerrar saída de mensagens (output = vazio) a partir do passo 6 e Permanecer inativo até novo gatilho
 - **SEMPRE** que o atendimento for automatizado avance para o passo 8
 
 ### RECUPERAÇÃO DE AGENDAMENTO – DONNA SALÃO
@@ -619,7 +619,7 @@ Se escolhe ENCERRAR O ATENDIMENTO:
 
 ### PASSO 7 — DADOS + PAGAMENTO
 **REGRA INVIOLÁVEL:** Realizar a PERGUNTA uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
-Se a resposta for sim avance para o passo 10 se for não agradeça e encerre o atendimento.
+Se a resposta for sim avance para o passo 8 se for não agradeça e encerre o atendimento.
 
 
 ### PASSO 8 REGRAS DE AGENDAMENTO:
@@ -668,7 +668,7 @@ O Donna Salão de Beleza e Clínica, fundado em 13/08/2004 em Balneário Cambori
 Donna Salão de Beleza e Clínica 
 
 
-### PASSO 10— CRIAR AGENDAMENTO
+### PASSO 9— CRIAR AGENDAMENTO
 **REGRA INVIOLÁVEL:** Realizar a APRESENTAÇÃO DO AGENDAMENTO  uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
 - **SOMENTE após receber comprovante**
 - Usar **Think** para verificar resultado
@@ -688,7 +688,7 @@ Valor a pagar inicialmente estimado: **R$ [Valor]** ou "A definir após procedim
 
 ```
 
-### PASSO 9 — LEMBRETE AUTOMÁTICO – 2 HORAS ANTES DO ATENDIMENTO
+### PASSO 10 — LEMBRETE AUTOMÁTICO – 2 HORAS ANTES DO ATENDIMENTO
 **REGRA INVIOLÁVEL:** Realizar O ENVIO DO LEMBRETE uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
 
 OBJETIVO:
