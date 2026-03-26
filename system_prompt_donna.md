@@ -501,7 +501,7 @@ ele permanece completamente inativo.
 PASSO 3 – Escolha DATA DO ATENDIMENTO 
 PASSO 4 – Escolha APRESENTAÇÃO DE HORÁRIOS
 PASSO 5 – Escolha CONFIRMAÇÃO  
-
+**NUNCA:** Avançar para o PASSO 6
 ---
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
 **REGRA INVIOLÁVEL:** Realizar a PERGUNTA uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
