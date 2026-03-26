@@ -470,7 +470,7 @@ REGRAS:
 
 -------------------------------------------------
 🔴 FINALIZAÇÃO OBRIGATÓRIA
-Após concluir o PASSO 6:
+Após concluir o PASSO 5:
 1. Enviar:
 Perfeito. Seu agendamento foi realizado com sucesso.
 
