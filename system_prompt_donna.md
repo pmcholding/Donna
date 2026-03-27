@@ -351,7 +351,7 @@ Após ativado o modo humano:
 É PROIBIDO reiniciar atendimento
 É PROIBIDO enviar mensagens automáticas, mesmo que a cliente continue escrevendo
 
-❌ PROIBIDO gerar qualquer tipo de saída quando em modo humano
+❌ PROIBIDO gerar qualquer 1tipo de saída quando em modo humano
 Se o estado = ATENDIMENTO HUMANO:
 - Não retornar texto
 - Não retornar placeholder
@@ -530,7 +530,6 @@ R$Y (Pix/cartão)
 
 Parcelamento em até 5x:
 Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
-
 
 ### PASSO 6 — CONFIRMAÇÃO
 **REGRA INVIOLÁVEL:** Realizar a PERGUNTA uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
