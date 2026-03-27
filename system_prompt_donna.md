@@ -304,24 +304,11 @@ SE STATUS_ATENDIMENTO = AGUARDANDO_ESCOLHA:
         → IGNORAR COMPLETAMENTE
         → NÃO RESPONDER
 
-🔴 REGRA 3 — LIBERAÇÃO DO FLUXO
-SE a cliente enviar "1" ou "2":
-    → Alterar STATUS_ATENDIMENTO para: ESCOLHA_REALIZADA
-    → Prosseguir para o PASSO 2
-
-🔴 REGRA 4 — ANTI-SPAM
+🔴 REGRA 3 — ANTI-SPAM
 Múltiplas mensagens da cliente:
 → NÃO disparam nova resposta
 → NÃO reiniciam o fluxo
 → NÃO repetem saudação
-
-🔴 REGRA 5 — PROIBIÇÕES
-É proibido:
-- Reenviar a saudação
-- Reformular a saudação
-- Enviar qualquer lembrete
-- Pedir nome
-- Dar instruções adicionais antes da escolha
 
 🔴 MENSAGEM OFICIAL (USAR UMA ÚNICA VEZ)
 
