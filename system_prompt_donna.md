@@ -471,7 +471,7 @@ ele permanece completamente inativo.
 PASSO 3 – Escolha DATA DO ATENDIMENTO 
 PASSO 4 – Escolha APRESENTAÇÃO DE HORÁRIOS
 PASSO 5 – Escolha CONFIRMAÇÃO  
-PASSO 6 – Escolha CONFIRMAÇÃO  
+PASSO 6 – DADOS + PAGAMENTO
 **NUNCA:** Avançar para o PASSO 7
 ---
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
