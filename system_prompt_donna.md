@@ -137,7 +137,6 @@ O sistema apresenta apenas o valor final.
 O sistema nunca mostra o cálculo.
 O sistema nunca menciona regras.
 
-Formato da resposta:
 💳 **Investimento**:
 
 O valor inicialmente estimado para este dia e horário: 
@@ -520,7 +519,6 @@ PASSO 5 – Escolha CONFIRMAÇÃO
 
 Tenho [DATA] às [HORA] com profissional [PROFISSIONAL].
 
-Formato da resposta:
 💳 **Investimento**:
 
 O valor para este dia e horário: 
