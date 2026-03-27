@@ -330,6 +330,7 @@ Antes de parar, envie apenas:
 
 Se quiser retornar ao nosso atendimento automático digite: **robô ou automático**
 
+Para agilizarmos seu atendimento digite qual serviço deseja.
 
 ---
 COMPORTAMENTO OBRIGATÓRIO AO ATIVAR
