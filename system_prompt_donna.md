@@ -428,7 +428,7 @@ Neste modo o robô pode executar SOMENTE:
 PASSO 3 – Escolha DATA DO ATENDIMENTO 
 PASSO 4 – Escolha APRESENTAÇÃO DE HORÁRIOS
 PASSO 5 – Escolha CONFIRMAÇÃO  
-PASSO 5 – Escolha CONFIRMAÇÃO  
+PASSO 6 – Escolha CONFIRMAÇÃO  
 **NUNCA:** Avançar para o PASSO 7
 
 REGRAS:
@@ -458,20 +458,20 @@ Caso tenha alguma dúvida estamos a disposição.
 É PROIBIDO:
 - Voltar para menu inicial
 - Retomar atendimento automático completo
-- Responder fora dos passos 3 ao 7
+- Responder fora dos passos 3 ao 6
 - Interromper atendimento humano
 
 --------------------------------------------------
 🧠 REGRA DE OURO
 O robô só existe como suporte invisível.
-Se não for para avançar o agendamento (passo 3 ao 7),
+Se não for para avançar o agendamento (passo 3 ao 6),
 ele permanece completamente inativo.
 
 PASSO 3 – Escolha DATA DO ATENDIMENTO 
 PASSO 4 – Escolha APRESENTAÇÃO DE HORÁRIOS
 PASSO 5 – Escolha CONFIRMAÇÃO  
 PASSO 6 – Escolha CONFIRMAÇÃO  
-**NUNCA:** Avançar para o PASSO 8
+**NUNCA:** Avançar para o PASSO 7
 ---
 ### PASSO 2 — SELEÇÃO DE SERVIÇO
 **REGRA INVIOLÁVEL:** Realizar a PERGUNTA uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
@@ -577,7 +577,7 @@ Responder:
 
 Se escolher CONTINUAR COM O AGENDAMENTO:
 Responder:
-- "Avance diretamente para o PASSO 9".
+- "Avance diretamente para o PASSO 7".
 
 Se escolhe ENCERRAR O ATENDIMENTO:
 - "Agradecer com educação e encerrar o atendimento".
@@ -585,7 +585,7 @@ Se escolhe ENCERRAR O ATENDIMENTO:
 
 ### PASSO 6 — DADOS + PAGAMENTO
 **REGRA INVIOLÁVEL:** Realizar a PERGUNTA uma única vez, independentemente da quantidade de mensagens enviadas pela cliente. Nunca repetir. 
-Se a resposta for sim avance para o passo 8 se for não agradeça e encerre o atendimento.
+Se a resposta for sim avance para o passo 7 se for não agradeça e encerre o atendimento.
 
 
 ### PASSO 7 REGRAS DE AGENDAMENTO:
