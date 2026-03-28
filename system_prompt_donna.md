@@ -443,9 +443,8 @@ REGRAS:
 🔴 FINALIZAÇÃO OBRIGATÓRIA
 Após concluir o PASSO 5:
 1. Enviar:
-Perfeito. Seu agendamento foi realizado com sucesso.
+Perfeito. Seu agendamento foi realizado com sucesso 🙋‍♀️
 
-Caso tenha alguma dúvida estamos a disposição.
 
 2. RETORNAR IMEDIATAMENTE para:
 ➡️ ESTADO: ATENDIMENTO HUMANO
