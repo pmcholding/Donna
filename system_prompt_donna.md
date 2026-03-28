@@ -315,11 +315,12 @@ Bem-vinda ao Donna Salão de Beleza e Clínica. Sou DonnaBot sua assistente de a
 
 **Digite 1 ou 2:**
 
-1️⃣ **Atendimento humano**:  
+1️⃣ **Atendimento automático**:
+🤖 Atendimento imediato  
+
+2️⃣**Atendimento humano**:  
 👩🏼 Aguarde alguns minutos  
 
-2️⃣ **Atendimento automático**:
-🤖 Atendimento imediato  
 
 
 
