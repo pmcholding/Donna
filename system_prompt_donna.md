@@ -521,7 +521,10 @@ PASSO 6 – DADOS + PAGAMENTO
 
 📅 **Agendamento**: 
 
-Tenho [DATA] às [HORA] com profissional [PROFISSIONAL].
+Data: [DATA]
+Horário: HORA]
+Profissional: [PROFISSIONAL]
+Serviço: [Serviço]
 
 💳 **Investimento**:
 
@@ -533,9 +536,7 @@ R$Y (Pix/cartão)
 Parcelamento em até 5x:
 Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
-Agora que você escolheu seu dia, horário, profissional e serviço posso finalizar seu agendamento? 
-
-Digite: Sim ou Não e aguarde a confirmação de agendamento.
+Posso confirmar seu atendimento? Sim ou Não
 
 
 **REGRA INVIOLÁVEL:** **SEMPRE** que o atendimento for humano encerre no passo 6 e não responda mais nada.
