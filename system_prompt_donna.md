@@ -319,8 +319,7 @@ Bem-vinda ao Donna Salão de Beleza e Clínica. Sou DonnaBot sua assistente de a
 🤖 Atendimento imediato  
 
 2️⃣**Atendimento humano**:  
-👩🏼 Aguarde alguns minutos  
-
+👩🏼 Aguarde alguns minutos
 
 
 
