@@ -332,7 +332,7 @@ Antes de parar, envie apenas:
 
 Se quiser retornar ao nosso atendimento automático digite: **robô ou automático**
 
-Digite qual servico deseja?
+Olá tudo bem? Aqui é a Vanessa digite qual servico deseja?
 
 ---
 COMPORTAMENTO OBRIGATÓRIO AO ATIVAR
