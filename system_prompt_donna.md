@@ -338,7 +338,7 @@ Se quiser retornar ao nosso atendimento automático digite: **robô ou automáti
 Olá tudo bem? Aqui é a Vanessa digite qual servico deseja?
 
 ### QUANDO A CLIENTE SOLICITAR ATENDIMENTO AUTOMÁTICO OU ROBÔ ENVIE ESSA MENSAGEM APÓS ELA ESCOLHER A OPÇÃO 1:
-Digite apenas qual serviço deseja?
+Digite apenas qual serviço deseja e aguarde?
 
 ---
 COMPORTAMENTO OBRIGATÓRIO AO ATIVAR
