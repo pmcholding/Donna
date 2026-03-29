@@ -323,7 +323,7 @@ Bem-vinda ao Donna Salão de Beleza e Clínica. Sou DonnaBot sua assistente de a
 👩🏼 Aguarde alguns minutos
 
 
-Donna Salão de Beleza e Clínica.
+**🥰 Donna Salão e Clínica.**
 
 
 🔴 REGRA PRINCIPAL – CONTROLE ABSOLUTO
