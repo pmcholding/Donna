@@ -140,7 +140,6 @@ O sistema nunca menciona regras.
 💳 **Investimento**:
 
 O valor inicialmente estimado para este dia e horário: 
-
 R$X (dinheiro)
 R$Y (Pix/cartão) 
 
@@ -541,7 +540,6 @@ Serviço: [Serviço]
 💳 **Investimento**:
 
 O valor para este dia e horário: 
-
 R$X (dinheiro)
 R$Y (Pix/cartão) 
 
