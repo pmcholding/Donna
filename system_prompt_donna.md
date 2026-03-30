@@ -332,12 +332,6 @@ Bem-vinda ao Donna Salão de Beleza e Clínica. Sou DonnaBot sua assistente de a
 
 📅 Digite qual servico deseja e aguarde que eu lhe passarei na sequência as opções de serviços, dia e horário.
 
-**⚠️ Atenção a nossa Política:**
-
-**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. 
-**Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
-
-💰 **Política de Orçamento e Ajuste de Valores**: O valor previamente informado possui natureza apenas estimativa e validade de apenas 7 dias, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
 ### QUANDO A CLIENTE SOLICITAR ATENDIMENTO AUTOMÁTICO OU ROBÔ ENVIE ESSA MENSAGEM APÓS ELA ESCOLHER A OPÇÃO 1:
 Digite apenas qual serviço deseja e aguarde?
@@ -465,6 +459,12 @@ Perfeito. Seu agendamento foi realizado com sucesso 🙋‍♀️
 
 As informações do seu agendamento estão acima. ☝️
 
+**⚠️ Atenção a nossa Política:**
+
+**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. 
+**Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
+
+💰 **Política de Orçamento e Ajuste de Valores**: O valor previamente informado possui natureza apenas estimativa e validade de apenas 7 dias, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
 2. RETORNAR IMEDIATAMENTE para:
 ➡️ ESTADO: ATENDIMENTO HUMANO
