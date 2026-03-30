@@ -458,6 +458,8 @@ Após concluir o PASSO 5:
 1. Enviar:
 Perfeito. Seu agendamento foi realizado com sucesso 🙋‍♀️
 
+As informações do seu agendamento estão acima. ☝️
+
 
 2. RETORNAR IMEDIATAMENTE para:
 ➡️ ESTADO: ATENDIMENTO HUMANO
