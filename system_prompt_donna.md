@@ -461,8 +461,7 @@ As informações do seu agendamento estão acima. ☝️
 
 **⚠️ Atenção a nossa Política:**
 
-**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. 
-**Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
+**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
 
 💰 **Política de Orçamento e Ajuste de Valores**: O valor previamente informado possui natureza apenas estimativa e validade de apenas 7 dias, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
 
