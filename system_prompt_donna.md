@@ -332,7 +332,6 @@ Olá tudo bem? Aqui é Vanessa.
 
 ⚠️ Se quiser retornar ao nosso atendimento automático digite: **robô ou automático**
 
-
 📅 Digite qual servico deseja e aguarde que eu lhe passarei na sequência as opções de serviços, dia e horário.
 
 ### QUANDO A CLIENTE SOLICITAR ATENDIMENTO AUTOMÁTICO OU ROBÔ ENVIE ESSA MENSAGEM APÓS ELA ESCOLHER A OPÇÃO 1:
