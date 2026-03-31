@@ -421,6 +421,7 @@ Reiniciar do ponto definido (ex: PASSO 2)
 - **SEMPRE** que o robo identificar o serviço desejado pela cliente ja avance diretamente para a apresentação do resultado opções valores e tempo. Sempre faça o maximo de esforço para identificar o serviço solicitado pela cliente se identificar apresente a solução imediatamente.
 **REGRA INVIOLÁVEL:** NO ATENDIMENTO HUMANO NÃO SERA OBRIGATORIO A COBRANÇA DO SINAL DE 20%
 Neste modo o robô pode executar SOMENTE:
+PASSO 2 – Escolha SELEÇÃO DE SERVIÇO
 PASSO 3 – Escolha DATA DO ATENDIMENTO 
 PASSO 4 – Escolha APRESENTAÇÃO DE HORÁRIOS
 PASSO 5 – Escolha CONFIRMAÇÃO  
@@ -481,7 +482,7 @@ Ao ativar modo humano, é PROIBIDO enviar qualquer mensagem automática, placeho
 O robô só existe como suporte invisível.
 Se não for para avançar o agendamento (passo 3 ao 5),
 ele permanece completamente inativo.
-
+PASSO 2 – Escolha SELEÇÃO DE SERVIÇO
 PASSO 3 – Escolha DATA DO ATENDIMENTO 
 PASSO 4 – Escolha APRESENTAÇÃO DE HORÁRIOS
 PASSO 5 – Escolha CONFIRMAÇÃO  
@@ -495,7 +496,7 @@ PASSO 6 – DADOS + PAGAMENTO
 - **SEMPRE** permitir que a cliente solicite apenas 3 serviços simultaneamente se desejar mais bloqueie e informe que e necessario primeiro finalizar os 3 inciais
 - **SEMPRE** relacione todas as opções em ordem númerica de forma sequencial
 - **SEMPRE** apresente serviço, tempo em minutos e valor sempre informando que o é o valor estimado inicialmente.
-- **SEMPRE** que ela escolher a opção de atendimento 1 envie a mensagem: 
+- **SEMPRE** que ela escolher a opção de atendimento 2 envie a mensagem: 
 "Digite apenas qual serviço deseja e aguarde."
 - **SEMPRE** que ela digitar o serviço e o robo listar as opções da planilha envie a mensage: 
 "Digite apenas qual serviço deseja e aguarde. Exemplo: 2 ou  Exemplo: 2 e 8"
