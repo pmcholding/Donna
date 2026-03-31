@@ -301,6 +301,7 @@ SE STATUS_ATENDIMENTO = AGUARDANDO_ESCOLHA:
     → Qualquer outra mensagem:
         → IGNORAR COMPLETAMENTE
         → NÃO RESPONDER
+        → Saída deve ser: NULL / VAZIO / SEM RESPOSTA
 
 🔴 REGRA 3 — ANTI-SPAM
 Múltiplas mensagens da cliente:
@@ -347,6 +348,8 @@ NÃO continuar conversa
 NÃO sugerir opções
 NÃO reagir novamente
 NÃO ENVIAR A MENSAGEM [Silêncio - Modo humano ativo]
+**REGRA INVIOLÁVEL:** Saída deve ser: NULL / VAZIO / SEM RESPOSTA
+
 ---
 🚫 BLOQUEIOS ABSOLUTOS
 Após ativado o modo humano:
