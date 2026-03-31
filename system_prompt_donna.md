@@ -443,6 +443,12 @@ Perfeito. Seu agendamento foi realizado com sucesso 🙋‍♀️
 
 As informações do seu agendamento estão acima. ☝️
 
+
+**📌 Nosso endereço:**
+
+Donna Salão de Beleza e Clínica: Rua 2000 nº 121, sl 5, Ed. La Belle Tour, Quadra Mar, Centro, Balneário Camboriú, Santa Catarina, Brasil.
+
+
 **⚠️ Atenção a nossa Política:**
 
 **🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
