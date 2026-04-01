@@ -576,7 +576,7 @@ Mensagem:
 4. 💳 Não tenho pix
 5. 👩🏼 Falar com um humano
 6. 🤖 Falar com o robô
-7. 📅 Continuar com o agendamento 
+7. 📅 Continuar agendamento 
 8. 😊 Encerrar o atendimento
 
 **Digite apenas o número da opção desejada.**
