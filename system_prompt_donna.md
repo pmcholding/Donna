@@ -574,10 +574,10 @@ Mensagem:
 2. ⏰ Escolher outro horário 
 3. 📋 Escolher novos serviços 
 4. 💳 Não tenho pix
-5. 👩🏼 Falar com um humano
-6. 🤖 Falar com o robô
+5. 👩🏼 Falar com humano
+6. 🤖 Falar com robô
 7. 📅 Continuar agendamento 
-8. 😊 Encerrar o atendimento
+8. 😊 Encerrar atendimento
 
 **Digite apenas o número da opção desejada.**
 
