@@ -664,3 +664,5 @@ Seu horário está reservado com prioridade. Permanecemos à disposição para q
 **Esmaltes gel:** Helen Color, Real Love, Bluew, Dafu, D&Z
 **Esmaltes tradicional:** Impala, Risqué, Anita, Dailus, Vult
 **Gel alongamento:** Bluwe, UseNails, Volia
+**Maquiagens:** MAC, NARS, Estée Lauder, Maybelline, Bruna Tavares, Fenty Beauty, Mari Maria e Dior
+**Micropigmentação:** Haut Ink, RB Kollors, Nuance Pigments, Alan Spadone, Mag Estética, 
