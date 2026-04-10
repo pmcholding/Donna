@@ -651,15 +651,14 @@ SOMENTE após verificar sucesso (id/htmlLink na resposta):
 
 **⚠️ Atenção a nossa Política:**
 
-**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. 
-**Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
+**🕒 Pontualidade:** seu horário é exclusivo, com tolerância máxima de 10 minutos. **Após esse prazo, o atendimento poderá ser ajustado, reagendado ou cancelado**, respeitando a agenda e a experiência das demais clientes.
 
 **🗓️ Agendamento e Cancelamento:** solicitações devem ser feitas no máximo 6 horas de antecedência, sujeitas à disponibilidade da agenda, caso extrapole o prazo não será permitido.
 
-💰 **Orçamento e Ajuste de Valores**: O valor previamente informado possui natureza apenas estimativa e validade de apenas 7 dias, não constituindo preço final ou fixo. O montante definitivo poderá sofrer adequação após a avaliação técnica presencial, em razão da complexidade do serviço, tempo de execução e insumos efetivamente empregados. Eventual alteração será expressamente comunicada de forma prévia, condicionando-se à anuência da cliente, em observância ao direito à informação adequada e clara (art. 6º, III, do Código de Defesa do Consumidor) e aos princípios da boa-fé objetiva e do equilíbrio contratual (arts. 421 e 422 do Código Civil).
+💰 **Orçamento e Ajuste de Valores**: Orçamento com natureza estimativa, validade de 7 dias, não constituindo preço final ou fixo. O valor final é condicionado à avaliação técnica presencial, podendo ser ajustado conforme complexidade, tempo de execução e insumos utilizados. Qualquer alteração exige comunicação prévia e anuência da cliente, em conformidade com o dever de informação (art. 6º, III, CDC) e os princípios da boa-fé objetiva e equilíbrio contratual (arts. 421 e 422, CC).
 
-⚖️ **Atendimento a menores de 18 anos**: 
-Donna Salão de Beleza e Clínica informa que não realiza atendimento ou procedimentos em menores de 18 anos. Em conformidade com o Código de Defesa do Consumidor, o Código Civil Brasileiro e o Estatuto da Criança e do Adolescente (Lei nº 8.069/1990). O ECA determina que crianças e adolescentes devem ser protegidos contra situações que possam colocar em risco sua saúde. A regra se aplica mesmo quando acompanhados pelos pais, responsáveis ou com autorização por escrito, como medida de segurança jurídica e responsabilidade civil. Havendo dúvida quanto à idade do cliente, o estabelecimento poderá exigir a apresentação de documento oficial de identificação. A recusa na apresentação do documento autoriza o estabelecimento a recusar o atendimento, resguardando sua responsabilidade legal.
+⚖️ **Atendimento a menores de 18 anos**: Vedação absoluta de atendimento a menores de 18 anos.
+Política institucional fundamentada no Código de Defesa do Consumidor, Código Civil e ECA (Lei nº 8.069/1990), visando mitigação de risco à saúde e à responsabilidade civil, aplicável independentemente de acompanhamento ou autorização. O estabelecimento poderá exigir identificação oficial para verificação etária; a não apresentação autoriza a recusa do atendimento.
 
 Seu horário está reservado com prioridade. Permanecemos à disposição para qualquer ajuste ou esclarecimento que desejar.
 
