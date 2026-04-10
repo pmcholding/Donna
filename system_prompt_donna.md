@@ -369,8 +369,7 @@ Apresentar diretamente:
 
 ---
 ### CHAMADA PARA AÇÃO (OBRIGATÓRIA)
-"Digite apenas o nome do profissional e o horário que deseja ser atendida e aguarde.  
-Exemplo: Mariana 14h"
+"Digite apenas o nome do profissional e o horário que deseja ser atendida e aguarde. Exemplo: Mariana 14h"
 ---
 ### PROIBIÇÕES
 - Não perguntar "qual horário deseja?"
