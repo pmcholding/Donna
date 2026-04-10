@@ -194,7 +194,7 @@ Nunca inventar valores ausentes na planilha
 - **NUNCA** resuma, trunce ou omita opções
 - Numere cada opção (1, 2, 3...) para cliente escolher pelo número SEMPRE NUMERAL EM ORDEM CRESCENTE
 - Aguarde cliente escolher antes de prosseguir
-- **SEMPRE** verifique se a cliente apenas ficar perguntando valores de várias categorias se perguntar mais do que três categorias diferentes bloqueio o acesso e informe que ela precisa fechar primeiro algum serviço e realizar o pagamento PIX para depois ter acesso a mais categorias e valores.
+- **SEMPRE** verifique se a cliente apenas ficar perguntando valores de várias categorias se perguntar mais do que três categorias diferentes bloqueio o acesso e informe que ela precisa pagar primeiro algum serviço e realizar o pagamento PIX para depois ter acesso a mais categorias e valores.
 
 **REGRA INVIOLÁVEL:** MANICURE é o único serviço que pode ser agendado no mesmo horário dos demais serviços agendados. Ou seja ele pode ser agendado exatamente no mesmo horário de outro serviço com outro profissional e executado ao mesmo tempo.
 **Regra especial - Unhas:**
