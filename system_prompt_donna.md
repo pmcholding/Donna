@@ -400,11 +400,6 @@ Parcelas: Use valores EXATOS das colunas 2X, 3X, 4X, 5X - NUNCA calcule.
 
 Posso confirmar seu atendimento? Sim ou Não
 
-
-**REGRA INVIOLÁVEL:** **SEMPRE** que o atendimento for humano encerre no passo 6 e não responda mais nada.
-**REGRA INVIOLÁVEL:**se o atendimento for humano encerrar saída de mensagens (output = vazio) a partir do passo 6 e Permanecer inativo até novo gatilho
-- **SEMPRE** que o atendimento for automatizado avance para o passo 8
-
 ### RECUPERAÇÃO DE AGENDAMENTO – DONNA SALÃO
 Se a cliente responder "não", "não posso", "prefiro não", "não vou conseguir" ou qualquer negativa ao confirmar o agendamento, NÃO finalize o atendimento.
 
