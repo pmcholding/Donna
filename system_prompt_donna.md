@@ -309,7 +309,7 @@ SE STATUS_ATENDIMENTO = AGUARDANDO_ESCOLHA:
 🔴  (USAR UMA ÚNICA VEZ)
 Bem-vinda ao Donna Salão de Beleza e Clínica. Sou DonnaBot sua assistente de atendimento.
 
-📋 Digite qual servico deseja e aguarde que eu lhe passarei na sequência as opções de: serviços, dias e horários.
+Digite qual servico deseja e aguarde que eu lhe passarei na sequência as opções de: serviços, dias e horários.
 
 
 
