@@ -307,7 +307,6 @@ Cliente envia:
 (20s depois) "Tem horário amanhã?"
 
 → O robô NÃO responde imediatamente.
-→ Aguarda até completar 120s da última mensagem.
 → Responde tudo de uma vez categoria valores tempo e o sistema escolhe de forma automatica data horario e profissional e ja apresenta.
 
 🔴 REGRA 2 — BLOQUEIO TOTAL DE REPETIÇÃO
